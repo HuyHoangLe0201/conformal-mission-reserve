@@ -1,0 +1,68 @@
+{
+ "corridor": "Beijingnan Railway Station <-> Shanghaihongqiao Railway Station",
+ "inputs": {
+  "high-speed trains operation data.csv": "f8f5ee9dab655ca59fcc6ab9756b2cd1",
+  "adjacent railway stations mileage data.csv": "c098b0e138dd6cc3fc80b575191e3695"
+ },
+ "dates": [
+  "2019-10-08",
+  "2020-01-27",
+  112
+ ],
+ "trains": {
+  "down": 37,
+  "up": 37
+ },
+ "line_km": 1318.0,
+ "line_km_frequency": {
+  "1318.0": 6676,
+  "1325.0": 336,
+  "1398.0": 307,
+  "1264.0": 111
+ },
+ "chainage_train_days": 6676,
+ "chainage_km": {
+  "Beijingnan": 0.0,
+  "Langfang": 60.0,
+  "Tianjinnan": 122.0,
+  "Cangzhouxi": 210.0,
+  "Dezhoudong": 314.0,
+  "Jinanxi": 406.0,
+  "Taian": 465.0,
+  "Qufudong": 535.0,
+  "Tengzhoudong": 591.0,
+  "Zaozhuang": 627.0,
+  "Xuzhoudong": 692.0,
+  "Suzhoudong": 760.0,
+  "Bangbunan": 848.0,
+  "Dingyuan": 902.0,
+  "Chuzhou": 964.0,
+  "Nanjingnan": 1023.0,
+  "Zhenjiangnan": 1088.0,
+  "Danyangbei": 1120.0,
+  "Changzhoubei": 1153.0,
+  "Wuxidong": 1210.0,
+  "Suzhoubei": 1237.0,
+  "Kunshannan": 1268.0,
+  "Shanghaihongqiao": 1318.0
+ },
+ "chainage_spread_km": {
+  "Bangbunan": 54.0
+ },
+ "listed_distance_differs": {
+  "Nanjingnan -> Bangbunan (up) listed 121 km, chainage 175 km": 966,
+  "Bangbunan -> Xuzhoudong (up) listed 210 km, chainage 156 km": 743,
+  "Cangzhouxi -> Tianjinnan (up) listed 95 km, chainage 88 km": 336,
+  "Tianjinnan -> Cangzhouxi (down) listed 168 km, chainage 88 km": 307,
+  "Bangbunan -> Suzhoudong (up) listed 142 km, chainage 88 km": 222,
+  "Chuzhou -> Bangbunan (up) listed 62 km, chainage 116 km": 110
+ },
+ "runs_with_listed_distance_differing": 2684,
+ "train_days": 7554,
+ "runs": 61834,
+ "runs_actual_time_kept": 59011,
+ "dwells_actual_kept": 50255,
+ "train_days_kept": 7554,
+ "runs_scheduled_time_used": 2823,
+ "dwells_scheduled_used": 4025
+}

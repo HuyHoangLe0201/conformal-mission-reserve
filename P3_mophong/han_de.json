@@ -1,0 +1,162 @@
+{
+ "cruise": {
+  "outer": {
+   "stats": {
+    "cycles_per_day": 29.519335705812573,
+    "swing_daily_max_median": 29.016681671142578,
+    "swing_daily_max_p99": 32.157467651367185,
+    "swing_max": 33.31414031982422,
+    "ton_median_of_largest": 360.6134796142578,
+    "ton_max": 12096.990234375,
+    "ton_q10_of_largest": 286.8331817626953
+   },
+   "junction_margined": 0.00022548314708740187,
+   "junction_bare": 2.089855969283062e-05,
+   "variants": {
+    "nominal, AlSiC": {
+     "per_day": 1.4383422153305927e-06,
+     "vs_margined": 0.006378934452130305,
+     "vs_bare": 0.0688249447077458,
+     "life_years": 1904.7803771563179
+    },
+    "with dwell, AlSiC": {
+     "per_day": 1.9661687920139957e-06,
+     "vs_margined": 0.0087198037521264,
+     "vs_bare": 0.09408154537503854,
+     "life_years": 1393.4337878442727
+    },
+    "stacked with dwell, AlSiC": {
+     "per_day": 1.8972709583743205e-05,
+     "vs_margined": 0.0841424728580225,
+     "vs_bare": 0.9078477111631721,
+     "life_years": 144.4035189230324
+    },
+    "stacked with dwell, Cu": {
+     "per_day": 0.000189727095837432,
+     "vs_margined": 0.8414247285802248,
+     "vs_bare": 9.078477111631718,
+     "life_years": 14.440351892303244
+    }
+   }
+  },
+  "inner": {
+   "stats": {
+    "cycles_per_day": 43.83013048635824,
+    "swing_daily_max_median": 25.824783325195312,
+    "swing_daily_max_p99": 29.77181072235107,
+    "swing_max": 30.771400451660156,
+    "ton_median_of_largest": 4508.77783203125,
+    "ton_max": 11876.0595703125,
+    "ton_q10_of_largest": 2631.1572265625
+   },
+   "junction_margined": 0.00022219756101494372,
+   "junction_bare": 1.8301835868421085e-05,
+   "variants": {
+    "nominal, AlSiC": {
+     "per_day": 8.266110495737662e-07,
+     "vs_margined": 0.0037201625697330363,
+     "vs_bare": 0.04516547167817425,
+     "life_years": 3314.407699739766
+    },
+    "with dwell, AlSiC": {
+     "per_day": 2.448230411659508e-06,
+     "vs_margined": 0.011018259608596037,
+     "vs_bare": 0.13376966274098265,
+     "life_years": 1119.0637998570426
+    },
+    "stacked with dwell, AlSiC": {
+     "per_day": 2.3624403348872436e-05,
+     "vs_margined": 0.10632161415706806,
+     "vs_bare": 1.2908215065809423,
+     "life_years": 115.97016809010859
+    },
+    "stacked with dwell, Cu": {
+     "per_day": 0.00023624403348872426,
+     "vs_margined": 1.0632161415706802,
+     "vs_bare": 12.908215065809419,
+     "life_years": 11.597016809010862
+    }
+   }
+  }
+ },
+ "coast": {
+  "outer": {
+   "stats": {
+    "cycles_per_day": 38.652669039145906,
+    "swing_daily_max_median": 31.927419662475586,
+    "swing_daily_max_p99": 31.956340789794922,
+    "swing_max": 34.150184631347656,
+    "ton_median_of_largest": 5916.6181640625,
+    "ton_max": 10587.671875,
+    "ton_q10_of_largest": 5831.7802734375
+   },
+   "junction_margined": 0.0006896712690932879,
+   "junction_bare": 3.19380639885611e-05,
+   "variants": {
+    "nominal, AlSiC": {
+     "per_day": 4.37922405358674e-06,
+     "vs_margined": 0.006349726673903806,
+     "vs_bare": 0.1371161400125943,
+     "life_years": 625.6190580505529
+    },
+    "with dwell, AlSiC": {
+     "per_day": 1.4919395442698237e-05,
+     "vs_margined": 0.02163261848258924,
+     "vs_bare": 0.4671352480238549,
+     "life_years": 183.63519070996412
+    },
+    "stacked with dwell, AlSiC": {
+     "per_day": 0.00014396594943885194,
+     "vs_margined": 0.20874575452175098,
+     "vs_bare": 4.507660498470246,
+     "life_years": 19.0303751552094
+    },
+    "stacked with dwell, Cu": {
+     "per_day": 0.0014396594943885197,
+     "vs_margined": 2.0874575452175104,
+     "vs_bare": 45.07660498470247,
+     "life_years": 1.9030375155209394
+    }
+   }
+  },
+  "inner": {
+   "stats": {
+    "cycles_per_day": 38.90747330960854,
+    "swing_daily_max_median": 24.383392333984375,
+    "swing_daily_max_p99": 27.970486373901366,
+    "swing_max": 30.771350860595703,
+    "ton_median_of_largest": 5908.59765625,
+    "ton_max": 10544.0830078125,
+    "ton_q10_of_largest": 1359.142041015625
+   },
+   "junction_margined": 0.00036297481913757993,
+   "junction_bare": 2.4960104086169925e-05,
+   "variants": {
+    "nominal, AlSiC": {
+     "per_day": 1.335305444587319e-06,
+     "vs_margined": 0.003678782588169546,
+     "vs_bare": 0.05349759119503011,
+     "life_years": 2051.7597966089193
+    },
+    "with dwell, AlSiC": {
+     "per_day": 4.1636274549124e-06,
+     "vs_margined": 0.011470843803449192,
+     "vs_bare": 0.16681130176934691,
+     "life_years": 658.0142092599642
+    },
+    "stacked with dwell, AlSiC": {
+     "per_day": 4.017727004813048e-05,
+     "vs_margined": 0.11068886305554412,
+     "vs_bare": 1.60965955548207,
+     "life_years": 68.19094538068906
+    },
+    "stacked with dwell, Cu": {
+     "per_day": 0.00040177270048130485,
+     "vs_margined": 1.1068886305554413,
+     "vs_bare": 16.096595554820702,
+     "life_years": 6.819094538068906
+    }
+   }
+  }
+ }
+}

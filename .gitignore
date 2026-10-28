@@ -1,0 +1,16 @@
+# cycle databases and loss tables: release asset P3_code_cycle_databases.zip, or rebuilt by ton_hao.py and nhiem_vu.py
+P3_mophong/*.npz
+# generated output
+P3_mophong/*_nhap.pdf
+P3_mophong/*_nhap.png
+P3_mophong/*_log.txt
+P3_kiemtoan/F3_nhap.*
+P3_hinh_bang/*.aux
+P3_hinh_bang/*.log
+P3_hinh_bang/*.bbl
+P3_hinh_bang/*.bcf
+P3_hinh_bang/*.blg
+P3_hinh_bang/*.run.xml
+P3_hinh_bang/F1_cau_truc.pdf
+P3_hinh_bang/P3_hinh_bang_cuoi.pdf
+__pycache__/

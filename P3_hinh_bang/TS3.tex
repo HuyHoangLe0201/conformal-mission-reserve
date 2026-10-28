@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Temporal structure of the missions ($n_1=40$, $n_2=100$, $\alpha=0.10$; 200 repetitions at the margins and 400 under the evidence truth, from two seeds, each with
+the outer and the inner module): coverage of the true damage and of the calibrated part by the paired and union
+certificates of a new leg, with intervals of $\pm1.96$ standard errors over repetitions for the paired certificate (the
+two modules of a repetition share its world, bench and recorded intervals). Intervals from resampled days, as in
+the case study; from one vehicle day on each of 30 consecutive dates; and from consecutive dates with the coming
+interval on the last 30 dates and every recorded interval before it (recorded before), or on the first 30 dates and
+every recorded interval after it (recorded after). Coming damage: model damage of the coming interval over the median
+recorded one. Exact level of the calibrated part: $37/41=0.902$.}
+\label{tab:S3}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccccc@{}}
+\toprule
+& & & \multicolumn{2}{c}{Paired} & \multicolumn{2}{c}{Union} \\
+\cmidrule(lr){4-5}\cmidrule(l){6-7}
+Truth & Intervals from & \makecell{coming damage\\$\times$ recorded} & coverage & calibrated & coverage & calibrated \\
+\midrule
+at the margins & resampled days & 1.000 & 0.985 (0.971--0.999) & 0.902 (0.872--0.933) & 0.993 & 0.970 \\
+ & consecutive dates & 1.001 & 0.980 (0.963--0.997) & 0.912 (0.883--0.942) & 0.990 & 0.970 \\
+ & recorded before & 0.984 & 0.983 (0.966--0.999) & 0.917 (0.889--0.946) & 0.993 & 0.968 \\
+ & recorded after & 1.014 & 0.980 (0.963--0.997) & 0.875 (0.840--0.910) & 0.990 & 0.960 \\
+\addlinespace
+evidence & resampled days & 1.002 & 1.000 (1.000--1.000) & 0.899 (0.877--0.920) & 1.000 & 0.964 \\
+ & consecutive dates & 1.001 & 1.000 (1.000--1.000) & 0.907 (0.887--0.928) & 1.000 & 0.963 \\
+ & recorded before & 0.988 & 1.000 (1.000--1.000) & 0.902 (0.882--0.923) & 1.000 & 0.969 \\
+ & recorded after & 1.018 & 1.000 (1.000--1.000) & 0.882 (0.860--0.905) & 1.000 & 0.963 \\
+\bottomrule
+\end{tabular*}
+\end{table}

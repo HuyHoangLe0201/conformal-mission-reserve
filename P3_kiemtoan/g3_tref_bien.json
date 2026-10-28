@@ -1,0 +1,292 @@
+{
+ "seed": 20261016,
+ "model": {
+  "b1_dT": -2.077,
+  "b3_ton": -1.412,
+  "b4_I": -4.03,
+  "se": [
+   0.345,
+   0.168,
+   0.763
+  ],
+  "resid_sd_ln": 0.1188,
+  "corr_b1_b3": -0.984,
+  "corr_b1_b4": -0.958,
+  "corr_b3_b4": 0.985
+ },
+ "lack_of_fit": {
+  "F": 0.271,
+  "df": [
+   2,
+   28
+  ],
+  "p": 0.7645
+ },
+ "loo_S": {
+  "sd": 0.1273,
+  "per_run_mean": {
+   "1": -0.017,
+   "2": 0.0165,
+   "3": -0.0068,
+   "4": 0.0125,
+   "5": -0.0151
+  }
+ },
+ "tests_all_runs": {
+  "anderson_ksamp_p": 0.9686,
+  "kruskal_p": 0.965,
+  "fligner_p": 0.3375
+ },
+ "spearman_all_runs": {
+  "dT": {
+   "rho": 0.007,
+   "p": 0.9685
+  },
+  "t_on": {
+   "rho": -0.007,
+   "p": 0.9672
+  },
+  "I": {
+   "rho": 0.003,
+   "p": 0.9862
+  }
+ },
+ "tests_without_run4": {
+  "anderson_ksamp_p": 0.9918,
+  "kruskal_p": 0.9831,
+  "fligner_p": 0.5584,
+  "coefficients": [
+   -1.64,
+   -1.657,
+   -4.977
+  ]
+ },
+ "leave_one_run_out": {
+  "1": {
+   "mean_log_residual": -0.0779,
+   "deviation_percent": 6.96,
+   "b1": -1.857,
+   "z": -0.79
+  },
+  "2": {
+   "mean_log_residual": 0.0276,
+   "deviation_percent": -3.65,
+   "b1": -2.17,
+   "z": 0.48
+  },
+  "3": {
+   "mean_log_residual": -0.0274,
+   "deviation_percent": 1.53,
+   "b1": -2.256,
+   "z": -0.34
+  },
+  "4": {
+   "mean_log_residual": 0.1222,
+   "deviation_percent": -12.44,
+   "b1": -1.64,
+   "z": 0.88
+  },
+  "5": {
+   "mean_log_residual": -0.1036,
+   "deviation_percent": 10.29,
+   "b1": -1.738,
+   "z": -0.72
+  }
+ },
+ "model_form_margin": 0.104,
+ "prediction_se": {
+  "run 4 condition (70 K, 4.5 s, 890 A)": 0.043,
+  "run 3 condition (28 K, 0.15 s, 1250 A)": 0.041,
+  "box corner (26 K, 4.5 s, 890 A)": 0.363,
+  "box corner (70 K, 0.15 s, 1250 A)": 0.295
+ },
+ "stat_margin_full_fit": {
+  "70": 0.071,
+  "40": 0.355,
+  "26": 0.597,
+  "15": 0.907,
+  "10": 1.137
+ },
+ "working_hotelling_factor": {
+  "dof 30": 2.575,
+  "dof 12": 2.788,
+  "dof 6": 3.207
+ },
+ "run3_implied_exponent_error": 0.128,
+ "tests_authors_W": {
+  "anderson_ksamp_p": 0.5809,
+  "kruskal_p": 0.5333,
+  "fligner_p": 0.2149,
+  "sd_lnW": 0.124
+ },
+ "split_design": {
+  "n_fit": 16,
+  "m_scores": 18,
+  "thresholds": {
+   "0.1": {
+    "paired_needs_m": 9,
+    "union_needs_n1": 19,
+    "pac_needs_m_delta_eq_alpha": 22,
+    "paired_finite": true,
+    "union_finite": false,
+    "pac_finite": false
+   },
+   "0.05": {
+    "paired_needs_m": 19,
+    "union_needs_n1": 39,
+    "pac_needs_m_delta_eq_alpha": 59,
+    "paired_finite": false,
+    "union_finite": false,
+    "pac_finite": false
+   }
+  },
+  "min_score_median": -0.2384,
+  "min_score_q05_q95": [
+   -0.3031,
+   -0.1288
+  ],
+  "fraction_kruskal_p_below_0.05": 0.0845,
+  "score_sd_half_split": 0.1296,
+  "score_sd_two_per_run_fit": 0.1332,
+  "stat_margin_half_split": {
+   "70": 0.107,
+   "40": 0.525,
+   "26": 0.879,
+   "15": 1.336,
+   "10": 1.673
+  },
+  "stat_margin_two_per_run": {
+   "70": 0.132,
+   "40": 0.673,
+   "26": 1.131,
+   "15": 1.718,
+   "10": 2.155
+  }
+ },
+ "T_ref_box": {
+  "dT_T_K": 25.9,
+  "dT_max_K": 74.0,
+  "t_on_s": [
+   0.15,
+   4.5
+  ],
+  "I_A": [
+   890.0,
+   1250.0
+  ],
+  "Tj_min_C": 60
+ },
+ "swing": {
+  "beta": 2.077,
+  "stat_bound_1.645se": 0.567,
+  "gamma": 1.2,
+  "beta_minus_gamma": 0.877,
+  "dT_T": 26.0,
+  "sensitivity": [
+   0,
+   0.6,
+   1.2,
+   2.08
+  ]
+ },
+ "heating_time": {
+  "slopes": {
+   "junghaenel2017_70K_wire_bond": {
+    "slope": -0.738,
+    "se": 0.069,
+    "t_on_range_s": [
+     0.07,
+     2.0
+    ],
+    "n": 6
+   },
+   "junghaenel2017_70K_solder": {
+    "slope": -0.593,
+    "se": 0.049,
+    "t_on_range_s": [
+     0.07,
+     2.0
+    ],
+    "n": 9
+   },
+   "junghaenel2017_110K_wire_bond": {
+    "slope": -0.268,
+    "se": 0.012,
+    "t_on_range_s": [
+     2.0,
+     60.0
+    ],
+    "n": 6
+   },
+   "junghaenel2017_110K_solder": {
+    "slope": -0.185,
+    "se": 0.028,
+    "t_on_range_s": [
+     2.0,
+     60.0
+    ],
+    "n": 8
+   },
+   "choi2017_swing_duration": {
+    "slope": -0.137,
+    "se": 0.01,
+    "t_on_range_s": [
+     0.59,
+     10.0
+    ],
+    "n": 39
+   },
+   "cips08": {
+    "slope": -0.463,
+    "t_on_range_s": [
+     1,
+     15
+    ]
+   },
+   "hernes_refit": {
+    "slope": -1.412,
+    "t_on_range_s": [
+     0.15,
+     4.5
+    ],
+    "note": "confounded with the current term"
+   }
+  },
+  "gamma_t": 0.5,
+  "t_on_T": 4.5,
+  "mission_t_on": 90.0,
+  "margin_at_mission": 1.498,
+  "sensitivity": [
+   0.29,
+   0.5,
+   1.0
+  ]
+ },
+ "min_temperature": {
+  "Ea_eV_sources": {
+   "wire bond, T_j,max (Scheuermann Fig. 4)": 0.069,
+   "solder, T_jm (Scheuermann Fig. 5)": 0.097,
+   "CIPS08 beta2 = 1285 K": 0.1107,
+   "SiC solder, Hoffmann 2023 beta2 = 1537 K": 0.1324,
+   "solder, T_j,max (Scheuermann Fig. 4)": 0.159
+  },
+  "Ea_stated_eV": 0.159,
+  "margin": {
+   "65": 0.0819,
+   "70": 0.1614,
+   "80": 0.3137
+  }
+ },
+ "current": {
+  "rule": "clip to the tested 890-1250 A; no credit below 890 A; above 1250 A the model exponent applies"
+ },
+ "budget_stated_share": 0.965,
+ "budget": {
+  "calibrated scatter, -q_S at alpha 0.10": 0.167,
+  "Miner factor, -ln 0.85": 0.163,
+  "model statistics at 10 K, 4.5 s, 890 A (half split)": 1.673,
+  "swing 10 K, gamma 1.2": 1.147,
+  "heating time 90 s, gamma_t 0.5": 1.498,
+  "T_min 70 C, E_a 0.159 eV": 0.1614
+ }
+}

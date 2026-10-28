@@ -1,0 +1,46 @@
+{
+ "cruise": {
+  "days": 600,
+  "reserve_mid": 33.07916114253936,
+  "t0": {
+   "definition": "from the valley (half-cycle rise)",
+   "damage_ratio_median": 2.787212342417041,
+   "damage_ratio_q10_q90": [
+    2.6729082801241546,
+    2.8708421555202106
+   ],
+   "reserve": 13.229772896219158
+  },
+  "t75": {
+   "definition": "from three quarters of the swing",
+   "damage_ratio_median": 0.8056740853689714,
+   "damage_ratio_q10_q90": [
+    0.7688709050964969,
+    0.8360146921840452
+   ],
+   "reserve": 39.50285030974608
+  }
+ },
+ "coast": {
+  "days": 600,
+  "reserve_mid": 18.843280664002663,
+  "t0": {
+   "definition": "from the valley (half-cycle rise)",
+   "damage_ratio_median": 1.481044603505231,
+   "damage_ratio_q10_q90": [
+    1.450904886272665,
+    1.5135069283008278
+   ],
+   "reserve": 12.826631201028723
+  },
+  "t75": {
+   "definition": "from three quarters of the swing",
+   "damage_ratio_median": 0.9559682788084272,
+   "damage_ratio_q10_q90": [
+    0.9544175055526642,
+    0.957472753620648
+   ],
+   "reserve": 19.90120179730805
+  }
+ }
+}

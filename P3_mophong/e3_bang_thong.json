@@ -1,0 +1,62 @@
+{
+ "0.0": {
+  "X_median_K": 23.102306216773844,
+  "p_test_anchors_0_bw_0.5": 1.0,
+  "p_test_anchors_0_bw_1": 0.9999999921825685,
+  "p_test_anchors_0_bw_2": 0.9995420831793161,
+  "p_test_anchors_20_bw_0.5": 0.047619047619047616,
+  "p_test_anchors_20_bw_1": 0.04761904758683076,
+  "p_test_anchors_20_bw_2": 0.047617768857521565,
+  "check_bw1_matches_e3": true
+ },
+ "0.1": {
+  "X_median_K": 21.52968394268545,
+  "p_test_anchors_0_bw_0.5": 1.0,
+  "p_test_anchors_0_bw_1": 1.0,
+  "p_test_anchors_0_bw_2": 1.0,
+  "p_test_anchors_20_bw_0.5": 0.04761904761904761,
+  "p_test_anchors_20_bw_1": 0.04761904761904763,
+  "p_test_anchors_20_bw_2": 0.04761904761904762,
+  "check_bw1_matches_e3": true
+ },
+ "0.2": {
+  "X_median_K": 19.768803314291404,
+  "p_test_anchors_0_bw_0.5": 1.0,
+  "p_test_anchors_0_bw_1": 1.0,
+  "p_test_anchors_0_bw_2": 1.0,
+  "p_test_anchors_20_bw_0.5": 0.047619047619047616,
+  "p_test_anchors_20_bw_1": 0.047619047619047616,
+  "p_test_anchors_20_bw_2": 0.047619047619047644,
+  "check_bw1_matches_e3": true
+ },
+ "0.3": {
+  "X_median_K": 17.910336541798998,
+  "p_test_anchors_0_bw_0.5": 1.0,
+  "p_test_anchors_0_bw_1": 1.0,
+  "p_test_anchors_0_bw_2": 1.0,
+  "p_test_anchors_20_bw_0.5": 0.0476190476190476,
+  "p_test_anchors_20_bw_1": 0.04761904761904764,
+  "p_test_anchors_20_bw_2": 0.04761904761904761,
+  "check_bw1_matches_e3": true
+ },
+ "0.4": {
+  "X_median_K": 16.549843087625938,
+  "p_test_anchors_0_bw_0.5": 1.0,
+  "p_test_anchors_0_bw_1": 1.0,
+  "p_test_anchors_0_bw_2": 1.0,
+  "p_test_anchors_20_bw_0.5": 0.04761904761904764,
+  "p_test_anchors_20_bw_1": 0.047619047619047596,
+  "p_test_anchors_20_bw_2": 0.04761904761904761,
+  "check_bw1_matches_e3": true
+ },
+ "0.5": {
+  "X_median_K": 14.416695711260218,
+  "p_test_anchors_0_bw_0.5": 1.0,
+  "p_test_anchors_0_bw_1": 1.0,
+  "p_test_anchors_0_bw_2": 1.0,
+  "p_test_anchors_20_bw_0.5": 0.04761904761904761,
+  "p_test_anchors_20_bw_1": 0.047619047619047616,
+  "p_test_anchors_20_bw_2": 0.04761904761904762,
+  "check_bw1_matches_e3": true
+ }
+}

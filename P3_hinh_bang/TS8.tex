@@ -1,0 +1,53 @@
+\begin{table}[htbp]
+\centering
+\caption{Data sets, their use and their limitations.}
+\label{tab:S8}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}p{4.1cm}>{\raggedright\arraybackslash}p{4.1cm}@{}}
+\toprule
+Data set & Content & Use & Limitations \\
+\midrule
+Hernes et al.\ \cite{hernes2021} & 3.3~kV/1~kA modules in five runs: $\Delta T$ 30--70~K (lowest module 26~K),
+$T_{j,\min}=60$~$^\circ$C, $t_{\mathrm{on}}$ 0.15--4.5~s, two currents; 34 of 36 failed modules digitized, within
+1\,\% of the published table & $\mathcal T_{\mathrm{ref}}$; fit of $N^{\mathrm{mod}}$ and scores; $\beta=2.08$ & four
+modules withdrawn for another program, without cycle counts; no test below 26~K or above 4.5~s \\
+\addlinespace
+Hernes et al.\ \cite{hernes2021pcim} & same module type: Miner sums at failure of 48 of 49 modules; five
+constant-amplitude runs, 40 then 70~K (7 modules), 70 then 40~K (6) & $\kappa_M=0.85$; conformal check
+(Fig.~\ref{fig:p3-F3}d) & 13 mixed-loading modules; check not independent \\
+\addlinespace
+Choi et al.\ \cite{choi2017} & 600~V/30~A transfer-molded intelligent power module (IPM): 39 modules, six swing
+durations of 0.59--10~s at $\Delta T_j\approx81$~K; from Weibull plots & slope $-0.14$ in the swing duration; equal
+scatter across conditions & other technology; durations far below the field heating times \\
+\addlinespace
+Choi et al.\ \cite{choi2018mr} & same IPM: 18 modules at $\Delta T_j$ 40, 60, 70~K, 1~s; table per module & scatter
+differs between campaigns, so $\mathcal T_{\mathrm{ref}}$ and population lie within one campaign & two modules
+suspended by an external fuse \\
+\addlinespace
+Junghaenel and Scheuermann \cite{junghaenel2017mr}, Table~1 & heating time 0.07--2~s at 70~K and 2--60~s at 110~K;
+wire-bond and solder failures & slopes $-0.19$ (solder), $-0.27$ (wire bond) at 2--60~s; stated $\gamma_t=0.5$ &
+no baseplate; no single-factor test above 60~s \\
+\addlinespace
+Choi et al.\ \cite{choi2017apec} & four modules, two profiles of mixed swing durations & Miner factors 0.84 and 0.93 &
+four modules \\
+\addlinespace
+Zeng et al.\ \cite{zeng2019} & 1200~V/300~A baseplate modules, wire-bond failures; 18 modules at constant amplitude and
+12 under block and alternating sequences & Miner sums 1.08 (blocks, after swing correction) and 1.01 (alternating) &
+other module type; wire bonds only \\
+\addlinespace
+Hoffmann et al.\ \cite{hoffmann2020,hoffmann2023} & SiC modules; Weibull parameters per run, scatter changing with
+$\Delta T$ & scatter and extrapolation error depend on the loading; activation energy of SiC (Table~\ref{tab:p3-T5}) &
+other technology; not used for absolute lives \\
+\addlinespace
+Zhang et al.\ \cite{zhang2022hsr} & Beijing South--Shanghai Hongqiao (1318~km, 350~km/h): running, dwell and distance
+records of 37 train numbers per direction, 7554 train-days, 61\,834 sections, 8~Oct 2019 to 27~Jan 2020, 1-min
+resolution; daily temperature of the station area & inputs $Z$, dwell windows, 30-day intervals by resampling days &
+no summer (warmer season: Table~\ref{tab:S4}b); 5.0\,\% of sections given planned times; speed and current from a
+train model \\
+\addlinespace
+Excluded & Zhang et al.\ \cite{zhang2021data}: a single device; Choi et al.\ \cite{choi2016mr}: interim report of
+\cite{choi2017}, 10\,\% lives only; fixed CIPS08 exponents \cite{bayerer2008} (Section~\ref{sec:bench}) & -- & -- \\
+\bottomrule
+\end{tabularx}
+\end{table}

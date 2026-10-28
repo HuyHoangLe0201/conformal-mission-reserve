@@ -1,0 +1,181 @@
+{
+ "calibrated": {
+  "cells": 90,
+  "mean_z": 0.4167908782911474,
+  "sd_z": 1.1165643376595151,
+  "below": 2,
+  "above": 6
+ },
+ "misses": {
+  "A_boundary_k0|10|0.1": {
+   "miss": 0.03,
+   "violated": 0.0575,
+   "held_miss": 0.0025
+  },
+  "A_boundary_k0|20|0.1": {
+   "miss": 0.035,
+   "violated": 0.0575,
+   "held_miss": 0.0075
+  },
+  "A_boundary_k0|40|0.1": {
+   "miss": 0.02,
+   "violated": 0.03,
+   "held_miss": 0.01
+  },
+  "A_boundary_k0|80|0.1": {
+   "miss": 0.015,
+   "violated": 0.025,
+   "held_miss": 0.015
+  },
+  "A_evidence_k0|10|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "A_evidence_k0|20|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "A_evidence_k0|40|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "A_evidence_k0|80|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "A_adverse_strict_k0|10|0.1": {
+   "miss": 0.0,
+   "violated": 0.0175,
+   "held_miss": 0.0
+  },
+  "A_adverse_strict_k0|20|0.1": {
+   "miss": 0.005,
+   "violated": 0.01,
+   "held_miss": 0.0
+  },
+  "A_adverse_strict_k0|40|0.1": {
+   "miss": 0.005,
+   "violated": 0.015,
+   "held_miss": 0.0
+  },
+  "A_adverse_strict_k0|80|0.1": {
+   "miss": 0.0075,
+   "violated": 0.0125,
+   "held_miss": 0.0025
+  },
+  "A_beyond_k0|10|0.1": {
+   "miss": 0.0775,
+   "violated": 0.135,
+   "held_miss": 0.005
+  },
+  "A_beyond_k0|20|0.1": {
+   "miss": 0.145,
+   "violated": 0.21,
+   "held_miss": 0.0025
+  },
+  "A_beyond_k0|40|0.1": {
+   "miss": 0.1725,
+   "violated": 0.27,
+   "held_miss": 0.005
+  },
+  "A_beyond_k0|80|0.1": {
+   "miss": 0.275,
+   "violated": 0.4325,
+   "held_miss": 0.0075
+  },
+  "Q_boundary_int|20|0.1": {
+   "miss": 0.135,
+   "violated": 0.2075,
+   "held_miss": 0.0025
+  },
+  "Q_boundary_int|40|0.1": {
+   "miss": 0.2025,
+   "violated": 0.2875,
+   "held_miss": 0.01
+  },
+  "Q_evidence_int|20|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "Q_evidence_int|40|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "Q_boundary_lutz|20|0.1": {
+   "miss": 0.0125,
+   "violated": 0.0325,
+   "held_miss": 0.0025
+  },
+  "Q_boundary_lutz|40|0.1": {
+   "miss": 0.005,
+   "violated": 0.0075,
+   "held_miss": 0.005
+  },
+  "Q_boundary_nc|20|0.1": {
+   "miss": 0.0175,
+   "violated": 0.0475,
+   "held_miss": 0.0
+  },
+  "Q_boundary_nc|40|0.1": {
+   "miss": 0.03,
+   "violated": 0.055,
+   "held_miss": 0.0025
+  },
+  "Q_evidence_nc|20|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "Q_evidence_nc|40|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "Q_boundary_th|20|0.1": {
+   "miss": 0.055,
+   "violated": 0.095,
+   "held_miss": 0.0075
+  },
+  "Q_boundary_th|40|0.1": {
+   "miss": 0.0625,
+   "violated": 0.1425,
+   "held_miss": 0.01
+  },
+  "Q_evidence_th|20|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "Q_evidence_th|40|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "Q_boundary_seq|20|0.1": {
+   "miss": 0.0575,
+   "violated": 0.08,
+   "held_miss": 0.005
+  },
+  "Q_boundary_seq|40|0.1": {
+   "miss": 0.025,
+   "violated": 0.08,
+   "held_miss": 0.005
+  },
+  "Q_evidence_seq|20|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  },
+  "Q_evidence_seq|40|0.1": {
+   "miss": 0.0,
+   "violated": 0.0,
+   "held_miss": 0.0
+  }
+ }
+}

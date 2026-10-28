@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p3cert"
+version = "0.1.0"
+description = "Conformal mission reserve certificates for the fatigue damage of power modules"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.26"]
+authors = [{ name = "Huy Hoang Le" }, { name = "Kim-Anh Nguyen" }]
+keywords = ["conformal prediction", "power module", "fatigue", "predictive maintenance", "reliability"]
+
+[tool.setuptools]
+packages = ["p3cert"]

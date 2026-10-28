@@ -1,0 +1,212 @@
+{
+ "base": {
+  "V_interval_median": 0.013966640120166698,
+  "V_interval_q90": 0.014721549915207622,
+  "V_interval_median_modules": [
+   0.013878727533243651,
+   0.013755153338528274
+  ],
+  "V_interval_median_half": 0.020375661513820982,
+  "certified_life_intervals_median": 37.60511611925187,
+  "certified_life_intervals_q10_q90": [
+   19.199710553661873,
+   64.13967211593585
+  ]
+ },
+ "gamma 0": {
+  "V_interval_median": 0.01080561065584868,
+  "V_interval_q90": 0.011473723671730343,
+  "V_interval_median_modules": [
+   0.01080561065584868,
+   0.010037799531137911
+  ],
+  "V_interval_median_half": 0.015080291026049884,
+  "certified_life_intervals_median": 51.75464113708324,
+  "certified_life_intervals_q10_q90": [
+   29.35481507895582,
+   78.8323171812093
+  ]
+ },
+ "gamma 0.6": {
+  "V_interval_median": 0.012036633888711108,
+  "V_interval_q90": 0.01274619426911541,
+  "V_interval_median_modules": [
+   0.012036633888711108,
+   0.011290301953807137
+  ],
+  "V_interval_median_half": 0.01713630251107481,
+  "certified_life_intervals_median": 45.7265683908268,
+  "certified_life_intervals_q10_q90": [
+   25.285145315599074,
+   72.15207749278962
+  ]
+ },
+ "gamma 2.08": {
+  "V_interval_median": 0.0300275770242696,
+  "V_interval_q90": 0.031721196192255094,
+  "V_interval_median_modules": [
+   0.030019488712298543,
+   0.02764588282040876
+  ],
+  "V_interval_median_half": 0.056921125868185915,
+  "certified_life_intervals_median": 13.291379161949353,
+  "certified_life_intervals_q10_q90": [
+   2.2774589303681636,
+   40.65442336493313
+  ]
+ },
+ "dT_T 68 K": {
+  "V_interval_median": 0.04077663390309435,
+  "V_interval_q90": 0.043204797371810925,
+  "V_interval_median_modules": [
+   0.04066702270868498,
+   0.03952165417325809
+  ],
+  "V_interval_median_half": 0.06020593191797893,
+  "certified_life_intervals_median": 12.690868083950377,
+  "certified_life_intervals_q10_q90": [
+   6.279859178658183,
+   22.07856651655362
+  ]
+ },
+ "gamma_t 0.29": {
+  "V_interval_median": 0.006243278538414391,
+  "V_interval_q90": 0.006584875720525214,
+  "V_interval_median_modules": [
+   0.005480551169203049,
+   0.006243278538414391
+  ],
+  "V_interval_median_half": 0.009390573344450502,
+  "certified_life_intervals_median": 83.1924005976978,
+  "certified_life_intervals_q10_q90": [
+   39.16924204174784,
+   149.26277285316337
+  ]
+ },
+ "gamma_t 1.0": {
+  "V_interval_median": 0.22015671117748692,
+  "V_interval_q90": 0.24924570581902364,
+  "V_interval_median_modules": [
+   0.22015671117748692,
+   0.13043843254135962
+  ],
+  "V_interval_median_half": 0.30044255708013134,
+  "certified_life_intervals_median": 2.4553479247950465,
+  "certified_life_intervals_q10_q90": [
+   1.5561590411723814,
+   3.692397287845902
+  ]
+ },
+ "t_on cap 60 s": {
+  "V_interval_median": 0.007975132521127321,
+  "V_interval_q90": 0.00845793942241605,
+  "V_interval_median_modules": [
+   0.006428958237940741,
+   0.007975132521127321
+  ],
+  "V_interval_median_half": 0.012169316744675402,
+  "certified_life_intervals_median": 64.65055769630929,
+  "certified_life_intervals_q10_q90": [
+   29.257038719095437,
+   117.6700009939728
+  ]
+ },
+ "t_on slope 0.27 above 60 s": {
+  "V_interval_median": 0.01043458119388592,
+  "V_interval_q90": 0.010995040156659858,
+  "V_interval_median_modules": [
+   0.00901710960732985,
+   0.01043458119388592
+  ],
+  "V_interval_median_half": 0.01568659251880123,
+  "certified_life_intervals_median": 49.8404340908461,
+  "certified_life_intervals_q10_q90": [
+   23.54787590286828,
+   89.30084651269674
+  ]
+ },
+ "E_a 0.111 eV": {
+  "V_interval_median": 0.013966640120166698,
+  "V_interval_q90": 0.014721549915207622,
+  "V_interval_median_modules": [
+   0.013878727533243651,
+   0.013755153338528274
+  ],
+  "V_interval_median_half": 0.020375661513820982,
+  "certified_life_intervals_median": 37.60511611925187,
+  "certified_life_intervals_q10_q90": [
+   19.199710553661873,
+   64.13967211593585
+  ]
+ },
+ "kappa_M 1": {
+  "V_interval_median": 0.011871644102141692,
+  "V_interval_q90": 0.012513317427926466,
+  "V_interval_median_modules": [
+   0.011796918403257103,
+   0.011691880337749025
+  ],
+  "V_interval_median_half": 0.017319312286747834,
+  "certified_life_intervals_median": 44.24131308147275,
+  "certified_life_intervals_q10_q90": [
+   22.587894769013996,
+   75.45843778345387
+  ]
+ },
+ "stat ellipsoid": {
+  "V_interval_median": 0.031458809848403005,
+  "V_interval_q90": 0.03318067386580067,
+  "V_interval_median_modules": [
+   0.029649078037979608,
+   0.031458809848403005
+  ],
+  "V_interval_median_half": 0.19343433717905925,
+  "certified_life_intervals_median": 3.784170099276945,
+  "certified_life_intervals_q10_q90": [
+   0.18747807035546124,
+   19.789093874260605
+  ]
+ },
+ "stat none": {
+  "V_interval_median": 0.006806472853119892,
+  "V_interval_q90": 0.0072019116180876055,
+  "V_interval_median_modules": [
+   0.006789830461914785,
+   0.006640417576488305
+  ],
+  "V_interval_median_half": 0.006796337113994957,
+  "certified_life_intervals_median": 111.91171962078772,
+  "certified_life_intervals_q10_q90": [
+   80.00057141067495,
+   176.98851283184172
+  ]
+ },
+ "short pulses counted at 0.15 s": {
+  "V_interval_median": 0.5087692155232366,
+  "V_interval_q90": 0.5350566912769334,
+  "V_interval_median_modules": [
+   0.5087692155232366,
+   0.3419961808533545
+  ],
+  "V_interval_median_half": 1.0755194990716552,
+  "certified_life_intervals_median": 0.7146164478064051,
+  "certified_life_intervals_q10_q90": [
+   0.12543485200107132,
+   2.300852449949615
+  ]
+ },
+ "short pulses credited, 0.59": {
+  "V_interval_median": 0.04722721742495016,
+  "V_interval_q90": 0.049104957696161966,
+  "V_interval_median_modules": [
+   0.04722721742495016,
+   0.03540697246488697
+  ],
+  "V_interval_median_half": 0.08293905023893162,
+  "certified_life_intervals_median": 9.455443023421843,
+  "certified_life_intervals_q10_q90": [
+   2.612577531735768,
+   29.91950299392877
+  ]
+ }
+}

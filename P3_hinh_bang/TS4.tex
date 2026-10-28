@@ -1,0 +1,74 @@
+\begin{table}[htbp]
+\centering
+\caption{Sensitivity of the paired certificate to the stated margin and to a warmer field interval, and anchor tests that
+replace the stated heating-time rule.}
+\label{tab:S4}
+\footnotesize
+\textit{(a) Stated margin on the real bench data ($\alpha=0.10$)}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+Variant & \makecell{interval damage\\$\times$ base} & \makecell{certified reserve\\(intervals)} & 10--90\,\% &
+\makecell{coverage, truth\\at the margins} \\
+\midrule
+stated margin (base) & 1.00 & 37.6 & 19.2--64.1 & 0.980 \\
+swing slope $\gamma=0$ & 0.77 & 51.8 & 29.4--78.8 & -- \\
+swing slope $\gamma=0.6$ & 0.86 & 45.7 & 25.3--72.2 & 0.975 \\
+swing slope $\gamma=\beta=2.08$ & 2.15 & 13.3 & 2.3--40.7 & -- \\
+$\Delta T_{\mathcal T}=68$~K & 2.92 & 12.7 & 6.3--22.1 & -- \\
+heating-time slope $\gamma_t=0.29$ & 0.45 & 83.2 & 39.2--149.3 & 0.670 \\
+heating-time slope $\gamma_t=1.0$ & 15.8 & 2.5 & 1.6--3.7 & -- \\
+heating time capped at 60~s & 0.57 & 64.7 & 29.3--117.7 & 0.755 \\
+slope 0.27 above 60~s & 0.75 & 49.8 & 23.5--89.3 & -- \\
+$E_a=0.111$~eV & 1.00 & 37.6 & 19.2--64.1 & -- \\
+$\kappa_M=1$ & 0.85 & 44.2 & 22.6--75.5 & 0.955 \\
+statistical part: Scheff\'e ellipsoid & 2.25 & 3.8 & 0.2--19.8 & -- \\
+no statistical part & 0.49 & 111.9 & 80.0--177.0 & 0.785 \\
+pulses below 0.15~s counted & 36.4 & 0.7 & 0.1--2.3 & -- \\
+pulses below 0.15~s counted, slope 0.59 & 3.38 & 9.5 & 2.6--29.9 & -- \\
+\bottomrule
+\end{tabular*}
+
+\medskip
+\textit{(b) Warmer field interval ($n_1=40$, $\alpha=0.10$, 100 repetitions of two modules)}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccc@{}}
+\toprule
+Shift & Truth & \makecell{true damage\\$\times$ unshifted} & \makecell{certificate, re-simulated\\$\times$ recorded} &
+coverage \\
+\midrule
+ambient $+10$~K & evidence & 1.165 & 1.000 & 1.000 \\
+ambient $+20$~K & evidence & 1.345 & 1.002 & 1.000 \\
+ambient $+10$~K & at the margins & 1.000 & 1.000 & 0.975 \\
+ambient $+20$~K & at the margins & 1.001 & 1.003 & 0.975 \\
+\bottomrule
+\end{tabular*}
+
+\medskip
+\textit{(c) Anchor tests in place of the stated heating-time rule ($n_1=40$, $\alpha=0.10$, 100 repetitions of two
+modules)}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccccc@{}}
+\toprule
+& \multicolumn{2}{c}{Evidence truth} & \multicolumn{2}{c}{Truth at the margins} & \multicolumn{2}{c}{Adverse truth} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Anchor times & coverage & cert./stated & coverage & cert./stated & coverage & cert./stated & bounds hold \\
+\midrule
+stated rule & 1.000 & 1.00 & 0.980 & 1.00 & 0.995 & 1.00 & -- \\
+300~s, $n_a=3$ & 1.000 & 0.67 & 1.000 & 1.76 & 0.990 & 1.27 & 0.980 \\
+300~s, $n_a=5$ & 1.000 & 0.64 & 1.000 & 1.62 & 1.000 & 1.17 & 0.960 \\
+300~s, $n_a=10$ & 1.000 & 0.61 & 1.000 & 1.59 & 0.995 & 1.13 & 0.960 \\
+30 and 300~s, $n_a=3$ & 1.000 & 0.75 & 1.000 & 1.98 & 1.000 & 1.31 & 1.000 \\
+30 and 300~s, $n_a=5$ & 1.000 & 0.67 & 1.000 & 1.66 & 1.000 & 1.24 & 0.980 \\
+30 and 300~s, $n_a=10$ & 1.000 & 0.61 & 1.000 & 1.61 & 0.995 & 1.16 & 0.960 \\
+\bottomrule
+\end{tabular*}
+
+\smallskip
+\begin{minipage}{\textwidth}\scriptsize
+(a) Margined damage of a 30-day interval (critical module, median of 200 intervals, fit on all 34 modules) relative to
+the base margin; certified reserve $R_c$ of a new leg (smaller module) in 30-day intervals over 40 half splits, whose
+statistical part is wider than that of the full fit (Section~\ref{sec:realcert} gives the median over 200 random splits); coverage when the truth is at the margins and the certificate uses
+a narrower variant ($n_1=40$). (b) Certificate: median ratio of the paired certificate on intervals re-simulated at the
+field ambient to that on the recorded ones. (c) $n_a$ anchor tests per anchor time at 80~K swing, joint level 0.95;
+bounds hold: share of repetitions in which every anchor bound covers the true heating-time effect (truth at the
+margins).
+\end{minipage}
+\end{table}

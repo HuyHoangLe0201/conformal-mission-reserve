@@ -1,0 +1,141 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=12mm,top=15mm,bottom=15mm]{geometry}
+\usepackage{newtxmath}
+\usepackage[no-math]{fontspec}
+\setmainfont{TeX Gyre Termes}
+\usepackage{graphicx,booktabs,tabularx,array,makecell,caption}
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\usepackage[backend=biber,style=numeric-comp,sorting=none,giveninits=true,maxbibnames=5,doi=false,url=false,isbn=false,
+  date=year]{biblatex}
+\addbibresource{../tailieu.bib}
+\DeclareSourcemap{\maps[datatype=bibtex]{\map{\step[fieldset=addendum,null]}}}
+\renewcommand{\thefigure}{F\arabic{figure}}
+\renewcommand{\thetable}{T\arabic{table}}
+% labels of the manuscript that the captions cite
+\makeatletter
+\newcommand{\fakelabel}[2]{\expandafter\gdef\csname r@#1\endcsname{{#2}{}{}{}{}}}
+\makeatother
+\fakelabel{thm:p3-pair}{1}
+\fakelabel{prop:p3-info}{9}
+\fakelabel{sec:infoloop}{6.8}
+\fakelabel{sec:sens}{6.9}
+\fakelabel{sec:bench}{6.1}
+\fakelabel{sec:certs}{2.4}
+\title{Conformal mission reserve certificates: figures and tables}
+\author{Overview of the figures and tables of the manuscript, with their captions}
+\date{\today}
+\begin{document}
+\maketitle
+\noindent Sources of the final figures and tables, all in \texttt{P3\_hinh\_bang/}:
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item F1: \texttt{F1\_cau\_truc.tex} (TikZ, compiled with xelatex);
+\item F2 and F4--F9: \texttt{P3\_mophong/hinh\_cuoi.py}; F3: \texttt{P3\_kiemtoan/hinh\_cuoi\_f3.py};
+\item T1, T3 and T5: \texttt{P3\_mophong/bang\_cuoi.py}, one table environment per file, for \verb|\input| in the
+manuscript; Tables S2--S10 of the Supplementary Material come from the same script.
+\end{itemize}
+Figures are vector PDF at print size (90, 140 or 190~mm wide, text 7--8~pt), with 300~dpi PNG previews. Every number
+is read from the saved results; nothing is re-simulated. In the manuscript, F1--F9 are Figures 1, 3, 2, 4, 5, 7, 8, 9 and 6,
+and T1, T5 and T3 are Tables 2--4. Since 18/10/2026 the case study uses the 3.3~kV converter and certificates per module.
+\clearpage
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F1.pdf}}
+\caption{Structure of the paired certificate. White boxes: inputs; shaded boxes: computed quantities, each with a
+one-line statement and the equation, result and section that give it. Solid arrows: computation; dashed arrows: policy
+feedback.}
+\label{fig:p3-F1}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F2.pdf}}
+\caption{Paired, union, box and PAC (training-conditional) certificates for a new leg (both modules) against the
+number of bench scores $n_1$ ($n_2=100$, $\alpha=0.10$). (a) Coverage of the true damage; red line: $1-\alpha$. (b)
+Median certificate relative to the oracle quantile. Solid: evidence truth; dashed: truth at the margins; dotted:
+paired certificate with ideal anchor tests.}
+\label{fig:p3-F2}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F3.pdf}}
+\caption{Empirical tests of the assumptions on digitized power-cycling data. (a) Leave-one-out log-strength of the
+modules of Hernes et al.~\cite{hernes2021} against the swing, by run, with swing margin below 26~K ($\gamma=0.6$ and stated 1.2)
+and statistical part of the model at 4.5~s and 890~A. (b) Life against heating time, or swing duration, in tests that
+vary it alone~\cite{junghaenel2017mr,choi2017}, normalized at 2~s, with stated slope $\gamma_t=0.5$ and its
+sensitivity range; shading: tested range of the model. (c) Residual log-lives of one intelligent power module (IPM) type in two campaigns
+\cite{choi2017,choi2018mr}; triangles: suspended modules. (d) Miner sum at failure of the mixed-loading modules of
+Hernes et al.~\cite{hernes2021pcim} against the constant-amplitude runs, with the conformal lower 10\,\% bound for $\kappa_M=1$ and
+0.85.}
+\label{fig:p3-F3}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F4.pdf}}
+\caption{Coverage per leg life under feedback: share of the 300 lives per run in which every certificate of both
+modules covers the true damage (truth at the margins, $\alpha=0.10$; Wilson 95\,\% intervals), against the mean
+derating level under the pass/fail, fixed and reserve rules. Filled:
+cruising; open: coasting; red line: $1-\alpha$.}
+\label{fig:p3-F4}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F5.pdf}}
+\caption{True damage at replacement against served intervals per leg (mean over lives without failure; 300
+common lives per truth and driving strategy). (a) Evidence truth; (b) truth at the margins. Color: certificate (black:
+baseline); marker: policy or baseline; filled: cruising, open: coasting.}
+\label{fig:p3-F5}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F6.pdf}}
+\caption{Collapse by caution on the missions: derating makes the weighted certificate infinite unless anchor tests
+cover every derating level. (a) Weight $p_{n_1+1}$ of the test point in weighted calibration
+against derating depth, without and with anchor tests at the loading of each derating level (anchors fixed at full
+load: Table~S27), cruising (solid) and coasting (dashed);
+the weighted strength quantile is infinite while the weight exceeds $\alpha_S=0.05$. (b, c) Certified damage of the
+leg in the coming interval relative to the non-derated value, coasting and cruising, for swing-margin slopes
+$\gamma$ below, at and above $\beta=2.08$.}
+\label{fig:p3-F6}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F7.pdf}}
+\caption{Information loop of the thermal bound of the inner module (evidence truth, median over 100 worlds): pulses
+withheld at low reserve can starve the bound of information, and 60 counted dwell-window pulses per interval prevent
+this. (a, b)
+Next-interval information $\Phi(F)$ against present information $F$, for a new module and at mid-life, for pulses
+withheld at low reserve, with at least 60 dwell-window pulses per interval, and from operation only (with and without
+balancing). Dots: fixed points (open: unstable); gray: $\Phi(F)=F$. (c) Bound width over module life: median and
+10--90\,\% band; gray dashed: 300 pulses per interval.}
+\label{fig:p3-F7}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F8.pdf}}
+\caption{Exceedance of the stated heating-time margin: both true heating-time slopes, below and above 60~s, are raised
+to $g$, from the stated 0.5 to 1.0, the truth being at the other margins ($n_1=40$, $\alpha=0.10$). (a) Coverage of
+the true damage; red line: $1-\alpha$. (b) Median certificate relative to the true damage. Circles: stated rule;
+squares and triangles: five anchor tests per anchor time.}
+\label{fig:p3-F8}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\makebox[\textwidth][c]{\includegraphics{F9.pdf}}
+\caption{(caption in the manuscript)}
+\label{fig:p3-F9}
+\end{figure}
+
+\clearpage
+\input{T1}
+\input{T3}
+\input{T5}
+\clearpage
+\printbibliography
+\end{document}

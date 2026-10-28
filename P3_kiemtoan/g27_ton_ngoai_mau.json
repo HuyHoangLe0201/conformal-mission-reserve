@@ -1,0 +1,101 @@
+{
+ "gamma_t": 0.5,
+ "alpha": 0.1,
+ "hernes": {
+  "train_runs": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "test_run": 4,
+  "t_max_train": 1.1,
+  "t_test": 4.5,
+  "fitted_ton_exponent": -1.6568991027172602,
+  "n_train": 27,
+  "q10": -0.21851035255599463,
+  "fitted_extrapolation": {
+   "n": 7,
+   "covered": 1.0,
+   "median_ratio_to_bound": 1.4179542133972356,
+   "min_ratio_to_bound": 1.2293397389808596,
+   "max_ratio_to_bound": 1.7002109954526283
+  },
+  "stated_rule": {
+   "n": 7,
+   "covered": 0.0,
+   "median_ratio_to_bound": 0.2778743096119016,
+   "min_ratio_to_bound": 0.24091182072046424,
+   "max_ratio_to_bound": 0.33318773772253607
+  }
+ },
+ "choi2017": {
+  "n_train": 27,
+  "t_max_train": 2.0,
+  "t_test": [
+   5.0,
+   10.0
+  ],
+  "fitted_ton_exponent": -0.08738336157906168,
+  "q10": -0.08519809425086902,
+  "fitted_extrapolation": {
+   "n": 12,
+   "covered": 0.25,
+   "median_ratio_to_bound": 0.9287022197375788,
+   "min_ratio_to_bound": 0.8073583111971133,
+   "max_ratio_to_bound": 1.0626717803483192
+  },
+  "stated_rule": {
+   "n": 12,
+   "covered": 1.0,
+   "median_ratio_to_bound": 1.559676021127171,
+   "min_ratio_to_bound": 1.3316429324900942,
+   "max_ratio_to_bound": 1.9854357419449813
+  },
+  "stated_rule_at_5s": {
+   "n": 6,
+   "covered": 1.0,
+   "median_ratio_to_bound": 1.4040454157938573,
+   "min_ratio_to_bound": 1.3316429324900942,
+   "max_ratio_to_bound": 1.5509429270078736
+  },
+  "fitted_at_5s": {
+   "n": 6,
+   "covered": 0.3333333333333333,
+   "median_ratio_to_bound": 0.9620208556416983,
+   "min_ratio_to_bound": 0.9124122759227239,
+   "max_ratio_to_bound": 1.0626717803483192
+  },
+  "stated_rule_at_10s": {
+   "n": 6,
+   "covered": 1.0,
+   "median_ratio_to_bound": 1.7316028015286042,
+   "min_ratio_to_bound": 1.568458289804454,
+   "max_ratio_to_bound": 1.9854357419449813
+  },
+  "fitted_at_10s": {
+   "n": 6,
+   "covered": 0.16666666666666666,
+   "median_ratio_to_bound": 0.8913363667966085,
+   "min_ratio_to_bound": 0.8073583111971133,
+   "max_ratio_to_bound": 1.021995967649822
+  }
+ },
+ "junghaenel2017": {
+  "wire-bond lift-off": {
+   "ratio_observed_to_stated_rule": {
+    "10": 1.5459169760769649,
+    "30": 1.7716926868869367,
+    "60": 2.246077203379636
+   }
+  },
+  "chip-solder fatigue": {
+   "ratio_observed_to_stated_rule": {
+    "7": 1.3418397888672629,
+    "10": 1.537711599106058,
+    "30": 2.4292765370930676,
+    "60": 2.811576852717023
+   }
+  }
+ }
+}

@@ -1,0 +1,8474 @@
+{
+ "static": {
+  "A_boundary_k0": {
+   "10": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9775,
+      "coverage_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 6.222462767734213
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9575,
+      "coverage_ci": [
+       0.9329974034029175,
+       0.9732985304483749
+      ],
+      "calibrated": 0.87,
+      "calibrated_ci": [
+       0.8334914191139058,
+       0.8994692268423305
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.980318062166675
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.965,
+      "coverage_ci": [
+       0.942114344143788,
+       0.9790389000985089
+      ],
+      "calibrated": 0.8925,
+      "calibrated_ci": [
+       0.8583258711460311,
+       0.9192067059832196
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.131043487190988
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.97,
+      "coverage_ci": [
+       0.9483009668703324,
+       0.9827571509659678
+      ],
+      "calibrated": 0.9225,
+      "calibrated_ci": [
+       0.8920944082797374,
+       0.9448674104135325
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.587360896227912
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9775,
+      "coverage_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.691149364567137
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.97,
+      "coverage_ci": [
+       0.9483009668703324,
+       0.9827571509659678
+      ],
+      "calibrated": 0.9325,
+      "calibrated_ci": [
+       0.9035727207806045,
+       0.9531988451006718
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.897055094947148
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.98,
+      "coverage_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "calibrated": 0.9475,
+      "calibrated_ci": [
+       0.9210774516713285,
+       0.9654087349919573
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.197063439945138
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9775,
+      "coverage_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.502604447344029
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9875,
+      "coverage_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "calibrated": 0.975,
+      "calibrated_ci": [
+       0.9545979351700657,
+       0.9863650562602375
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.677497000050849
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9925,
+      "coverage_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.311045816709146
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "20": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.99,
+      "coverage_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "calibrated": 0.98,
+      "calibrated_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.415777480181714
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.965,
+      "coverage_ci": [
+       0.942114344143788,
+       0.9790389000985089
+      ],
+      "calibrated": 0.8975,
+      "calibrated_ci": [
+       0.8638958898314886,
+       0.9235415608917652
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.3310450907958975
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.97,
+      "coverage_ci": [
+       0.9483009668703324,
+       0.9827571509659678
+      ],
+      "calibrated": 0.915,
+      "calibrated_ci": [
+       0.8835671614656891,
+       0.938537346836576
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.3869785294592587
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 0.985,
+      "coverage_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.253696166571041
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.965,
+      "coverage_ci": [
+       0.942114344143788,
+       0.9790389000985089
+      ],
+      "calibrated": 0.9175,
+      "calibrated_ci": [
+       0.8864024616066086,
+       0.940654483492658
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.5644338819569774
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.99,
+      "coverage_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "calibrated": 0.98,
+      "calibrated_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.051576698550391
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.97,
+      "coverage_ci": [
+       0.9483009668703324,
+       0.9827571509659678
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.2048755290876008
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.97,
+      "coverage_ci": [
+       0.9483009668703324,
+       0.9827571509659678
+      ],
+      "calibrated": 0.9475,
+      "calibrated_ci": [
+       0.9210774516713285,
+       0.9654087349919573
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.2978600846337343
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.985,
+      "coverage_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.641075936245789
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.99,
+      "coverage_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "calibrated": 0.98,
+      "calibrated_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.141734612116493
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9825,
+      "coverage_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.002666629342477
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9875,
+      "coverage_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.2126519513244163
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "40": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.8153192716315902
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9825,
+      "coverage_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "calibrated": 0.9025,
+      "calibrated_ci": [
+       0.8694870411682052,
+       0.9278552831490519
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.9099411155967567
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9825,
+      "coverage_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "calibrated": 0.9225,
+      "calibrated_ci": [
+       0.8920944082797374,
+       0.9448674104135325
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.932239622647881
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.975,
+      "calibrated_ci": [
+       0.9545979351700657,
+       0.9863650562602375
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.3623483296485777
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.98,
+      "coverage_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "calibrated": 0.9225,
+      "calibrated_ci": [
+       0.8920944082797374,
+       0.9448674104135325
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.9685875512336262
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.955,
+      "calibrated_ci": [
+       0.929994720438381,
+       0.9713487766159096
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.2325750622061267
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.5840955057798367
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9925,
+      "coverage_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.8783180471121155
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.955,
+      "calibrated_ci": [
+       0.929994720438381,
+       0.9713487766159096
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.9077473065366486
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.5724973545120475
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.955,
+      "calibrated_ci": [
+       0.929994720438381,
+       0.9713487766159096
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.0450896784498407
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.0740520826599806
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.758884083042494
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.98,
+      "calibrated_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.8002054174523003
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "80": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.99,
+      "calibrated_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.8376885844497393
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.985,
+      "coverage_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "calibrated": 0.8875,
+      "calibrated_ci": [
+       0.8527757236239129,
+       0.9148519799113346
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.6916531932751167
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.99,
+      "coverage_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "calibrated": 0.895,
+      "calibrated_ci": [
+       0.861108321155689,
+       0.9213766927705632
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.6954666520710644
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.97,
+      "calibrated_ci": [
+       0.9483009668703324,
+       0.9827571509659678
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.0543807418579583
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.985,
+      "coverage_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "calibrated": 0.8975,
+      "calibrated_ci": [
+       0.8638958898314886,
+       0.9235415608917652
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.7041070870877872
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.8467718955820114
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.99,
+      "calibrated_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.5677992145047366
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.9475,
+      "calibrated_ci": [
+       0.9210774516713285,
+       0.9654087349919573
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.6760548890790086
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.6823938737243038
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.2208854652815284
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.95,
+      "calibrated_ci": [
+       0.9240357990869275,
+       0.9674028243733599
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.7616452148180721
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.3238589783228853
+     }
+    },
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.99,
+      "calibrated_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.0622973816759056
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.98,
+      "calibrated_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.5598640640566726
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.98,
+      "calibrated_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.5812561561960357
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   }
+  },
+  "A_evidence_k0": {
+   "10": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9725,
+      "calibrated_ci": [
+       0.951434030711826,
+       0.984576523921476
+      ],
+      "finite": 1.0,
+      "ratio_median": 40.55671149982057
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.895,
+      "calibrated_ci": [
+       0.861108321155689,
+       0.9213766927705632
+      ],
+      "finite": 1.0,
+      "ratio_median": 33.416416554968855
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9125,
+      "calibrated_ci": [
+       0.88073860783094,
+       0.9364134636743233
+      ],
+      "finite": 1.0,
+      "ratio_median": 34.91898640835484
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9325,
+      "calibrated_ci": [
+       0.9035727207806045,
+       0.9531988451006718
+      ],
+      "finite": 1.0,
+      "ratio_median": 37.02086725928494
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 9.568027205030647
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9725,
+      "calibrated_ci": [
+       0.951434030711826,
+       0.984576523921476
+      ],
+      "finite": 1.0,
+      "ratio_median": 37.24708164339264
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9325,
+      "calibrated_ci": [
+       0.9035727207806045,
+       0.9531988451006718
+      ],
+      "finite": 1.0,
+      "ratio_median": 33.454052418104844
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.955,
+      "calibrated_ci": [
+       0.929994720438381,
+       0.9713487766159096
+      ],
+      "finite": 1.0,
+      "ratio_median": 35.49260998916759
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9725,
+      "calibrated_ci": [
+       0.951434030711826,
+       0.984576523921476
+      ],
+      "finite": 1.0,
+      "ratio_median": 29.95017801471767
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 30.778278971454473
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 34.65836688921029
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "20": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 29.681690194958485
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.91,
+      "calibrated_ci": [
+       0.877916547675384,
+       0.9342830870328781
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.537744164563073
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.92,
+      "calibrated_ci": [
+       0.8892447798392307,
+       0.9427646020570377
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.844378872326576
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 28.553122524654658
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.935,
+      "calibrated_ci": [
+       0.9064641783755448,
+       0.9552598243027332
+      ],
+      "finite": 1.0,
+      "ratio_median": 22.748859790893814
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 6.727599948733056
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 26.931731528934364
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.955,
+      "calibrated_ci": [
+       0.929994720438381,
+       0.9713487766159096
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.215270221061154
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 22.328178854470163
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.97,
+      "calibrated_ci": [
+       0.9483009668703324,
+       0.9827571509659678
+      ],
+      "finite": 1.0,
+      "ratio_median": 24.567126226951633
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 7.286048028276242
+     }
+    },
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.425714386042184
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 20.467656972912646
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.84261842641909
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "40": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.056909290155556
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.91,
+      "calibrated_ci": [
+       0.877916547675384,
+       0.9342830870328781
+      ],
+      "finite": 1.0,
+      "ratio_median": 14.711349584104337
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.92,
+      "calibrated_ci": [
+       0.8892447798392307,
+       0.9427646020570377
+      ],
+      "finite": 1.0,
+      "ratio_median": 14.858238212676328
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 17.75384148747967
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.915,
+      "calibrated_ci": [
+       0.8835671614656891,
+       0.938537346836576
+      ],
+      "finite": 1.0,
+      "ratio_median": 15.075365813532132
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 16.83772332811722
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 4.724736752275215
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 19.166353110337145
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.96,
+      "calibrated_ci": [
+       0.9360172183709143,
+       0.9752311522773793
+      ],
+      "finite": 1.0,
+      "ratio_median": 14.537428618955989
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 14.740808443798846
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 19.002955276310356
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 15.39389691706469
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 4.82125390266205
+     }
+    },
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 15.702957798154474
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 13.481059616716509
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 13.926378639046094
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "80": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 19.21805213781464
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9125,
+      "calibrated_ci": [
+       0.88073860783094,
+       0.9364134636743233
+      ],
+      "finite": 1.0,
+      "ratio_median": 11.230817243327861
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.915,
+      "calibrated_ci": [
+       0.8835671614656891,
+       0.938537346836576
+      ],
+      "finite": 1.0,
+      "ratio_median": 11.253130426103683
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.975,
+      "calibrated_ci": [
+       0.9545979351700657,
+       0.9863650562602375
+      ],
+      "finite": 1.0,
+      "ratio_median": 13.477085646518368
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9225,
+      "calibrated_ci": [
+       0.8920944082797374,
+       0.9448674104135325
+      ],
+      "finite": 1.0,
+      "ratio_median": 11.313987905550183
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9475,
+      "calibrated_ci": [
+       0.9210774516713285,
+       0.9654087349919573
+      ],
+      "finite": 1.0,
+      "ratio_median": 12.183599925205744
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 3.733060388064452
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 17.343011310772972
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.95,
+      "calibrated_ci": [
+       0.9240357990869275,
+       0.9674028243733599
+      ],
+      "finite": 1.0,
+      "ratio_median": 11.065897377260397
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 11.113739955668652
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.99,
+      "calibrated_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "finite": 1.0,
+      "ratio_median": 14.347160433777306
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.955,
+      "calibrated_ci": [
+       0.929994720438381,
+       0.9713487766159096
+      ],
+      "finite": 1.0,
+      "ratio_median": 11.590056811709314
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.99,
+      "calibrated_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "finite": 1.0,
+      "ratio_median": 15.999100798386083
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 3.7369132810373644
+     }
+    },
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 13.813692591258146
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 10.278921254542006
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 10.37183613833012
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   }
+  },
+  "P_boundary_weak": {
+   "20": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 9.179045975986591
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.965,
+      "coverage_ci": [
+       0.942114344143788,
+       0.9790389000985089
+      ],
+      "calibrated": 0.9125,
+      "calibrated_ci": [
+       0.88073860783094,
+       0.9364134636743233
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.589047512432375
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.965,
+      "coverage_ci": [
+       0.942114344143788,
+       0.9790389000985089
+      ],
+      "calibrated": 0.915,
+      "calibrated_ci": [
+       0.8835671614656891,
+       0.938537346836576
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.7502385360388795
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.98,
+      "calibrated_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "finite": 1.0,
+      "ratio_median": 8.706158972620242
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9775,
+      "coverage_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "calibrated": 0.935,
+      "calibrated_ci": [
+       0.9064641783755448,
+       0.9552598243027332
+      ],
+      "finite": 1.0,
+      "ratio_median": 6.167929255809221
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 7.139531202370843
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9775,
+      "coverage_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "calibrated": 0.94,
+      "calibrated_ci": [
+       0.9122765567969421,
+       0.9593523194753389
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.678137593499303
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9825,
+      "coverage_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "calibrated": 0.945,
+      "calibrated_ci": [
+       0.9181319717303434,
+       0.9634017781359406
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.850553943271813
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9725,
+      "calibrated_ci": [
+       0.951434030711826,
+       0.984576523921476
+      ],
+      "finite": 1.0,
+      "ratio_median": 6.359677030766984
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "40": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.961027855137163
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.96,
+      "coverage_ci": [
+       0.9360172183709143,
+       0.9752311522773793
+      ],
+      "calibrated": 0.8925,
+      "calibrated_ci": [
+       0.8583258711460311,
+       0.9192067059832196
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.827456910689028
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9625,
+      "coverage_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "calibrated": 0.905,
+      "calibrated_ci": [
+       0.8722909782843385,
+       0.9300037828299202
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.872999559839151
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.9725,
+      "calibrated_ci": [
+       0.951434030711826,
+       0.984576523921476
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.9704048720999
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9625,
+      "coverage_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "calibrated": 0.91,
+      "calibrated_ci": [
+       0.877916547675384,
+       0.9342830870328781
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.00027138793229
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 0.9875,
+      "coverage_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "calibrated": 0.9575,
+      "calibrated_ci": [
+       0.9329974034029175,
+       0.9732985304483749
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.8178137676374724
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.010013056425737
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.975,
+      "coverage_ci": [
+       0.9545979351700657,
+       0.9863650562602375
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.441363177094633
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.975,
+      "coverage_ci": [
+       0.9545979351700657,
+       0.9863650562602375
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.4925514607948456
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.9324552123316803
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9875,
+      "coverage_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "calibrated": 0.9575,
+      "calibrated_ci": [
+       0.9329974034029175,
+       0.9732985304483749
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.0534672833998466
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "80": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.608734624610259
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9825,
+      "coverage_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "calibrated": 0.8975,
+      "calibrated_ci": [
+       0.8638958898314886,
+       0.9235415608917652
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.236477862087725
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9825,
+      "coverage_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "calibrated": 0.9,
+      "calibrated_ci": [
+       0.8666887392099005,
+       0.925701148310355
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.2491770102047894
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.98,
+      "calibrated_ci": [
+       0.9610361296222221,
+       0.9898317354020845
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.294716998414109
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.985,
+      "coverage_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "calibrated": 0.9225,
+      "calibrated_ci": [
+       0.8920944082797374,
+       0.9448674104135325
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.416681215420539
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 0.9925,
+      "coverage_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "calibrated": 0.955,
+      "calibrated_ci": [
+       0.929994720438381,
+       0.9713487766159096
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.873263891225753
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.705895851552039
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9825,
+      "coverage_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "calibrated": 0.9375,
+      "calibrated_ci": [
+       0.9093652829110908,
+       0.9573111565641887
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.9568995382798138
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9825,
+      "coverage_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "calibrated": 0.9375,
+      "calibrated_ci": [
+       0.9093652829110908,
+       0.9573111565641887
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.9671782460293188
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.0660303593763434
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.3885970286968807
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.3381300135444043
+     }
+    }
+   }
+  },
+  "P_evidence_weak": {
+   "20": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 56.61851566867016
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8775,
+      "calibrated_ci": [
+       0.8417306493136648,
+       0.9060873070335763
+      ],
+      "finite": 1.0,
+      "ratio_median": 36.7527827707115
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8825,
+      "calibrated_ci": [
+       0.847244320271723,
+       0.9104785096695212
+      ],
+      "finite": 1.0,
+      "ratio_median": 37.6022446171647
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9675,
+      "calibrated_ci": [
+       0.9451953401262605,
+       0.9809103409130382
+      ],
+      "finite": 1.0,
+      "ratio_median": 54.64558565580019
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.91,
+      "calibrated_ci": [
+       0.877916547675384,
+       0.9342830870328781
+      ],
+      "finite": 1.0,
+      "ratio_median": 41.905683292459074
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 12.205042684556641
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 46.30739393261482
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.92,
+      "calibrated_ci": [
+       0.8892447798392307,
+       0.9427646020570377
+      ],
+      "finite": 1.0,
+      "ratio_median": 32.87563547337084
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9275,
+      "calibrated_ci": [
+       0.8978168807373348,
+       0.9490498115499382
+      ],
+      "finite": 1.0,
+      "ratio_median": 34.242160643403004
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.945,
+      "calibrated_ci": [
+       0.9181319717303434,
+       0.9634017781359406
+      ],
+      "finite": 1.0,
+      "ratio_median": 39.936914032703356
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 12.528130353798666
+     }
+    }
+   },
+   "40": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 35.43347304070483
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8825,
+      "calibrated_ci": [
+       0.847244320271723,
+       0.9104785096695212
+      ],
+      "finite": 1.0,
+      "ratio_median": 19.0658826337943
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8825,
+      "calibrated_ci": [
+       0.847244320271723,
+       0.9104785096695212
+      ],
+      "finite": 1.0,
+      "ratio_median": 19.38572054028638
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.965,
+      "calibrated_ci": [
+       0.942114344143788,
+       0.9790389000985089
+      ],
+      "finite": 1.0,
+      "ratio_median": 29.380715912945565
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9075,
+      "calibrated_ci": [
+       0.8751007447962681,
+       0.9321464531149922
+      ],
+      "finite": 1.0,
+      "ratio_median": 20.6151914631897
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 27.45954781948387
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 6.340387912328911
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 28.604667375695094
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.915,
+      "calibrated_ci": [
+       0.8835671614656891,
+       0.938537346836576
+      ],
+      "finite": 1.0,
+      "ratio_median": 16.793656017678142
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9225,
+      "calibrated_ci": [
+       0.8920944082797374,
+       0.9448674104135325
+      ],
+      "finite": 1.0,
+      "ratio_median": 17.128069680171034
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 28.416130873857377
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.459919941677963
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 6.605352521217737
+     }
+    }
+   },
+   "80": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 32.01977602959623
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.89,
+      "calibrated_ci": [
+       0.8555483868341889,
+       0.9170317534980603
+      ],
+      "finite": 1.0,
+      "ratio_median": 14.379528979180249
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8925,
+      "calibrated_ci": [
+       0.8583258711460311,
+       0.9192067059832196
+      ],
+      "finite": 1.0,
+      "ratio_median": 14.477430241909722
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9575,
+      "calibrated_ci": [
+       0.9329974034029175,
+       0.9732985304483749
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.8038044685379
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.895,
+      "calibrated_ci": [
+       0.861108321155689,
+       0.9213766927705632
+      ],
+      "finite": 1.0,
+      "ratio_median": 16.221849619381725
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.94,
+      "calibrated_ci": [
+       0.9122765567969421,
+       0.9593523194753389
+      ],
+      "finite": 1.0,
+      "ratio_median": 19.58819929257835
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 4.98965116887582
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 24.742440915883464
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9175,
+      "calibrated_ci": [
+       0.8864024616066086,
+       0.940654483492658
+      ],
+      "finite": 1.0,
+      "ratio_median": 12.8399308169903
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9175,
+      "calibrated_ci": [
+       0.8864024616066086,
+       0.940654483492658
+      ],
+      "finite": 1.0,
+      "ratio_median": 12.952241377279288
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 21.244239875348452
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9475,
+      "calibrated_ci": [
+       0.9210774516713285,
+       0.9654087349919573
+      ],
+      "finite": 1.0,
+      "ratio_median": 15.936385548403166
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 22.5203229261911
+     },
+     "U6 paired anchored": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": null,
+      "calibrated_ci": null,
+      "finite": 1.0,
+      "ratio_median": 5.15912905462752
+     }
+    }
+   }
+  },
+  "P_boundary_a001": {
+   "100": {
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.99,
+      "calibrated_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.9766582383466396
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.4129134376670573
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.4250618348910953
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.7749225255931942
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "200": {
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9975,
+      "calibrated_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.968725743437714
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.2370934566815912
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.2409615880952785
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9975,
+      "calibrated_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.968725743437714
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.4693905806867624
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   }
+  },
+  "P_boundary_weak_a001": {
+   "100": {
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.593470743024789
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.99,
+      "coverage_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.604129531325455
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9925,
+      "coverage_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.6247643274703516
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.306912940308652
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "200": {
+    "0.01": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.2475199285284613
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.99,
+      "coverage_ci": [
+       0.9745730330055918,
+       0.9961045792067212
+      ],
+      "calibrated": 0.9375,
+      "calibrated_ci": [
+       0.9093652829110908,
+       0.9573111565641887
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.2269531796873092
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.995,
+      "coverage_ci": [
+       0.9819547100278873,
+       0.9986277757784289
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.2450027734926534
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.2475199285284613
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 1.7146467068428812
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   }
+  },
+  "E_boundary_et_cruise": {
+   "20": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.823122938595771
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9125,
+      "calibrated_ci": [
+       0.88073860783094,
+       0.9364134636743233
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.421683566321872
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9225,
+      "calibrated_ci": [
+       0.8920944082797374,
+       0.9448674104135325
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.486932676035
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.985,
+      "calibrated_ci": [
+       0.9676649364884468,
+       0.993107802129863
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.556739764809873
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9275,
+      "calibrated_ci": [
+       0.8978168807373348,
+       0.9490498115499382
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.52840938993994
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9875,
+      "calibrated_ci": [
+       0.9710758472688621,
+       0.9946493281464495
+      ],
+      "finite": 1.0,
+      "ratio_median": 5.346205993572833
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.955,
+      "calibrated_ci": [
+       0.929994720438381,
+       0.9713487766159096
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.391042629833632
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9675,
+      "calibrated_ci": [
+       0.9451953401262605,
+       0.9809103409130382
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.524676540701598
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.667755539127673
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "40": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.980681524240905
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9,
+      "calibrated_ci": [
+       0.8666887392099005,
+       0.925701148310355
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.2330361062584974
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.92,
+      "calibrated_ci": [
+       0.8892447798392307,
+       0.9427646020570377
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.280331099878922
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.028638455172226
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.91,
+      "calibrated_ci": [
+       0.877916547675384,
+       0.9342830870328781
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.3084948129772678
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9675,
+      "calibrated_ci": [
+       0.9451953401262605,
+       0.9809103409130382
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.770705639238364
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.543237222907327
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9575,
+      "calibrated_ci": [
+       0.9329974034029175,
+       0.9732985304483749
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.1634247232958774
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.96,
+      "calibrated_ci": [
+       0.9360172183709143,
+       0.9752311522773793
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.21205502166867
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9925,
+      "calibrated_ci": [
+       0.9781838919722998,
+       0.9974461570370148
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.460255983533476
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9675,
+      "calibrated_ci": [
+       0.9451953401262605,
+       0.9809103409130382
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.47008035713885
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   }
+  },
+  "E_boundary_et_coast": {
+   "20": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.477743813709054
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.875,
+      "calibrated_ci": [
+       0.8389801748486139,
+       0.9038853447016257
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.3145080717110917
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.8875,
+      "calibrated_ci": [
+       0.8527757236239129,
+       0.9148519799113346
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.3792870097728644
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9725,
+      "calibrated_ci": [
+       0.951434030711826,
+       0.984576523921476
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.351717794502319
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.895,
+      "calibrated_ci": [
+       0.861108321155689,
+       0.9213766927705632
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.5613688467807267
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9775,
+      "calibrated_ci": [
+       0.9577968763972683,
+       0.9881185518300367
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.14064368086977
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.925,
+      "calibrated_ci": [
+       0.8949516618259873,
+       0.9469625936642844
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.2771461421852424
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9375,
+      "calibrated_ci": [
+       0.9093652829110908,
+       0.9573111565641887
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.3634954105675856
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 0.9975,
+      "coverage_ci": [
+       0.9859763590327523,
+       0.9995585635705656
+      ],
+      "calibrated": 0.9475,
+      "calibrated_ci": [
+       0.9210774516713285,
+       0.9654087349919573
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.830853990682943
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "40": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 4.155531257060719
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8825,
+      "calibrated_ci": [
+       0.847244320271723,
+       0.9104785096695212
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.8912654082008387
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.89,
+      "calibrated_ci": [
+       0.8555483868341889,
+       0.9170317534980603
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.913235211268434
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.96,
+      "calibrated_ci": [
+       0.9360172183709143,
+       0.9752311522773793
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.4927858042404245
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8925,
+      "calibrated_ci": [
+       0.8583258711460311,
+       0.9192067059832196
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.8836527482120085
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.281261050291875
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.803796984746566
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.935,
+      "calibrated_ci": [
+       0.9064641783755448,
+       0.9552598243027332
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.841432015185132
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9375,
+      "calibrated_ci": [
+       0.9093652829110908,
+       0.9573111565641887
+      ],
+      "finite": 1.0,
+      "ratio_median": 2.887218506231801
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.7468603338738817
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 3.0195124895044816
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   }
+  },
+  "E_evidence_et_cruise": {
+   "20": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 53.546098410249975
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.895,
+      "calibrated_ci": [
+       0.861108321155689,
+       0.9213766927705632
+      ],
+      "finite": 1.0,
+      "ratio_median": 38.6825161728745
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9025,
+      "calibrated_ci": [
+       0.8694870411682052,
+       0.9278552831490519
+      ],
+      "finite": 1.0,
+      "ratio_median": 39.40055825710983
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9725,
+      "calibrated_ci": [
+       0.951434030711826,
+       0.984576523921476
+      ],
+      "finite": 1.0,
+      "ratio_median": 51.75280844005645
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.92,
+      "calibrated_ci": [
+       0.8892447798392307,
+       0.9427646020570377
+      ],
+      "finite": 1.0,
+      "ratio_median": 39.434190720882434
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 48.93624339105728
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9425,
+      "calibrated_ci": [
+       0.9151985747985072,
+       0.9613827382707756
+      ],
+      "finite": 1.0,
+      "ratio_median": 37.654758283214655
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9575,
+      "calibrated_ci": [
+       0.9329974034029175,
+       0.9732985304483749
+      ],
+      "finite": 1.0,
+      "ratio_median": 38.86586123652799
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9625,
+      "calibrated_ci": [
+       0.9390556322866757,
+       0.9771451751586198
+      ],
+      "finite": 1.0,
+      "ratio_median": 43.956181496154635
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "40": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 40.295923782789274
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.89,
+      "calibrated_ci": [
+       0.8555483868341889,
+       0.9170317534980603
+      ],
+      "finite": 1.0,
+      "ratio_median": 28.12648614905065
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8975,
+      "calibrated_ci": [
+       0.8638958898314886,
+       0.9235415608917652
+      ],
+      "finite": 1.0,
+      "ratio_median": 28.21594854142043
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.965,
+      "calibrated_ci": [
+       0.942114344143788,
+       0.9790389000985089
+      ],
+      "finite": 1.0,
+      "ratio_median": 34.54956985473337
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.885,
+      "calibrated_ci": [
+       0.8500077446624668,
+       0.9126675220757792
+      ],
+      "finite": 1.0,
+      "ratio_median": 28.84121350461552
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.945,
+      "calibrated_ci": [
+       0.9181319717303434,
+       0.9634017781359406
+      ],
+      "finite": 1.0,
+      "ratio_median": 31.994600380393436
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 37.23492267992856
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.94,
+      "calibrated_ci": [
+       0.9122765567969421,
+       0.9593523194753389
+      ],
+      "finite": 1.0,
+      "ratio_median": 27.306269585241708
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9475,
+      "calibrated_ci": [
+       0.9210774516713285,
+       0.9654087349919573
+      ],
+      "finite": 1.0,
+      "ratio_median": 27.542759784667297
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 36.67082125308611
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.945,
+      "calibrated_ci": [
+       0.9181319717303434,
+       0.9634017781359406
+      ],
+      "finite": 1.0,
+      "ratio_median": 29.373388079612265
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   }
+  },
+  "E_evidence_et_coast": {
+   "20": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.975,
+      "calibrated_ci": [
+       0.9545979351700657,
+       0.9863650562602375
+      ],
+      "finite": 1.0,
+      "ratio_median": 60.19263678190134
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.87,
+      "calibrated_ci": [
+       0.8334914191139058,
+       0.8994692268423305
+      ],
+      "finite": 1.0,
+      "ratio_median": 46.73717835772964
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.895,
+      "calibrated_ci": [
+       0.861108321155689,
+       0.9213766927705632
+      ],
+      "finite": 1.0,
+      "ratio_median": 47.579281735069
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.97,
+      "calibrated_ci": [
+       0.9483009668703324,
+       0.9827571509659678
+      ],
+      "finite": 1.0,
+      "ratio_median": 58.01342950960629
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9025,
+      "calibrated_ci": [
+       0.8694870411682052,
+       0.9278552831490519
+      ],
+      "finite": 1.0,
+      "ratio_median": 48.00550951418059
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.975,
+      "calibrated_ci": [
+       0.9545979351700657,
+       0.9863650562602375
+      ],
+      "finite": 1.0,
+      "ratio_median": 54.87860628087732
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9275,
+      "calibrated_ci": [
+       0.8978168807373348,
+       0.9490498115499382
+      ],
+      "finite": 1.0,
+      "ratio_median": 45.64658943498469
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.94,
+      "calibrated_ci": [
+       0.9122765567969421,
+       0.9593523194753389
+      ],
+      "finite": 1.0,
+      "ratio_median": 46.80510351712973
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.95,
+      "calibrated_ci": [
+       0.9240357990869275,
+       0.9674028243733599
+      ],
+      "finite": 1.0,
+      "ratio_median": 50.55272949700809
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   },
+   "40": {
+    "0.1": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 45.86572093349737
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.88,
+      "calibrated_ci": [
+       0.8444853274321313,
+       0.9082850657121113
+      ],
+      "finite": 1.0,
+      "ratio_median": 29.618265918021958
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8925,
+      "calibrated_ci": [
+       0.8583258711460311,
+       0.9192067059832196
+      ],
+      "finite": 1.0,
+      "ratio_median": 30.005672905400118
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9675,
+      "calibrated_ci": [
+       0.9451953401262605,
+       0.9809103409130382
+      ],
+      "finite": 1.0,
+      "ratio_median": 36.80684960448829
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.8825,
+      "calibrated_ci": [
+       0.847244320271723,
+       0.9104785096695212
+      ],
+      "finite": 1.0,
+      "ratio_median": 30.800118779161004
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 34.83010864885285
+     }
+    },
+    "0.05": {
+     "U1 box": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 42.33214904541395
+     },
+     "U2 Monte Carlo": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.92,
+      "calibrated_ci": [
+       0.8892447798392307,
+       0.9427646020570377
+      ],
+      "finite": 1.0,
+      "ratio_median": 29.244799329446092
+     },
+     "U3 Bayes": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9275,
+      "calibrated_ci": [
+       0.8978168807373348,
+       0.9490498115499382
+      ],
+      "finite": 1.0,
+      "ratio_median": 29.742353594947662
+     },
+     "U5 union": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9825,
+      "calibrated_ci": [
+       0.9643224844820973,
+       0.9914978173392109
+      ],
+      "finite": 1.0,
+      "ratio_median": 42.1753927121672
+     },
+     "U6 paired": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 0.9525,
+      "calibrated_ci": [
+       0.9270078923649577,
+       0.9693831678923314
+      ],
+      "finite": 1.0,
+      "ratio_median": 32.09362719702308
+     },
+     "U9 PAC": {
+      "n": 400,
+      "coverage": 1.0,
+      "coverage_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "calibrated": 1.0,
+      "calibrated_ci": [
+       0.9904873594003194,
+       1.0
+      ],
+      "finite": 0.0,
+      "ratio_median": null
+     }
+    }
+   }
+  }
+ },
+ "closed": {
+  "C_boundary_cruise_weak": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 25.67,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 4.36306973120374,
+    "cost50": 6.440721984157902,
+    "coverage": 0.983372931902835
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 21.726666666666667,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.01687634243633,
+    "cost50": 6.857931880945075,
+    "coverage": 0.9943820224719101
+   },
+   "replace|mc": {
+    "lives": 300,
+    "served": 33.93333333333333,
+    "failed": 0.03666666666666667,
+    "failed_ci": [
+     0.02059509146818067,
+     0.06445448699638771
+    ],
+    "cost10": 3.9194499017681728,
+    "cost50": 8.241650294695482,
+    "coverage": 0.9712718271151094
+   },
+   "replace|bayes": {
+    "lives": 300,
+    "served": 33.4,
+    "failed": 0.03333333333333333,
+    "failed_ci": [
+     0.018204749873650852,
+     0.0602624514575691
+    ],
+    "cost10": 3.8922155688622753,
+    "cost50": 7.884231536926148,
+    "coverage": 0.974231447571685
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 59.696666666666665,
+    "failed": 0.056666666666666664,
+    "failed_ci": [
+     0.03567717591318777,
+     0.08886666535147117
+    ],
+    "cost10": 2.529454464235859,
+    "cost50": 6.326428052934279,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 119.57666666666667,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 8.362835558776796,
+    "cost50": 41.81417779388398,
+    "coverage": null
+   },
+   "none|fix20_tbr60": {
+    "lives": 300,
+    "served": 59.166666666666664,
+    "failed": 0.08333333333333333,
+    "failed_ci": [
+     0.05708047735632001,
+     0.12012238097512637
+    ],
+    "cost10": 2.9577464788732395,
+    "cost50": 8.591549295774648,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 30.546666666666667,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "cost10": 3.9611523352247926,
+    "cost50": 7.016586643387167,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 31.463333333333335,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "cost10": 3.8457463714376523,
+    "cost50": 6.812162305328954,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 25.493333333333332,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 4.393305439330544,
+    "cost50": 6.485355648535565,
+    "coverage": null
+   },
+   "none|mc_opt50": {
+    "lives": 300,
+    "served": 20.163333333333334,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 5.10828236072078,
+    "cost50": 5.769548685733179,
+    "coverage": null
+   }
+  },
+  "C_boundary_coast_weak": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 11.373333333333333,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 9.58382180539273,
+    "cost50": 13.100820633059788,
+    "coverage": 0.9878472222222223
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 9.24,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 11.471861471861471,
+    "cost50": 14.357864357864358,
+    "coverage": 0.996268656716418
+   },
+   "replace|mc": {
+    "lives": 300,
+    "served": 14.8,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 7.972972972972973,
+    "cost50": 13.378378378378379,
+    "coverage": 0.9801412247648807
+   },
+   "replace|bayes": {
+    "lives": 300,
+    "served": 14.523333333333333,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 8.124856552673858,
+    "cost50": 13.633233876520542,
+    "coverage": 0.9802867383512545
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 42.55,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 23.501762632197416,
+    "cost50": 117.50881316098707,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 42.55,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 23.501762632197416,
+    "cost50": 117.50881316098707,
+    "coverage": null
+   },
+   "none|fix20_tbr60": {
+    "lives": 300,
+    "served": 54.89666666666667,
+    "failed": 0.5033333333333333,
+    "failed_ci": [
+     0.44707091826263046,
+     0.559511458870718
+    ],
+    "cost10": 10.07347137045358,
+    "cost50": 46.74843645637258,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 13.27,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 8.892238131122834,
+    "cost50": 14.92087415222306,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 14.423333333333334,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 7.973191587705108,
+    "cost50": 12.595331638548648,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 11.803333333333333,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 9.234679469076532,
+    "cost50": 12.623552668737645,
+    "coverage": null
+   },
+   "none|mc_opt50": {
+    "lives": 300,
+    "served": 9.353333333333333,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 11.012116892373486,
+    "cost50": 12.437633642195296,
+    "coverage": null
+   }
+  },
+  "V_evidence_cruise_ideal": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 136.81666666666666,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 0.7309051041539774,
+    "cost50": 0.7309051041539774,
+    "coverage": 1.0
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 124.48,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 0.8033419023136247,
+    "cost50": 0.8033419023136247,
+    "coverage": 1.0
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 240.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 0.4166666666666667,
+    "cost50": 0.4166666666666667,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 148.22,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 0.6746727836999056,
+    "cost50": 0.6746727836999056,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 145.91333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 0.6853383286882624,
+    "cost50": 0.6853383286882624,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 123.61,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 0.808996035919424,
+    "cost50": 0.808996035919424,
+    "coverage": null
+   }
+  },
+  "V_evidence_cruise_real": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 75.34333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.3272574437021634,
+    "cost50": 1.3272574437021634,
+    "coverage": 1.0
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 67.09333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.4904610492845787,
+    "cost50": 1.4904610492845787,
+    "coverage": 1.0
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 240.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 0.4166666666666667,
+    "cost50": 0.4166666666666667,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 82.07666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.218373065832758,
+    "cost50": 1.218373065832758,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 79.99333333333334,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.2501041753479456,
+    "cost50": 1.2501041753479456,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 66.33666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.5074619365861013,
+    "cost50": 1.5074619365861013,
+    "coverage": null
+   }
+  },
+  "V_evidence_coast_ideal": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 84.64666666666666,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.181381428683941,
+    "cost50": 1.181381428683941,
+    "coverage": 1.0
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 75.25333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.3288447909284196,
+    "cost50": 1.3288447909284196,
+    "coverage": 1.0
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 234.48,
+    "failed": 0.12,
+    "failed_ci": [
+     0.08795033863213894,
+     0.16165866816614016
+    ],
+    "cost10": 0.8870692596383487,
+    "cost50": 2.9341521664960766,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 92.84333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.0770832585358847,
+    "cost50": 1.0770832585358847,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 93.02666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.0749605847785582,
+    "cost50": 1.0749605847785582,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 76.12666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.3136001401173483,
+    "cost50": 1.3136001401173483,
+    "coverage": null
+   }
+  },
+  "V_evidence_coast_real": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 41.46333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.411769434842029,
+    "cost50": 2.411769434842029,
+    "coverage": 1.0
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 36.516666666666666,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.7384755819260613,
+    "cost50": 2.7384755819260613,
+    "coverage": 1.0
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 234.48,
+    "failed": 0.12,
+    "failed_ci": [
+     0.08795033863213894,
+     0.16165866816614016
+    ],
+    "cost10": 0.8870692596383487,
+    "cost50": 2.9341521664960766,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 45.766666666666666,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.184996358339403,
+    "cost50": 2.184996358339403,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 46.22,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.163565556036348,
+    "cost50": 2.163565556036348,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 37.7,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.6525198938992043,
+    "cost50": 2.6525198938992043,
+    "coverage": null
+   }
+  },
+  "V_boundary_cruise_ideal": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 43.76,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 2.5594149908592323,
+    "cost50": 3.778184034125533,
+    "coverage": 0.9952548192319232
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 39.483333333333334,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 2.68467707893626,
+    "cost50": 3.360067539046011,
+    "coverage": 0.9967261904761906
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 59.89,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 1.7699115044247788,
+    "cost50": 2.2151722602549118,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 124.22,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 8.050233456770247,
+    "cost50": 40.25116728385123,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 47.28,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 2.4323181049069373,
+    "cost50": 3.842357586012408,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 45.67,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 2.3209984672651633,
+    "cost50": 2.9048974527406757,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 37.22666666666667,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 2.766833810888252,
+    "cost50": 3.125,
+    "coverage": null
+   }
+  },
+  "V_boundary_cruise_real": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 26.623333333333335,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 3.868786778515087,
+    "cost50": 4.369600600976587,
+    "coverage": 0.9982817869415808
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 23.96,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 4.298831385642738,
+    "cost50": 4.855314412910406,
+    "coverage": 0.9982638888888888
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 59.89,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 1.7699115044247788,
+    "cost50": 2.2151722602549118,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 124.22,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 8.050233456770247,
+    "cost50": 40.25116728385123,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 28.826666666666668,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 3.5730804810360777,
+    "cost50": 4.035615171137835,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 27.953333333333333,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 3.684712616265204,
+    "cost50": 4.16169806820892,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 22.95,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 4.4880174291939,
+    "cost50": 5.068990559186638,
+    "coverage": null
+   }
+  },
+  "V_boundary_coast_ideal": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 19.143333333333334,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 5.5371756921469615,
+    "cost50": 6.930175866271983,
+    "coverage": 0.9888564213564214
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 17.166666666666668,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 6.174757281553398,
+    "cost50": 7.728155339805825,
+    "coverage": 0.9936493055555555
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 43.97,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 22.742779167614284,
+    "cost50": 113.71389583807141,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 43.97,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 22.742779167614284,
+    "cost50": 113.71389583807141,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 20.85,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 5.371702637889689,
+    "cost50": 7.929656274980016,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 21.30666666666667,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 5.256570713391739,
+    "cost50": 7.759699624530663,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 17.616666666666667,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 6.017029328287607,
+    "cost50": 7.530747398297067,
+    "coverage": null
+   }
+  },
+  "V_boundary_coast_real": {
+   "replace|paired": {
+    "lives": 300,
+    "served": 14.383333333333333,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 7.161066048667439,
+    "cost50": 8.088064889918888,
+    "coverage": 0.9948979591836735
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 12.88,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 7.996894409937888,
+    "cost50": 9.032091097308488,
+    "coverage": 0.9978701825557809
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 43.97,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 22.742779167614284,
+    "cost50": 113.71389583807141,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 43.97,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 22.742779167614284,
+    "cost50": 113.71389583807141,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 15.68,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 6.951530612244898,
+    "cost50": 9.502551020408163,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 15.923333333333334,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 6.845300397739167,
+    "cost50": 9.357337240946201,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 13.203333333333333,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 7.801060338298409,
+    "cost50": 8.81090633678364,
+    "coverage": null
+   }
+  },
+  "C_evidence_cruise": {
+   "reserve|union": {
+    "lives": 300,
+    "served": 40.83,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.449179524859172,
+    "cost50": 2.449179524859172,
+    "coverage": 1.0
+   },
+   "reserve|paired": {
+    "lives": 300,
+    "served": 46.39,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.155636990730761,
+    "cost50": 2.155636990730761,
+    "coverage": 1.0
+   },
+   "reserve|split0": {
+    "lives": 300,
+    "served": 46.14333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.1671602976233477,
+    "cost50": 2.1671602976233477,
+    "coverage": 1.0
+   },
+   "reserve|reuse": {
+    "lives": 300,
+    "served": 45.04666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.2199200828770165,
+    "cost50": 2.2199200828770165,
+    "coverage": 1.0
+   },
+   "reserve|aci": {
+    "lives": 300,
+    "served": 49.873333333333335,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.0050795348215478,
+    "cost50": 2.0050795348215478,
+    "coverage": 1.0
+   },
+   "reserve|mc": {
+    "lives": 300,
+    "served": 52.49666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.9048828497047432,
+    "cost50": 1.9048828497047432,
+    "coverage": 1.0
+   },
+   "reserve|bayes": {
+    "lives": 300,
+    "served": 51.87,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.92789666473877,
+    "cost50": 1.92789666473877,
+    "coverage": 1.0
+   },
+   "pass|union": {
+    "lives": 300,
+    "served": 40.663333333333334,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.459217968685958,
+    "cost50": 2.459217968685958,
+    "coverage": 1.0
+   },
+   "pass|paired": {
+    "lives": 300,
+    "served": 46.19,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.164970772894566,
+    "cost50": 2.164970772894566,
+    "coverage": 1.0
+   },
+   "fixed20|union": {
+    "lives": 300,
+    "served": 32.47,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 3.079765937788728,
+    "cost50": 3.079765937788728,
+    "coverage": 1.0
+   },
+   "fixed20|paired": {
+    "lives": 300,
+    "served": 36.88666666666666,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.7110066871498284,
+    "cost50": 2.7110066871498284,
+    "coverage": 1.0
+   },
+   "reserve_cap|union": {
+    "lives": 300,
+    "served": 40.82666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.449379490529066,
+    "cost50": 2.449379490529066,
+    "coverage": 1.0
+   },
+   "reserve_cap|paired": {
+    "lives": 300,
+    "served": 46.38666666666666,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.1557918942224776,
+    "cost50": 2.1557918942224776,
+    "coverage": 1.0
+   },
+   "reserve_budget|union": {
+    "lives": 300,
+    "served": 40.83,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.449179524859172,
+    "cost50": 2.449179524859172,
+    "coverage": 1.0
+   },
+   "reserve_budget|paired": {
+    "lives": 300,
+    "served": 46.39,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.155636990730761,
+    "cost50": 2.155636990730761,
+    "coverage": 1.0
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 40.6,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.4630541871921183,
+    "cost50": 2.4630541871921183,
+    "coverage": 1.0
+   },
+   "replace|paired": {
+    "lives": 300,
+    "served": 46.14333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.1671602976233477,
+    "cost50": 2.1671602976233477,
+    "coverage": 1.0
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 240.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 0.4166666666666667,
+    "cost50": 0.4166666666666667,
+    "coverage": null
+   },
+   "none|fix20_tbr60": {
+    "lives": 300,
+    "served": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 50.596666666666664,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.9764147835825812,
+    "cost50": 1.9764147835825812,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 49.013333333333335,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.0402611534276387,
+    "cost50": 2.0402611534276387,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 39.95666666666666,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.5027112705430885,
+    "cost50": 2.5027112705430885,
+    "coverage": null
+   },
+   "none|mc_opt50": {
+    "lives": 300,
+    "served": 33.723333333333336,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.9653059207274883,
+    "cost50": 2.9653059207274883,
+    "coverage": null
+   }
+  },
+  "C_evidence_coast": {
+   "reserve|union": {
+    "lives": 300,
+    "served": 29.576666666666668,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 3.3810436154626395,
+    "cost50": 3.3810436154626395,
+    "coverage": 1.0
+   },
+   "reserve|paired": {
+    "lives": 300,
+    "served": 32.39333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 3.0870549495781026,
+    "cost50": 3.0870549495781026,
+    "coverage": 1.0
+   },
+   "reserve|split0": {
+    "lives": 300,
+    "served": 19.206666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 5.206525511975008,
+    "cost50": 5.206525511975008,
+    "coverage": 1.0
+   },
+   "reserve|reuse": {
+    "lives": 300,
+    "served": 31.58,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 3.1665611146295123,
+    "cost50": 3.1665611146295123,
+    "coverage": 1.0
+   },
+   "reserve|aci": {
+    "lives": 300,
+    "served": 32.96,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 3.033980582524272,
+    "cost50": 3.033980582524272,
+    "coverage": 1.0
+   },
+   "reserve|mc": {
+    "lives": 300,
+    "served": 35.68666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.8021670091537456,
+    "cost50": 2.8021670091537456,
+    "coverage": 1.0
+   },
+   "reserve|bayes": {
+    "lives": 300,
+    "served": 35.36666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 2.827521206409048,
+    "cost50": 2.827521206409048,
+    "coverage": 1.0
+   },
+   "pass|union": {
+    "lives": 300,
+    "served": 17.336666666666666,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 5.768121515093251,
+    "cost50": 5.768121515093251,
+    "coverage": 1.0
+   },
+   "pass|paired": {
+    "lives": 300,
+    "served": 19.65,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 5.089058524173028,
+    "cost50": 5.089058524173028,
+    "coverage": 1.0
+   },
+   "fixed20|union": {
+    "lives": 300,
+    "served": 21.216666666666665,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 4.713275726630008,
+    "cost50": 4.713275726630008,
+    "coverage": 1.0
+   },
+   "fixed20|paired": {
+    "lives": 300,
+    "served": 24.053333333333335,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 4.157427937915743,
+    "cost50": 4.157427937915743,
+    "coverage": 1.0
+   },
+   "reserve_cap|union": {
+    "lives": 300,
+    "served": 20.953333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 4.772510340439071,
+    "cost50": 4.772510340439071,
+    "coverage": 1.0
+   },
+   "reserve_cap|paired": {
+    "lives": 300,
+    "served": 23.703333333333333,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 4.218815918998734,
+    "cost50": 4.218815918998734,
+    "coverage": 1.0
+   },
+   "reserve_budget|union": {
+    "lives": 300,
+    "served": 23.546666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 4.246885617214043,
+    "cost50": 4.246885617214043,
+    "coverage": 1.0
+   },
+   "reserve_budget|paired": {
+    "lives": 300,
+    "served": 26.53,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 3.769317753486619,
+    "cost50": 3.769317753486619,
+    "coverage": 1.0
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 16.876666666666665,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 5.925340707090657,
+    "cost50": 5.925340707090657,
+    "coverage": 1.0
+   },
+   "replace|paired": {
+    "lives": 300,
+    "served": 19.206666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 5.206525511975008,
+    "cost50": 5.206525511975008,
+    "coverage": 1.0
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 234.48,
+    "failed": 0.12,
+    "failed_ci": [
+     0.08795033863213894,
+     0.16165866816614016
+    ],
+    "cost10": 0.8870692596383487,
+    "cost50": 2.9341521664960766,
+    "coverage": null
+   },
+   "none|fix20_tbr60": {
+    "lives": 300,
+    "served": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 21.216666666666665,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 4.713275726630008,
+    "cost50": 4.713275726630008,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 21.57,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 4.6360686138154845,
+    "cost50": 4.6360686138154845,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 17.80666666666667,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 5.615874204417821,
+    "cost50": 5.615874204417821,
+    "coverage": null
+   },
+   "none|mc_opt50": {
+    "lives": 300,
+    "served": 14.94,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "cost10": 6.693440428380187,
+    "cost50": 6.693440428380187,
+    "coverage": null
+   }
+  },
+  "C_boundary_cruise": {
+   "reserve|union": {
+    "lives": 300,
+    "served": 40.75,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 2.895705521472393,
+    "cost50": 4.858895705521473,
+    "coverage": 0.9882096324905475
+   },
+   "reserve|paired": {
+    "lives": 300,
+    "served": 44.85,
+    "failed": 0.03333333333333333,
+    "failed_ci": [
+     0.018204749873650852,
+     0.0602624514575691
+    ],
+    "cost10": 2.898550724637681,
+    "cost50": 5.87142326272761,
+    "coverage": 0.9834066685155161
+   },
+   "reserve|split0": {
+    "lives": 300,
+    "served": 44.60333333333333,
+    "failed": 0.03333333333333333,
+    "failed_ci": [
+     0.018204749873650852,
+     0.0602624514575691
+    ],
+    "cost10": 2.914580375158807,
+    "cost50": 5.903893580449892,
+    "coverage": 0.9834066685155161
+   },
+   "reserve|reuse": {
+    "lives": 300,
+    "served": 44.11666666666667,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "cost10": 2.742727616169248,
+    "cost50": 4.858330185115225,
+    "coverage": 0.9832199402120816
+   },
+   "reserve|aci": {
+    "lives": 300,
+    "served": 45.6,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 2.5219298245614037,
+    "cost50": 3.9839181286549707,
+    "coverage": 0.983752655914326
+   },
+   "reserve|mc": {
+    "lives": 300,
+    "served": 50.343333333333334,
+    "failed": 0.043333333333333335,
+    "failed_ci": [
+     0.025496203603204263,
+     0.07271812912806098
+    ],
+    "cost10": 2.7610408528106998,
+    "cost50": 6.204065417466729,
+    "coverage": 0.9729382108040349
+   },
+   "reserve|bayes": {
+    "lives": 300,
+    "served": 49.74666666666667,
+    "failed": 0.03666666666666667,
+    "failed_ci": [
+     0.02059509146818067,
+     0.06445448699638771
+    ],
+    "cost10": 2.673545966228893,
+    "cost50": 5.621817207183061,
+    "coverage": 0.9730582858485335
+   },
+   "pass|union": {
+    "lives": 300,
+    "served": 40.583333333333336,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 2.9075975359342916,
+    "cost50": 4.878850102669404,
+    "coverage": 0.9882096324905475
+   },
+   "pass|paired": {
+    "lives": 300,
+    "served": 44.64333333333333,
+    "failed": 0.03333333333333333,
+    "failed_ci": [
+     0.018204749873650852,
+     0.0602624514575691
+    ],
+    "cost10": 2.911968938997984,
+    "cost50": 5.8986037482266855,
+    "coverage": 0.9834066685155161
+   },
+   "fixed20|union": {
+    "lives": 300,
+    "served": 32.343333333333334,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 3.555601360403999,
+    "cost50": 5.616819540348346,
+    "coverage": 0.9866656768239755
+   },
+   "fixed20|paired": {
+    "lives": 300,
+    "served": 35.57,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "cost10": 3.4017430418892327,
+    "cost50": 6.025677068690844,
+    "coverage": 0.9846316417809268
+   },
+   "reserve_cap|union": {
+    "lives": 300,
+    "served": 40.75,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 2.895705521472393,
+    "cost50": 4.858895705521473,
+    "coverage": 0.9882096324905475
+   },
+   "reserve_cap|paired": {
+    "lives": 300,
+    "served": 44.85,
+    "failed": 0.03333333333333333,
+    "failed_ci": [
+     0.018204749873650852,
+     0.0602624514575691
+    ],
+    "cost10": 2.898550724637681,
+    "cost50": 5.87142326272761,
+    "coverage": 0.9834066685155161
+   },
+   "reserve_budget|union": {
+    "lives": 300,
+    "served": 40.75,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 2.895705521472393,
+    "cost50": 4.858895705521473,
+    "coverage": 0.9882096324905475
+   },
+   "reserve_budget|paired": {
+    "lives": 300,
+    "served": 44.85,
+    "failed": 0.03333333333333333,
+    "failed_ci": [
+     0.018204749873650852,
+     0.0602624514575691
+    ],
+    "cost10": 2.898550724637681,
+    "cost50": 5.87142326272761,
+    "coverage": 0.9834066685155161
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 40.516666666666666,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 2.9123817359111475,
+    "cost50": 4.886877828054299,
+    "coverage": 0.9882096324905475
+   },
+   "replace|paired": {
+    "lives": 300,
+    "served": 44.60333333333333,
+    "failed": 0.03333333333333333,
+    "failed_ci": [
+     0.018204749873650852,
+     0.0602624514575691
+    ],
+    "cost10": 2.914580375158807,
+    "cost50": 5.903893580449892,
+    "coverage": 0.9834066685155161
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 59.89,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 1.7699115044247788,
+    "cost50": 2.2151722602549118,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 124.22,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 8.050233456770247,
+    "cost50": 40.25116728385123,
+    "coverage": null
+   },
+   "none|fix20_tbr60": {
+    "lives": 300,
+    "served": 59.84,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 1.821524064171123,
+    "cost50": 2.4899732620320854,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 48.17333333333333,
+    "failed": 0.03333333333333333,
+    "failed_ci": [
+     0.018204749873650852,
+     0.0602624514575691
+    ],
+    "cost10": 2.698588430667036,
+    "cost50": 5.46637143647938,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 47.13,
+    "failed": 0.02666666666666667,
+    "failed_ci": [
+     0.013572906766976815,
+     0.051729540297546284
+    ],
+    "cost10": 2.631020581370677,
+    "cost50": 4.894264092227173,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 38.623333333333335,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 2.6667817381548287,
+    "cost50": 3.0119962026408906,
+    "coverage": null
+   },
+   "none|mc_opt50": {
+    "lives": 300,
+    "served": 32.583333333333336,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 3.161125319693095,
+    "cost50": 3.5703324808184145,
+    "coverage": null
+   }
+  },
+  "C_boundary_coast": {
+   "reserve|union": {
+    "lives": 300,
+    "served": 29.89,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.5463365674138507,
+    "cost50": 4.438496710159473,
+    "coverage": 0.9900116989100041
+   },
+   "reserve|paired": {
+    "lives": 300,
+    "served": 32.06333333333333,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 3.493086599438611,
+    "cost50": 5.156461170599854,
+    "coverage": 0.9848303294381726
+   },
+   "reserve|split0": {
+    "lives": 300,
+    "served": 18.746666666666666,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 5.974395448079658,
+    "cost50": 8.819345661450924,
+    "coverage": 0.9864889022643033
+   },
+   "reserve|reuse": {
+    "lives": 300,
+    "served": 31.733333333333334,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 3.5294117647058822,
+    "cost50": 5.2100840336134455,
+    "coverage": 0.9848278381297249
+   },
+   "reserve|aci": {
+    "lives": 300,
+    "served": 31.19333333333333,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.3981620004274418,
+    "cost50": 4.253045522547553,
+    "coverage": 0.9847297056814365
+   },
+   "reserve|mc": {
+    "lives": 300,
+    "served": 34.98,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 3.373356203544883,
+    "cost50": 5.660377358490566,
+    "coverage": 0.9744388327721661
+   },
+   "reserve|bayes": {
+    "lives": 300,
+    "served": 34.68666666666667,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 3.3153949644435903,
+    "cost50": 5.237363059773208,
+    "coverage": 0.9759539842873177
+   },
+   "pass|union": {
+    "lives": 300,
+    "served": 17.316666666666666,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 6.121270452358036,
+    "cost50": 7.661212704523581,
+    "coverage": 0.992698224070773
+   },
+   "pass|paired": {
+    "lives": 300,
+    "served": 19.213333333333335,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 5.9854267869535045,
+    "cost50": 9.455239417071478,
+    "coverage": 0.986487005021184
+   },
+   "fixed20|union": {
+    "lives": 300,
+    "served": 21.153333333333332,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.15285219035613,
+    "cost50": 7.043807122596911,
+    "coverage": 0.9899305958692932
+   },
+   "fixed20|paired": {
+    "lives": 300,
+    "served": 23.413333333333334,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 5.039863325740319,
+    "cost50": 8.456719817767654,
+    "coverage": 0.9833576505798728
+   },
+   "reserve_cap|union": {
+    "lives": 300,
+    "served": 20.88,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.2203065134099615,
+    "cost50": 7.136015325670498,
+    "coverage": 0.9899570756295901
+   },
+   "reserve_cap|paired": {
+    "lives": 300,
+    "served": 23.183333333333334,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 5.089863407620417,
+    "cost50": 8.540618260244429,
+    "coverage": 0.9833583377234171
+   },
+   "reserve_budget|union": {
+    "lives": 300,
+    "served": 23.543333333333333,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 4.629760724904432,
+    "cost50": 6.328755486337251,
+    "coverage": 0.988457230135496
+   },
+   "reserve_budget|paired": {
+    "lives": 300,
+    "served": 26.066666666666666,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 4.411764705882353,
+    "cost50": 6.969309462915601,
+    "coverage": 0.9831612773436672
+   },
+   "replace|union": {
+    "lives": 300,
+    "served": 16.85,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 6.29080118694362,
+    "cost50": 7.873392680514343,
+    "coverage": 0.9927364906466265
+   },
+   "replace|paired": {
+    "lives": 300,
+    "served": 18.746666666666666,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 5.974395448079658,
+    "cost50": 8.819345661450924,
+    "coverage": 0.9864889022643033
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 43.97,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 22.742779167614284,
+    "cost50": 113.71389583807141,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 43.97,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 22.742779167614284,
+    "cost50": 113.71389583807141,
+    "coverage": null
+   },
+   "none|fix20_tbr60": {
+    "lives": 300,
+    "served": 56.81666666666667,
+    "failed": 0.45,
+    "failed_ci": [
+     0.39468890948161645,
+     0.506575433518157
+    ],
+    "cost10": 8.888237019653857,
+    "cost50": 40.569081842182456,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 20.423333333333332,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 5.7777052391055985,
+    "cost50": 9.694793536804308,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 20.913333333333334,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 5.498884284348104,
+    "cost50": 8.686643289767293,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 17.30666666666667,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 6.1248073959938365,
+    "cost50": 7.665639445300462,
+    "coverage": null
+   },
+   "none|mc_opt50": {
+    "lives": 300,
+    "served": 14.543333333333333,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 7.2885629154251665,
+    "cost50": 9.12216364886546,
+    "coverage": null
+   }
+  }
+ },
+ "mission": {
+  "M_boundary_cruise_coast_dl": {
+   "cert|paired": {
+    "lives": 300,
+    "served": 28.816666666666666,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.6784268363215733,
+    "cost50": 4.603817235396183,
+    "coverage": 0.9733371891266628
+   },
+   "cert|paired stale": {
+    "lives": 300,
+    "served": 29.28,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.620218579234973,
+    "cost50": 4.530965391621129,
+    "coverage": 0.9710268670309654
+   },
+   "cert|union": {
+    "lives": 300,
+    "served": 26.64,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.978978978978979,
+    "cost50": 4.97997997997998,
+    "coverage": 0.9899274274274275
+   },
+   "cert|mc": {
+    "lives": 300,
+    "served": 31.626666666666665,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 3.731028667790894,
+    "cost50": 6.260539629005059,
+    "coverage": 0.9552065767284992
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 56.46,
+    "failed": 0.6133333333333333,
+    "failed_ci": [
+     0.5571234733195609,
+     0.6666773492142857
+    ],
+    "cost10": 11.547998583067658,
+    "cost50": 55.000590388475615,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 58.28,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 17.158544955387782,
+    "cost50": 85.79272477693891,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 39.38333333333333,
+    "failed": 0.3466666666666667,
+    "failed_ci": [
+     0.29505763866563084,
+     0.40215301320034147
+    ],
+    "cost10": 10.461278036394415,
+    "cost50": 45.670757511637746,
+    "coverage": null
+   },
+   "replan|cert_age": {
+    "lives": 300,
+    "served": 30.86,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 3.5320803629293582,
+    "cost50": 4.828256642903435,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 39.086666666666666,
+    "failed": 0.3333333333333333,
+    "failed_ci": [
+     0.2823925597902556,
+     0.3884885835423229
+    ],
+    "cost10": 10.233668770254136,
+    "cost50": 44.34589800443459,
+    "coverage": null
+   },
+   "replan|mc_age": {
+    "lives": 300,
+    "served": 31.05,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 3.7037037037037037,
+    "cost50": 5.850778314546431,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 34.7,
+    "failed": 0.21333333333333335,
+    "failed_ci": [
+     0.1707518836854917,
+     0.26316368284654346
+    ],
+    "cost10": 8.414985590778098,
+    "cost50": 33.00672430355427,
+    "coverage": null
+   },
+   "replan|mc_opt10": {
+    "lives": 300,
+    "served": 28.116666666666667,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.770005927682276,
+    "cost50": 4.718435091879075,
+    "coverage": null
+   },
+   "none|mc_opt50": {
+    "lives": 300,
+    "served": 30.53,
+    "failed": 0.12666666666666668,
+    "failed_ci": [
+     0.09369172511697449,
+     0.16908203594800147
+    ],
+    "cost10": 7.009498853586636,
+    "cost50": 23.605197073916365,
+    "coverage": null
+   },
+   "replan|mc_opt50": {
+    "lives": 300,
+    "served": 24.906666666666666,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 4.135438972162741,
+    "cost50": 4.670770877944325,
+    "coverage": null
+   },
+   "replan2|cert_age": {
+    "lives": 300,
+    "served": 30.91,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "cost10": 3.623422840504691,
+    "cost50": 5.348862288364067,
+    "coverage": null
+   },
+   "replan2|mc_age": {
+    "lives": 300,
+    "served": 31.09,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 3.6989385654551303,
+    "cost50": 5.843250777313177,
+    "coverage": null
+   },
+   "replan2|mc_opt10": {
+    "lives": 300,
+    "served": 28.346666666666668,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.7394167450611477,
+    "cost50": 4.6801505174035745,
+    "coverage": null
+   },
+   "replan2|mc_opt50": {
+    "lives": 300,
+    "served": 25.003333333333334,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 4.119450739901347,
+    "cost50": 4.652712971603786,
+    "coverage": null
+   },
+   "replan6|cert_age": {
+    "lives": 300,
+    "served": 31.003333333333334,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 3.709278572196538,
+    "cost50": 5.859584990861197,
+    "coverage": null
+   },
+   "replan6|mc_age": {
+    "lives": 300,
+    "served": 31.26,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 3.7747920665387076,
+    "cost50": 6.333973128598848,
+    "coverage": null
+   },
+   "replan6|mc_opt10": {
+    "lives": 300,
+    "served": 28.753333333333334,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.6865290980755856,
+    "cost50": 4.613957801993972,
+    "coverage": null
+   },
+   "replan6|mc_opt50": {
+    "lives": 300,
+    "served": 25.36,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 4.061514195583596,
+    "cost50": 4.587276550998949,
+    "coverage": null
+   },
+   "replan12|cert_age": {
+    "lives": 300,
+    "served": 31.42,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 3.66008911521324,
+    "cost50": 5.781879906641205,
+    "coverage": null
+   },
+   "replan12|mc_age": {
+    "lives": 300,
+    "served": 31.793333333333333,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 3.7114699098343467,
+    "cost50": 6.227720696162717,
+    "coverage": null
+   },
+   "replan12|mc_opt10": {
+    "lives": 300,
+    "served": 29.626666666666665,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 3.577857785778578,
+    "cost50": 4.477947794779478,
+    "coverage": null
+   },
+   "replan12|mc_opt50": {
+    "lives": 300,
+    "served": 26.273333333333333,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 3.9203247906622685,
+    "cost50": 4.427810200456737,
+    "coverage": null
+   }
+  },
+  "M_boundary_cruise_coast_weak": {
+   "cert|paired": {
+    "lives": 300,
+    "served": 19.313333333333333,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 5.488436313427684,
+    "cost50": 6.869175008629617,
+    "coverage": 0.9747152226441146
+   },
+   "cert|paired stale": {
+    "lives": 300,
+    "served": 19.573333333333334,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 5.415531335149864,
+    "cost50": 6.777929155313352,
+    "coverage": 0.9738589918256131
+   },
+   "cert|union": {
+    "lives": 300,
+    "served": 16.83,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "cost10": 6.2982768865121805,
+    "cost50": 7.882749059219647,
+    "coverage": 0.9759358288770054
+   },
+   "cert|mc": {
+    "lives": 300,
+    "served": 23.636666666666667,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "cost10": 5.119165138908476,
+    "cost50": 9.067832463686363,
+    "coverage": 0.9600902552531377
+   },
+   "none|tbr60": {
+    "lives": 300,
+    "served": 54.74,
+    "failed": 0.6633333333333333,
+    "failed_ci": [
+     0.6080909561297259,
+     0.7144455234043472
+    ],
+    "cost10": 12.732919254658386,
+    "cost50": 61.20448179271709,
+    "coverage": null
+   },
+   "none|rtf": {
+    "lives": 300,
+    "served": 56.42333333333333,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "cost10": 17.72316417557748,
+    "cost50": 88.6158208778874,
+    "coverage": null
+   },
+   "none|cert_age": {
+    "lives": 300,
+    "served": 26.463333333333335,
+    "failed": 0.16,
+    "failed_ci": [
+     0.12285294152977377,
+     0.20574459086868646
+    ],
+    "cost10": 9.220304824285174,
+    "cost50": 33.40471092077088,
+    "coverage": null
+   },
+   "replan|cert_age": {
+    "lives": 300,
+    "served": 21.533333333333335,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.061919504643963,
+    "cost50": 6.919504643962848,
+    "coverage": null
+   },
+   "none|mc_age": {
+    "lives": 300,
+    "served": 27.966666666666665,
+    "failed": 0.17666666666666667,
+    "failed_ci": [
+     0.13767606902581717,
+     0.2238333490393852
+    ],
+    "cost10": 9.261025029797377,
+    "cost50": 34.529201430274135,
+    "coverage": null
+   },
+   "replan|mc_age": {
+    "lives": 300,
+    "served": 22.856666666666666,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 5.031354819892081,
+    "cost50": 7.948082251713577,
+    "coverage": null
+   },
+   "none|mc_opt10": {
+    "lives": 300,
+    "served": 23.89,
+    "failed": 0.12,
+    "failed_ci": [
+     0.08795033863213894,
+     0.16165866816614016
+    ],
+    "cost10": 8.706571787358728,
+    "cost50": 28.79866052741733,
+    "coverage": null
+   },
+   "replan|mc_opt10": {
+    "lives": 300,
+    "served": 20.83,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.232837253960634,
+    "cost50": 7.153144503120499,
+    "coverage": null
+   },
+   "none|mc_opt50": {
+    "lives": 300,
+    "served": 19.79,
+    "failed": 0.056666666666666664,
+    "failed_ci": [
+     0.03567717591318777,
+     0.08886666535147117
+    ],
+    "cost10": 7.6301162203132895,
+    "cost50": 19.0837123126158,
+    "coverage": null
+   },
+   "replan|mc_opt50": {
+    "lives": 300,
+    "served": 17.243333333333332,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 5.973323023390682,
+    "cost50": 6.7465687222114825,
+    "coverage": null
+   },
+   "replan2|cert_age": {
+    "lives": 300,
+    "served": 21.56,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.055658627087198,
+    "cost50": 6.910946196660483,
+    "coverage": null
+   },
+   "replan2|mc_age": {
+    "lives": 300,
+    "served": 22.916666666666668,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 5.0181818181818185,
+    "cost50": 7.927272727272728,
+    "coverage": null
+   },
+   "replan2|mc_opt10": {
+    "lives": 300,
+    "served": 20.87,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.222807858169621,
+    "cost50": 7.1394345951126015,
+    "coverage": null
+   },
+   "replan2|mc_opt50": {
+    "lives": 300,
+    "served": 17.25,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 5.971014492753623,
+    "cost50": 6.743961352657005,
+    "coverage": null
+   },
+   "replan6|cert_age": {
+    "lives": 300,
+    "served": 21.723333333333333,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.017646156206844,
+    "cost50": 6.858984195181832,
+    "coverage": null
+   },
+   "replan6|mc_age": {
+    "lives": 300,
+    "served": 23.14666666666667,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 5.097926267281106,
+    "cost50": 8.554147465437788,
+    "coverage": null
+   },
+   "replan6|mc_opt10": {
+    "lives": 300,
+    "served": 21.14666666666667,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 5.5800756620428755,
+    "cost50": 9.363177805800756,
+    "coverage": null
+   },
+   "replan6|mc_opt50": {
+    "lives": 300,
+    "served": 17.576666666666668,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "cost10": 5.860041721979898,
+    "cost50": 6.618623174663379,
+    "coverage": null
+   },
+   "replan12|cert_age": {
+    "lives": 300,
+    "served": 22.246666666666666,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "cost10": 5.169313754869643,
+    "cost50": 8.166017380881032,
+    "coverage": null
+   },
+   "replan12|mc_age": {
+    "lives": 300,
+    "served": 23.753333333333334,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "cost10": 5.094021891664328,
+    "cost50": 9.0232949761437,
+    "coverage": null
+   },
+   "replan12|mc_opt10": {
+    "lives": 300,
+    "served": 21.76,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "cost10": 5.422794117647059,
+    "cost50": 9.099264705882353,
+    "coverage": null
+   },
+   "replan12|mc_opt50": {
+    "lives": 300,
+    "served": 18.226666666666667,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "cost10": 5.980248719824433,
+    "cost50": 8.174835405998538,
+    "coverage": null
+   }
+  }
+ },
+ "e3_design": {
+  "factors": [
+   1.0,
+   1.5,
+   2.0
+  ],
+  "anchors": [
+   0,
+   5,
+   10,
+   20
+  ],
+  "alpha_S": 0.05,
+  "bench_swing_K": [
+   25.91,
+   73.97
+  ],
+  "cruise_x1.0": {
+   "0.0": {
+    "X_median_K": 23.01151282906313,
+    "p_test_0": 0.9999999999991619,
+    "p_test_5": 0.16666666666663188,
+    "p_test_10": 0.09090909090907925,
+    "p_test_20": 0.04761904761904407
+   },
+   "0.1": {
+    "X_median_K": 21.538784606655888,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666669,
+    "p_test_10": 0.0909090909090909,
+    "p_test_20": 0.04761904761904762
+   },
+   "0.2": {
+    "X_median_K": 19.770051143932232,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.0909090909090909,
+    "p_test_20": 0.04761904761904763
+   },
+   "0.3": {
+    "X_median_K": 17.89529824626895,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909093,
+    "p_test_20": 0.0476190476190476
+   },
+   "0.4": {
+    "X_median_K": 16.531616546877782,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666669,
+    "p_test_10": 0.09090909090909093,
+    "p_test_20": 0.04761904761904763
+   },
+   "0.5": {
+    "X_median_K": 14.40128232380327,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.0909090909090909,
+    "p_test_20": 0.04761904761904763
+   }
+  },
+  "cruise_x1.5": {
+   "0.0": {
+    "X_median_K": 37.2825709427857,
+    "p_test_0": 0.3728855815456447,
+    "p_test_5": 0.13013420627915037,
+    "p_test_10": 0.07882269035697365,
+    "p_test_20": 0.044069143655754574
+   },
+   "0.1": {
+    "X_median_K": 34.487373211953695,
+    "p_test_0": 0.6375383084513103,
+    "p_test_5": 0.15216511839927016,
+    "p_test_10": 0.08640164770353688,
+    "p_test_20": 0.04634659330067
+   },
+   "0.2": {
+    "X_median_K": 31.7963239077733,
+    "p_test_0": 0.9998765310338646,
+    "p_test_5": 0.16666333409211917,
+    "p_test_10": 0.09090811256236794,
+    "p_test_20": 0.047618781488756014
+   },
+   "0.3": {
+    "X_median_K": 28.72990573904591,
+    "p_test_0": 0.27633877211558877,
+    "p_test_5": 0.11565570107545614,
+    "p_test_10": 0.07320348384582624,
+    "p_test_20": 0.04223605892791942
+   },
+   "0.4": {
+    "X_median_K": 26.414269204103412,
+    "p_test_0": 0.8023457457477025,
+    "p_test_5": 0.1602938008559421,
+    "p_test_10": 0.0890031081517237,
+    "p_test_20": 0.04709660585261218
+   },
+   "0.5": {
+    "X_median_K": 22.424160284779862,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909091,
+    "p_test_20": 0.04761904761904761
+   }
+  },
+  "cruise_x2.0": {
+   "0.0": {
+    "X_median_K": 51.4929630765828,
+    "p_test_0": 0.8142487611289253,
+    "p_test_5": 0.15911283501850787,
+    "p_test_10": 0.08810788706032892,
+    "p_test_20": 0.046491470682139685
+   },
+   "0.1": {
+    "X_median_K": 47.35930332053811,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909091,
+    "p_test_20": 0.04761904761904761
+   },
+   "0.2": {
+    "X_median_K": 43.72379832916929,
+    "p_test_0": 0.9930805264213998,
+    "p_test_5": 0.16646819513690425,
+    "p_test_10": 0.09084863131895123,
+    "p_test_20": 0.04760178667424086
+   },
+   "0.3": {
+    "X_median_K": 39.71945685998624,
+    "p_test_0": 0.13817483492950197,
+    "p_test_5": 0.08173458426218613,
+    "p_test_10": 0.05802644958535807,
+    "p_test_20": 0.03671787841335915
+   },
+   "0.4": {
+    "X_median_K": 36.70223908022699,
+    "p_test_0": 0.6950015861430812,
+    "p_test_5": 0.1552990275408499,
+    "p_test_10": 0.08741567388583737,
+    "p_test_20": 0.04664088668591517
+   },
+   "0.5": {
+    "X_median_K": 31.306009842827585,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909091,
+    "p_test_20": 0.04761904761904763
+   }
+  },
+  "coast_x1.0": {
+   "0.0": {
+    "X_median_K": 38.60104875247221,
+    "p_test_0": 0.47855698732642216,
+    "p_test_5": 0.1410502321515987,
+    "p_test_10": 0.08271488276198627,
+    "p_test_20": 0.045269746210437944
+   },
+   "0.1": {
+    "X_median_K": 36.87015473598337,
+    "p_test_0": 0.9999999999213791,
+    "p_test_5": 0.16666666666447946,
+    "p_test_10": 0.09090909090843913,
+    "p_test_20": 0.04761904761886821
+   },
+   "0.2": {
+    "X_median_K": 32.005141399817816,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909091,
+    "p_test_20": 0.0476190476190476
+   },
+   "0.3": {
+    "X_median_K": 27.149824123646145,
+    "p_test_0": 0.9870549404284088,
+    "p_test_5": 0.1662952156794448,
+    "p_test_10": 0.090797399662608,
+    "p_test_20": 0.047588089777824825
+   },
+   "0.4": {
+    "X_median_K": 17.640487101260053,
+    "p_test_0": 0.9999991203755882,
+    "p_test_5": 0.16666629285477905,
+    "p_test_10": 0.09090892403681662,
+    "p_test_20": 0.047618980764442036
+   },
+   "0.5": {
+    "X_median_K": 14.885024898396708,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909091,
+    "p_test_20": 0.047619047619047616
+   }
+  },
+  "coast_x1.5": {
+   "0.0": {
+    "X_median_K": 59.029387959019076,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666669,
+    "p_test_10": 0.09090909090909091,
+    "p_test_20": 0.0476190476190476
+   },
+   "0.1": {
+    "X_median_K": 56.18011360200009,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666669,
+    "p_test_10": 0.09090909090909093,
+    "p_test_20": 0.04761904761904761
+   },
+   "0.2": {
+    "X_median_K": 48.969771822576575,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666669,
+    "p_test_10": 0.09090909090909091,
+    "p_test_20": 0.04761904761904762
+   },
+   "0.3": {
+    "X_median_K": 41.845851046270845,
+    "p_test_0": 0.9860758486472145,
+    "p_test_5": 0.16627412471809533,
+    "p_test_10": 0.09079187930113847,
+    "p_test_20": 0.04758674622845417
+   },
+   "0.4": {
+    "X_median_K": 33.953696236985,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666669,
+    "p_test_10": 0.0909090909090909,
+    "p_test_20": 0.04761904761904761
+   },
+   "0.5": {
+    "X_median_K": 23.195162473176644,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909088,
+    "p_test_20": 0.047619047619047616
+   }
+  },
+  "coast_x2.0": {
+   "0.0": {
+    "X_median_K": 79.2281216735826,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909093,
+    "p_test_20": 0.047619047619047616
+   },
+   "0.1": {
+    "X_median_K": 75.35623167474168,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666669,
+    "p_test_10": 0.09090909090909091,
+    "p_test_20": 0.047619047619047616
+   },
+   "0.2": {
+    "X_median_K": 65.7830215036095,
+    "p_test_0": 0.5127400482479774,
+    "p_test_5": 0.1438907694234385,
+    "p_test_10": 0.08368591412499288,
+    "p_test_20": 0.04555980209801484
+   },
+   "0.3": {
+    "X_median_K": 56.33221138089311,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.0909090909090909,
+    "p_test_20": 0.047619047619047616
+   },
+   "0.4": {
+    "X_median_K": 45.94548379993238,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.0909090909090909,
+    "p_test_20": 0.0476190476190476
+   },
+   "0.5": {
+    "X_median_K": 32.35424919886645,
+    "p_test_0": 1.0,
+    "p_test_5": 0.16666666666666666,
+    "p_test_10": 0.09090909090909093,
+    "p_test_20": 0.0476190476190476
+   }
+  }
+ }
+}

@@ -1,0 +1,36 @@
+\begin{table}[tbp]
+\centering
+\caption{Coverage and tightness of a single certificate for a new leg ($n_2=100$ recorded intervals, 200
+repetitions per cell, each with the outer and the inner module): coverage of the true end-of-interval damage and median
+ratio of the certificate to the oracle quantile of the true damage, over both modules.}
+\label{tab:p3-T3}
+\footnotesize
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccccc@{}}
+\toprule
+& \multicolumn{8}{c}{Truth at the margins} & \multicolumn{2}{c}{\makecell{Evidence truth,\\ratio, $\alpha=0.10$}} \\
+\cmidrule(lr){2-9}\cmidrule(l){10-11}
+& \multicolumn{2}{c}{$\alpha=0.10$, $n_1=20$} & \multicolumn{2}{c}{$\alpha=0.10$, $n_1=40$}
+& \multicolumn{2}{c}{$\alpha=0.05$, $n_1=40$} & \multicolumn{2}{c}{$\alpha=0.01$, $n_1=40$} & $n_1=20$ & $n_1=40$ \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Certificate & cov. & ratio & cov. & ratio & cov. & ratio & cov. & ratio & & \\
+\midrule
+box & 0.990 & 4.41 & 1.000 & 2.81 & 1.000 & 2.58 & 1.000 & 2.07 & 29.60 & 21.03 \\
+Monte Carlo & 0.965 & 3.33 & 0.983 & 1.91 & 0.993 & 1.88 & 1.000 & 1.76 & 21.37 & 14.70 \\
+Bayes & 0.970 & 3.38 & 0.983 & 1.93 & 0.995 & 1.91 & 1.000 & 1.80 & 21.84 & 14.85 \\
+union & 0.985 & 4.25 & 1.000 & 2.36 & 1.000 & 2.57 & 1.000 & $\infty$ & 28.53 & 17.72 \\
+paired & 0.965 & 3.56 & 0.980 & 1.97 & 0.998 & 2.04 & 1.000 & $\infty$ & 22.69 & 15.02 \\
+PAC & 1.000 & $\infty$ & 0.998 & 2.23 & 1.000 & $\infty$ & 1.000 & $\infty$ & $\infty$ & 16.72 \\
+paired, ideal anchor tests$^{\dagger}$ & -- & -- & -- & -- & -- & -- & -- & -- & 6.72 & 4.72 \\
+oracle$^{\dagger}$ & 0.900 & 1.00 & 0.900 & 1.00 & 0.950 & 1.00 & 0.985 & 1.00 & 1.00 & 1.00 \\
+\bottomrule
+\end{tabular*}
+
+\smallskip
+\begin{minipage}{\textwidth}\scriptsize
+$\infty$: infinite in every repetition (coverage then trivial). Under the evidence truth every certificate except
+the oracle covers 1.000 (ideal anchor tests: 1.000). Calibrated part of the paired certificate at the margins: 0.917 and 0.922 at $\alpha=0.10$, 0.955 at $\alpha=0.05$. Monte Carlo standard error of the paired
+coverage at the margins ($n_1=40$, $\alpha=0.10$; both modules of a repetition share a bench): 0.008.
+$^{\dagger}$Uses the truth; for analysis only.
+\end{minipage}
+\end{table}

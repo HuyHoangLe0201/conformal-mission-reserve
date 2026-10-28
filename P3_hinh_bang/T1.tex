@@ -1,0 +1,33 @@
+\begin{table}[tbp]
+\centering
+\caption{Sources of uncertainty in the end-of-interval damage, the data that inform them, and how each enters the
+certificate. Labels are observable when the quantity itself can be measured on the population or the mission before the
+decision.}
+\label{tab:p3-T1}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{3.4cm}@{}}
+\toprule
+Source & Enters through & Labels observable & Data in the case study & Treatment \\
+\midrule
+Strength scatter of the device population & log-strength $S$ of a device on the reference conditions
+$\mathcal T_{\mathrm{ref}}$ & yes: cycles to failure of bench devices at tested conditions & 34 modules in five runs
+\cite{hernes2021} & calibrated: ranks of the scores, level $\alpha$ (paired)
+or $\alpha_S$ (union) \\
+\addlinespace
+Mission variability & inputs $Z$ of a maintenance interval: timetable, dwell times, ambient & yes: recorded intervals,
+re-simulated under the deployed policy & 112 days of a high-speed corridor \cite{zhang2022hsr} & calibrated: paired with the scores (level $\alpha$) or own quantile (level $\alpha_V$) \\
+\addlinespace
+Lifetime extrapolation and damage accumulation & margin $\varepsilon_{ex}(x)$ on cycle lives off
+$\mathcal T_{\mathrm{ref}}$ (swing, heating time, current, minimum temperature, statistical part) and Miner factor
+$\kappa_M$ & no: no life is observed at field conditions (low swing, long heating time) before the decisions & published
+single-factor and mixed-loading tests \cite{junghaenel2017mr,choi2017,choi2018mr,hernes2021pcim,choi2017apec}; solder
+fatigue under long dwell \cite{engelmaier1983} & stated with confidence $1-\alpha_{ex}$ (Table~\ref{tab:p3-T5});
+anchor tests at field heating times replace the largest component \\
+\addlinespace
+Thermal response & upper thermal model used in the margined damage $V$ & partly: junction rise measured with test
+pulses in dwell windows and in operation & dwell windows of the timetable; thermal path degraded by 20--40\,\% at end
+of life (assumed) & stated with confidence $1-\alpha_{th}$; recalibrated each interval (Section~\ref{sec:infoloop}) \\
+\bottomrule
+\end{tabularx}
+\end{table}

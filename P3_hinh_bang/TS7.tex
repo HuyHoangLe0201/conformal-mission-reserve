@@ -1,0 +1,240 @@
+\begin{table}[htbp]
+\centering
+\caption{Closed loop against the maintenance baselines (300 lives per truth and driving strategy, common to all rows of
+a block, $\alpha=0.10$): served intervals, failed lives with Wilson 95\,\% interval, coverage per decision pooled over the
+decisions and both modules, late sections, cost per 100 intervals in units of a planned replacement when a failure
+costs $c_F$ and an interval with every section late costs $c_L$ (0 unless given), and mean true damage at replacement over
+the lives without failure. Run to failure is censored at 240 intervals. (a) Cruising; (b) coasting; (c) drifting thermal
+scale $1.10(1+\rho D^\star)$, truth at the margins, cruising; (d) cheapest fixed age without derating, from the
+run-to-failure lives (true lives known, ex post).}
+\label{tab:S7}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\textit{(a) Cruising}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccccccc@{}}
+\toprule
+Policy (mean age) & \makecell{served\\intervals} & \makecell{failed (\%)} & \makecell{coverage per\\decision} &
+\makecell{late\\(\%)} & \makecell{cost,\\$c_F=10$} & \makecell{cost,\\$c_F=50$} & \makecell{$c_F=10$,\\$c_L=2$} &
+\makecell{$c_F=50$,\\$c_L=2$} & \makecell{damage at\\replacement} \\
+\midrule
+\multicolumn{10}{@{}l}{\textit{at the margins, cruising}} \\
+paired, reserve rule & 44.9 & 3.3 (1.8--6.0) & 0.966 & 0.0 & 2.90 & 5.87 & 2.92 & 5.89 & 0.35 \\
+union, reserve rule & 40.8 & 2.0 (0.9--4.3) & 0.974 & 0.0 & 2.90 & 4.86 & 2.91 & 4.88 & 0.32 \\
+Monte Carlo, reserve rule & 50.3 & 4.3 (2.5--7.3) & 0.943 & 0.0 & 2.76 & 6.20 & 2.78 & 6.22 & 0.39 \\
+paired, late budget & 44.9 & 3.3 (1.8--6.0) & 0.966 & 0.0 & 2.90 & 5.87 & 2.92 & 5.89 & 0.35 \\
+union, late budget & 40.8 & 2.0 (0.9--4.3) & 0.974 & 0.0 & 2.90 & 4.86 & 2.91 & 4.88 & 0.32 \\
+paired, replacement only & 44.6 & 3.3 (1.8--6.0) & 0.966 & 0.0 & 2.91 & 5.90 & 2.91 & 5.90 & 0.35 \\
+union, replacement only & 40.5 & 2.0 (0.9--4.3) & 0.974 & 0.0 & 2.91 & 4.89 & 2.91 & 4.89 & 0.32 \\
+planned 60 intervals & 59.9 & 0.7 (0.2--2.4) & -- & 0.0 & 1.77 & 2.22 & 1.77 & 2.22 & 0.49 \\
+20\,\% and planned 60 & 59.8 & 1.0 (0.3--2.9) & -- & 1.5 & 1.82 & 2.49 & 4.74 & 5.41 & 0.55 \\
+commissioning certificate age (49) & 48.2 & 3.3 (1.8--6.0) & -- & 0.0 & 2.70 & 5.47 & 2.70 & 5.47 & 0.38 \\
+Monte Carlo B10 age (48) & 47.1 & 2.7 (1.4--5.2) & -- & 0.0 & 2.63 & 4.89 & 2.63 & 4.89 & 0.37 \\
+Monte Carlo optimal age, $c_F=10$ (39) & 38.6 & 0.3 (0.1--1.9) & -- & 0.0 & 2.67 & 3.01 & 2.67 & 3.01 & 0.32 \\
+run to failure & 124.2 & 100.0 (98.7--100.0) & -- & 0.0 & 8.05 & 40.25 & 8.05 & 40.25 & -- \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{evidence, cruising}} \\
+paired, reserve rule & 46.4 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.16 & 2.16 & 2.17 & 2.17 & 0.06 \\
+union, reserve rule & 40.8 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.45 & 2.45 & 2.48 & 2.48 & 0.05 \\
+Monte Carlo, reserve rule & 52.5 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 1.90 & 1.90 & 1.92 & 1.92 & 0.07 \\
+paired, late budget & 46.4 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.16 & 2.16 & 2.17 & 2.17 & 0.06 \\
+union, late budget & 40.8 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.45 & 2.45 & 2.48 & 2.48 & 0.05 \\
+paired, replacement only & 46.1 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.17 & 2.17 & 2.17 & 2.17 & 0.06 \\
+union, replacement only & 40.6 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.46 & 2.46 & 2.46 & 2.46 & 0.05 \\
+planned 60 intervals & 60.0 & 0.0 (0.0--1.3) & -- & 0.0 & 1.67 & 1.67 & 1.67 & 1.67 & 0.08 \\
+20\,\% and planned 60 & 60.0 & 0.0 (0.0--1.3) & -- & 1.5 & 1.67 & 1.67 & 4.59 & 4.59 & 0.05 \\
+commissioning certificate age (51) & 50.6 & 0.0 (0.0--1.3) & -- & 0.0 & 1.98 & 1.98 & 1.98 & 1.98 & 0.06 \\
+Monte Carlo B10 age (49) & 49.0 & 0.0 (0.0--1.3) & -- & 0.0 & 2.04 & 2.04 & 2.04 & 2.04 & 0.06 \\
+Monte Carlo optimal age, $c_F=10$ (40) & 40.0 & 0.0 (0.0--1.3) & -- & 0.0 & 2.50 & 2.50 & 2.50 & 2.50 & 0.05 \\
+run to failure & 240.0 & 0.0 (0.0--1.3) & -- & 0.0 & 0.42 & 0.42 & 0.42 & 0.42 & 0.31 \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{adverse, cruising}} \\
+paired, reserve rule & 46.5 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.15 & 2.15 & 2.17 & 2.17 & 0.25 \\
+union, reserve rule & 42.3 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.37 & 2.37 & 2.38 & 2.38 & 0.23 \\
+Monte Carlo, reserve rule & 52.9 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 1.89 & 1.89 & 1.91 & 1.91 & 0.28 \\
+paired, late budget & 46.5 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.15 & 2.15 & 2.17 & 2.17 & 0.25 \\
+union, late budget & 42.3 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.37 & 2.37 & 2.38 & 2.38 & 0.23 \\
+paired, replacement only & 46.3 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.16 & 2.16 & 2.16 & 2.16 & 0.25 \\
+union, replacement only & 42.1 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 2.38 & 2.38 & 2.38 & 2.38 & 0.23 \\
+planned 60 intervals & 60.0 & 0.0 (0.0--1.3) & -- & 0.0 & 1.67 & 1.67 & 1.67 & 1.67 & 0.32 \\
+20\,\% and planned 60 & 60.0 & 0.3 (0.1--1.9) & -- & 1.5 & 1.72 & 1.94 & 4.64 & 4.86 & 0.31 \\
+commissioning certificate age (51) & 50.8 & 0.0 (0.0--1.3) & -- & 0.0 & 1.97 & 1.97 & 1.97 & 1.97 & 0.27 \\
+Monte Carlo B10 age (49) & 49.4 & 0.0 (0.0--1.3) & -- & 0.0 & 2.02 & 2.02 & 2.02 & 2.02 & 0.27 \\
+Monte Carlo optimal age, $c_F=10$ (40) & 40.3 & 0.0 (0.0--1.3) & -- & 0.0 & 2.48 & 2.48 & 2.48 & 2.48 & 0.22 \\
+run to failure & 192.0 & 72.7 (67.4--77.4) & -- & 0.0 & 3.93 & 19.07 & 3.93 & 19.07 & 0.82 \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{beyond, cruising}} \\
+paired, reserve rule & 38.9 & 11.7 (8.5--15.8) & 0.875 & 0.0 & 5.27 & 17.26 & 5.29 & 17.28 & 0.43 \\
+union, reserve rule & 35.5 & 9.3 (6.5--13.2) & 0.886 & 0.0 & 5.18 & 15.69 & 5.20 & 15.71 & 0.40 \\
+Monte Carlo, reserve rule & 44.3 & 17.3 (13.5--22.0) & 0.809 & 0.0 & 5.77 & 21.41 & 5.80 & 21.43 & 0.47 \\
+paired, late budget & 38.9 & 11.7 (8.5--15.8) & 0.875 & 0.0 & 5.27 & 17.26 & 5.29 & 17.28 & 0.43 \\
+union, late budget & 35.5 & 9.3 (6.5--13.2) & 0.886 & 0.0 & 5.18 & 15.69 & 5.20 & 15.71 & 0.40 \\
+paired, replacement only & 38.6 & 11.7 (8.5--15.8) & 0.874 & 0.0 & 5.31 & 17.38 & 5.31 & 17.38 & 0.43 \\
+union, replacement only & 35.3 & 9.3 (6.5--13.2) & 0.886 & 0.0 & 5.21 & 15.80 & 5.21 & 15.80 & 0.40 \\
+planned 60 intervals & 58.2 & 20.0 (15.9--24.9) & -- & 0.0 & 4.81 & 18.56 & 4.81 & 18.56 & 0.69 \\
+20\,\% and planned 60 & 55.5 & 39.0 (33.7--44.6) & -- & 1.5 & 8.13 & 36.25 & 11.05 & 39.17 & 0.70 \\
+commissioning certificate age (46) & 42.7 & 14.7 (11.1--19.1) & -- & 0.0 & 5.44 & 19.19 & 5.44 & 19.19 & 0.47 \\
+Monte Carlo B10 age (45) & 41.9 & 14.0 (10.5--18.4) & -- & 0.0 & 5.39 & 18.76 & 5.39 & 18.76 & 0.46 \\
+Monte Carlo optimal age, $c_F=10$ (36) & 35.2 & 6.7 (4.4--10.1) & -- & 0.0 & 4.54 & 12.12 & 4.54 & 12.12 & 0.42 \\
+run to failure & 85.6 & 100.0 (98.7--100.0) & -- & 0.0 & 11.68 & 58.40 & 11.68 & 58.40 & -- \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[htbp]
+\ContinuedFloat
+\centering
+\caption{(continued)}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\textit{(b) Coasting}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccccccc@{}}
+\toprule
+Policy (mean age) & \makecell{served\\intervals} & \makecell{failed (\%)} & \makecell{coverage per\\decision} &
+\makecell{late\\(\%)} & \makecell{cost,\\$c_F=10$} & \makecell{cost,\\$c_F=50$} & \makecell{$c_F=10$,\\$c_L=2$} &
+\makecell{$c_F=50$,\\$c_L=2$} & \makecell{damage at\\replacement} \\
+\midrule
+\multicolumn{10}{@{}l}{\textit{at the margins, coasting}} \\
+paired, reserve rule & 32.1 & 1.3 (0.5--3.4) & 0.974 & 30.3 & 3.49 & 5.16 & 64.01 & 65.67 & 0.34 \\
+union, reserve rule & 29.9 & 0.7 (0.2--2.4) & 0.982 & 34.8 & 3.55 & 4.44 & 73.13 & 74.02 & 0.31 \\
+Monte Carlo, reserve rule & 35.0 & 2.0 (0.9--4.3) & 0.959 & 25.1 & 3.37 & 5.66 & 53.61 & 55.89 & 0.39 \\
+paired, late budget & 26.1 & 1.7 (0.7--3.8) & 0.970 & 4.5 & 4.41 & 6.97 & 13.50 & 16.06 & 0.38 \\
+union, late budget & 23.5 & 1.0 (0.3--2.9) & 0.978 & 4.6 & 4.63 & 6.33 & 13.85 & 15.55 & 0.35 \\
+paired, replacement only & 18.7 & 1.3 (0.5--3.4) & 0.981 & 0.0 & 5.97 & 8.82 & 5.97 & 8.82 & 0.43 \\
+union, replacement only & 16.9 & 0.7 (0.2--2.4) & 0.990 & 0.0 & 6.29 & 7.87 & 6.29 & 7.87 & 0.39 \\
+planned 60 intervals & 44.0 & 100.0 (98.7--100.0) & -- & 0.0 & 22.74 & 113.71 & 22.74 & 113.71 & -- \\
+20\,\% and planned 60 & 56.8 & 45.0 (39.5--50.7) & -- & 1.5 & 8.89 & 40.57 & 11.81 & 43.49 & 0.94 \\
+commissioning certificate age (21) & 20.4 & 2.0 (0.9--4.3) & -- & 0.0 & 5.78 & 9.69 & 5.78 & 9.69 & 0.47 \\
+Monte Carlo B10 age (21) & 20.9 & 1.7 (0.7--3.8) & -- & 0.0 & 5.50 & 8.69 & 5.50 & 8.69 & 0.48 \\
+Monte Carlo optimal age, $c_F=10$ (17) & 17.3 & 0.7 (0.2--2.4) & -- & 0.0 & 6.12 & 7.67 & 6.12 & 7.67 & 0.40 \\
+run to failure & 44.0 & 100.0 (98.7--100.0) & -- & 0.0 & 22.74 & 113.71 & 22.74 & 113.71 & -- \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{evidence, coasting}} \\
+paired, reserve rule & 32.4 & 0.0 (0.0--1.3) & 1.000 & 30.6 & 3.09 & 3.09 & 64.33 & 64.33 & 0.03 \\
+union, reserve rule & 29.6 & 0.0 (0.0--1.3) & 1.000 & 34.9 & 3.38 & 3.38 & 73.21 & 73.21 & 0.03 \\
+Monte Carlo, reserve rule & 35.7 & 0.0 (0.0--1.3) & 1.000 & 26.5 & 2.80 & 2.80 & 55.83 & 55.83 & 0.04 \\
+paired, late budget & 26.5 & 0.0 (0.0--1.3) & 1.000 & 4.5 & 3.77 & 3.77 & 12.76 & 12.76 & 0.04 \\
+union, late budget & 23.5 & 0.0 (0.0--1.3) & 1.000 & 4.6 & 4.25 & 4.25 & 13.42 & 13.42 & 0.04 \\
+paired, replacement only & 19.2 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 5.21 & 5.21 & 5.21 & 5.21 & 0.05 \\
+union, replacement only & 16.9 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 5.93 & 5.93 & 5.93 & 5.93 & 0.04 \\
+planned 60 intervals & 60.0 & 0.0 (0.0--1.3) & -- & 0.0 & 1.67 & 1.67 & 1.67 & 1.67 & 0.15 \\
+20\,\% and planned 60 & 60.0 & 0.0 (0.0--1.3) & -- & 1.5 & 1.67 & 1.67 & 4.59 & 4.59 & 0.11 \\
+commissioning certificate age (21) & 21.2 & 0.0 (0.0--1.3) & -- & 0.0 & 4.71 & 4.71 & 4.71 & 4.71 & 0.05 \\
+Monte Carlo B10 age (22) & 21.6 & 0.0 (0.0--1.3) & -- & 0.0 & 4.64 & 4.64 & 4.64 & 4.64 & 0.06 \\
+Monte Carlo optimal age, $c_F=10$ (18) & 17.8 & 0.0 (0.0--1.3) & -- & 0.0 & 5.62 & 5.62 & 5.62 & 5.62 & 0.05 \\
+run to failure & 234.5 & 12.0 (8.8--16.2) & -- & 0.0 & 0.89 & 2.93 & 0.89 & 2.93 & 0.53 \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{adverse, coasting}} \\
+paired, reserve rule & 33.1 & 0.0 (0.0--1.3) & 0.999 & 32.3 & 3.02 & 3.02 & 67.58 & 67.58 & 0.20 \\
+union, reserve rule & 30.6 & 0.0 (0.0--1.3) & 1.000 & 35.5 & 3.27 & 3.27 & 74.25 & 74.25 & 0.18 \\
+Monte Carlo, reserve rule & 36.8 & 0.0 (0.0--1.3) & 1.000 & 29.4 & 2.72 & 2.72 & 61.54 & 61.54 & 0.23 \\
+paired, late budget & 26.9 & 0.0 (0.0--1.3) & 1.000 & 4.6 & 3.72 & 3.72 & 12.99 & 12.99 & 0.24 \\
+union, late budget & 24.4 & 0.0 (0.0--1.3) & 1.000 & 4.7 & 4.10 & 4.10 & 13.41 & 13.41 & 0.21 \\
+paired, replacement only & 19.4 & 0.0 (0.0--1.3) & 0.999 & 0.0 & 5.16 & 5.16 & 5.16 & 5.16 & 0.27 \\
+union, replacement only & 17.5 & 0.0 (0.0--1.3) & 1.000 & 0.0 & 5.71 & 5.71 & 5.71 & 5.71 & 0.24 \\
+planned 60 intervals & 56.5 & 27.0 (22.3--32.3) & -- & 0.0 & 6.07 & 25.17 & 6.07 & 25.17 & 0.66 \\
+20\,\% and planned 60 & 59.0 & 10.0 (7.1--13.9) & -- & 1.5 & 3.22 & 10.00 & 6.14 & 12.92 & 0.55 \\
+commissioning certificate age (21) & 21.3 & 0.3 (0.1--1.9) & -- & 0.0 & 4.83 & 5.46 & 4.83 & 5.46 & 0.30 \\
+Monte Carlo B10 age (22) & 21.8 & 0.3 (0.1--1.9) & -- & 0.0 & 4.73 & 5.34 & 4.73 & 5.34 & 0.30 \\
+Monte Carlo optimal age, $c_F=10$ (18) & 18.0 & 0.0 (0.0--1.3) & -- & 0.0 & 5.56 & 5.56 & 5.56 & 5.56 & 0.25 \\
+run to failure & 86.6 & 100.0 (98.7--100.0) & -- & 0.0 & 11.55 & 57.74 & 11.55 & 57.74 & -- \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{beyond, coasting}} \\
+paired, reserve rule & 28.4 & 11.3 (8.2--15.4) & 0.858 & 30.5 & 7.12 & 23.10 & 68.16 & 84.14 & 0.43 \\
+union, reserve rule & 26.3 & 9.0 (6.3--12.8) & 0.866 & 34.6 & 6.88 & 20.57 & 76.09 & 89.78 & 0.40 \\
+Monte Carlo, reserve rule & 31.7 & 14.7 (11.1--19.1) & 0.828 & 25.6 & 7.31 & 25.80 & 58.55 & 77.04 & 0.49 \\
+paired, late budget & 23.2 & 11.7 (8.5--15.8) & 0.865 & 4.6 & 8.84 & 28.97 & 18.00 & 38.13 & 0.48 \\
+union, late budget & 21.0 & 8.3 (5.7--12.0) & 0.893 & 4.6 & 8.32 & 24.18 & 17.49 & 33.35 & 0.44 \\
+paired, replacement only & 17.0 & 16.3 (12.6--20.9) & 0.841 & 0.0 & 14.56 & 53.08 & 14.56 & 53.08 & 0.53 \\
+union, replacement only & 15.3 & 12.0 (8.8--16.2) & 0.878 & 0.0 & 13.55 & 44.82 & 13.55 & 44.82 & 0.49 \\
+planned 60 intervals & 31.3 & 98.7 (96.6--99.5) & -- & 0.0 & 31.52 & 157.42 & 31.52 & 157.42 & 0.93 \\
+20\,\% and planned 60 & 40.7 & 87.3 (83.1--90.6) & -- & 1.5 & 21.76 & 107.56 & 24.68 & 110.48 & 0.86 \\
+commissioning certificate age (20) & 18.7 & 20.7 (16.5--25.6) & -- & 0.0 & 15.28 & 59.45 & 15.28 & 59.45 & 0.57 \\
+Monte Carlo B10 age (20) & 19.1 & 24.7 (20.1--29.8) & -- & 0.0 & 16.89 & 68.62 & 16.89 & 68.62 & 0.56 \\
+Monte Carlo optimal age, $c_F=10$ (17) & 16.3 & 12.3 (9.1--16.5) & -- & 0.0 & 12.93 & 43.18 & 12.93 & 43.18 & 0.53 \\
+run to failure & 31.4 & 100.0 (98.7--100.0) & -- & 0.0 & 31.83 & 159.17 & 31.83 & 159.17 & -- \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[htbp]
+\ContinuedFloat
+\centering
+\caption{(continued)}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\textit{(c) Drifting thermal scale}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccccccc@{}}
+\toprule
+Policy (mean age) & \makecell{served\\intervals} & \makecell{failed (\%)} & \makecell{coverage per\\decision} &
+\makecell{late\\(\%)} & \makecell{cost,\\$c_F=10$} & \makecell{cost,\\$c_F=50$} & \makecell{$c_F=10$,\\$c_L=2$} &
+\makecell{$c_F=50$,\\$c_L=2$} & \makecell{damage at\\replacement} \\
+\midrule
+\multicolumn{10}{@{}l}{\textit{drift $\rho=0.2$, stated bound}} \\
+paired, reserve rule & 44.3 & 4.7 (2.8--7.7) & 0.952 & 0.0 & 3.20 & 7.42 & 3.22 & 7.43 & 0.37 \\
+union, reserve rule & 40.4 & 3.3 (1.8--6.0) & 0.962 & 0.0 & 3.22 & 6.52 & 3.23 & 6.53 & 0.34 \\
+Monte Carlo, reserve rule & 49.6 & 7.3 (4.9--10.9) & 0.926 & 0.0 & 3.35 & 9.26 & 3.36 & 9.28 & 0.40 \\
+planned 60 intervals & 59.9 & 1.3 (0.5--3.4) & -- & 0.0 & 1.87 & 2.76 & 1.87 & 2.76 & 0.53 \\
+20\,\% and planned 60 & 59.8 & 2.0 (0.9--4.3) & -- & 1.5 & 1.97 & 3.31 & 4.89 & 6.23 & 0.59 \\
+commissioning certificate age (49) & 47.6 & 6.3 (4.1--9.7) & -- & 0.0 & 3.30 & 8.62 & 3.30 & 8.62 & 0.39 \\
+Monte Carlo B10 age (48) & 46.6 & 5.3 (3.3--8.5) & -- & 0.0 & 3.18 & 7.75 & 3.18 & 7.75 & 0.39 \\
+Monte Carlo optimal age, $c_F=10$ (39) & 38.5 & 2.0 (0.9--4.3) & -- & 0.0 & 3.06 & 5.14 & 3.06 & 5.14 & 0.33 \\
+run to failure & 107.5 & 100.0 (98.7--100.0) & -- & 0.0 & 9.30 & 46.49 & 9.30 & 46.49 & -- \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{drift $\rho=0.2$, allowance 1.32}} \\
+paired, reserve rule & 37.3 & 1.3 (0.5--3.4) & 0.997 & 0.8 & 3.01 & 4.44 & 4.61 & 6.04 & 0.32 \\
+union, reserve rule & 33.6 & 0.7 (0.2--2.4) & 0.997 & 3.3 & 3.15 & 3.94 & 9.78 & 10.57 & 0.29 \\
+Monte Carlo, reserve rule & 41.9 & 1.7 (0.7--3.8) & 0.993 & 0.0 & 2.74 & 4.34 & 2.81 & 4.40 & 0.36 \\
+planned 60 intervals & 59.9 & 1.3 (0.5--3.4) & -- & 0.0 & 1.87 & 2.76 & 1.87 & 2.76 & 0.53 \\
+20\,\% and planned 60 & 59.8 & 2.0 (0.9--4.3) & -- & 1.5 & 1.97 & 3.31 & 4.89 & 6.23 & 0.59 \\
+commissioning certificate age (40) & 39.8 & 1.7 (0.7--3.8) & -- & 0.0 & 2.89 & 4.57 & 2.89 & 4.57 & 0.34 \\
+Monte Carlo B10 age (39) & 38.8 & 1.0 (0.3--2.9) & -- & 0.0 & 2.81 & 3.84 & 2.81 & 3.84 & 0.34 \\
+Monte Carlo optimal age, $c_F=10$ (32) & 31.7 & 0.3 (0.1--1.9) & -- & 0.0 & 3.25 & 3.67 & 3.25 & 3.67 & 0.28 \\
+run to failure & 107.5 & 100.0 (98.7--100.0) & -- & 0.0 & 9.30 & 46.49 & 9.30 & 46.49 & -- \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{drift $\rho=0.4$, stated bound}} \\
+paired, reserve rule & 43.5 & 9.7 (6.8--13.5) & 0.944 & 0.0 & 4.30 & 13.18 & 4.31 & 13.20 & 0.37 \\
+union, reserve rule & 39.9 & 6.0 (3.8--9.3) & 0.952 & 0.0 & 3.86 & 9.87 & 3.88 & 9.89 & 0.35 \\
+Monte Carlo, reserve rule & 48.5 & 13.3 (9.9--17.6) & 0.911 & 0.0 & 4.54 & 15.53 & 4.55 & 15.55 & 0.40 \\
+planned 60 intervals & 59.7 & 2.3 (1.1--4.7) & -- & 0.0 & 2.03 & 3.59 & 2.03 & 3.59 & 0.58 \\
+20\,\% and planned 60 & 59.7 & 2.7 (1.4--5.2) & -- & 1.5 & 2.08 & 3.87 & 5.00 & 6.79 & 0.64 \\
+commissioning certificate age (49) & 46.6 & 12.7 (9.4--16.9) & -- & 0.0 & 4.59 & 15.47 & 4.59 & 15.47 & 0.38 \\
+Monte Carlo B10 age (48) & 45.8 & 9.0 (6.3--12.8) & -- & 0.0 & 3.95 & 11.81 & 3.95 & 11.81 & 0.40 \\
+Monte Carlo optimal age, $c_F=10$ (39) & 38.3 & 3.7 (2.1--6.4) & -- & 0.0 & 3.48 & 7.31 & 3.48 & 7.31 & 0.34 \\
+run to failure & 94.1 & 100.0 (98.7--100.0) & -- & 0.0 & 10.63 & 53.14 & 10.63 & 53.14 & -- \\
+\addlinespace
+\multicolumn{10}{@{}l}{\textit{drift $\rho=0.4$, allowance 1.32}} \\
+paired, reserve rule & 37.1 & 2.3 (1.1--4.7) & 0.995 & 0.8 & 3.26 & 5.77 & 4.86 & 7.37 & 0.34 \\
+union, reserve rule & 33.6 & 1.3 (0.5--3.4) & 0.995 & 3.3 & 3.34 & 4.92 & 9.98 & 11.57 & 0.31 \\
+Monte Carlo, reserve rule & 41.8 & 2.7 (1.4--5.2) & 0.989 & 0.0 & 2.97 & 5.52 & 3.04 & 5.59 & 0.39 \\
+planned 60 intervals & 59.7 & 2.3 (1.1--4.7) & -- & 0.0 & 2.03 & 3.59 & 2.03 & 3.59 & 0.58 \\
+20\,\% and planned 60 & 59.7 & 2.7 (1.4--5.2) & -- & 1.5 & 2.08 & 3.87 & 5.00 & 6.79 & 0.64 \\
+commissioning certificate age (40) & 39.6 & 2.3 (1.1--4.7) & -- & 0.0 & 3.05 & 5.41 & 3.05 & 5.41 & 0.37 \\
+Monte Carlo B10 age (39) & 38.7 & 1.7 (0.7--3.8) & -- & 0.0 & 2.97 & 4.69 & 2.97 & 4.69 & 0.36 \\
+Monte Carlo optimal age, $c_F=10$ (32) & 31.7 & 0.3 (0.1--1.9) & -- & 0.0 & 3.25 & 3.67 & 3.25 & 3.67 & 0.29 \\
+run to failure & 94.1 & 100.0 (98.7--100.0) & -- & 0.0 & 10.63 & 53.14 & 10.63 & 53.14 & -- \\
+\bottomrule
+\end{tabular*}
+
+\medskip
+\textit{(d) Cheapest fixed age, true lives known}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccc@{}}
+\toprule
+& \multicolumn{3}{c}{$c_F=10$} & \multicolumn{3}{c}{$c_F=50$} \\
+\cmidrule(lr){2-4}\cmidrule(l){5-7}
+Truth & age & failed (\%) & cost & age & failed (\%) & cost \\
+\midrule
+at the margins, cruising & 75 & 1.7 & 1.54 & 65 & 0.7 & 2.05 \\
+evidence, cruising & 240 & 0.0 & 0.42 & 240 & 0.0 & 0.42 \\
+adverse, cruising & 110 & 4.0 & 1.24 & 70 & 0.0 & 1.43 \\
+beyond, cruising & 40 & 1.7 & 2.88 & 30 & 0.0 & 3.33 \\
+at the margins, coasting & 30 & 2.7 & 4.16 & 25 & 1.0 & 5.98 \\
+evidence, coasting & 165 & 1.7 & 0.70 & 135 & 0.7 & 0.98 \\
+adverse, coasting & 35 & 2.7 & 3.55 & 25 & 0.3 & 4.65 \\
+beyond, coasting & 15 & 5.0 & 9.71 & 10 & 0.0 & 10.00 \\
+drift $\rho=0.2$, stated bound & 65 & 1.7 & 1.78 & 55 & 0.7 & 2.42 \\
+drift $\rho=0.2$, allowance 1.32 & 65 & 1.7 & 1.78 & 55 & 0.7 & 2.42 \\
+drift $\rho=0.4$, stated bound & 60 & 2.3 & 2.03 & 50 & 0.7 & 2.66 \\
+drift $\rho=0.4$, allowance 1.32 & 60 & 2.3 & 2.03 & 50 & 0.7 & 2.66 \\
+\bottomrule
+\end{tabular*}
+\end{table}

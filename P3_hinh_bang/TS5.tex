@@ -1,0 +1,55 @@
+\begin{table}[htbp]
+\centering
+\caption{Certificate-triggered derating over leg lives under the certificate policies, truth at the margins (bench of 60
+modules, 15 scores for the policy and 16 for the paired certificate, $n_2=50$ for each, $\alpha=0.10$, planned life 60
+intervals, 300 lives per row, each with its own world, bench and field leg, common to all rows of a strategy). Damage at
+replacement: mean true damage over the lives without failure. Derated: share of decisions with derating; false: share
+of deratings that the true damage did not require; late: share of late sections; coverage per decision pooled over the
+decisions and both modules, and share of lives in which every certificate of both modules covered. For the union and paired certificates, the lowest coverage at any decision index reached by at least 100 lives is 0.960, and 0.7--3.3\,\% of the lives fail. $^{\dagger}$Uses the truth; for analysis only.}
+\label{tab:S5}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllcccccccc@{}}
+\toprule
+Driving & Policy & Certificate & \makecell{served\\intervals} & \makecell{damage at\\replacement}
+& \makecell{derated\\(\%)} & \makecell{mean level\\(\%)} & \makecell{false\\(\%)} & \makecell{late\\(\%)} &
+\makecell{coverage per\\decision} & \makecell{lives\\covered} \\
+\midrule
+cruising & pass/fail & union & 40.6 & 0.32 & 0 & 0 & 100 & 0.0 & 0.974 & 0.980 \\
+ &  & paired & 44.6 & 0.35 & 0 & 0 & 100 & 0.0 & 0.966 & 0.966 \\
+ & fixed 20\,\% & union & 32.3 & 0.29 & 97 & 19 & 99 & 1.4 & 0.967 & 0.976 \\
+ &  & paired & 35.6 & 0.32 & 97 & 19 & 99 & 1.5 & 0.963 & 0.963 \\
+ & reserve & split & 44.6 & 0.35 & 0 & 0 & -- & 0.0 & 0.966 & 0.966 \\
+ &  & union & 40.8 & 0.32 & 9 & 1 & 100 & 0.0 & 0.974 & 0.980 \\
+ &  & paired & 44.9 & 0.35 & 9 & 1 & 100 & 0.0 & 0.966 & 0.966 \\
+ &  & paired, reused data & 44.1 & 0.35 & 9 & 1 & 100 & 0.0 & 0.964 & 0.966 \\
+ &  & adaptive$^{\dagger}$ & 45.6 & 0.36 & 9 & 1 & 100 & 0.0 & 0.995 & 0.959 \\
+ &  & Monte Carlo & 50.3 & 0.39 & 9 & 1 & 100 & 0.0 & 0.943 & 0.953 \\
+ &  & Bayes & 49.7 & 0.39 & 9 & 1 & 100 & 0.0 & 0.942 & 0.953 \\
+ & reserve, cap & union & 40.8 & 0.32 & 9 & 1 & 100 & 0.0 & 0.974 & 0.980 \\
+ &  & paired & 44.9 & 0.35 & 9 & 1 & 100 & 0.0 & 0.966 & 0.966 \\
+ & reserve, late budget & union & 40.8 & 0.32 & 9 & 1 & 100 & 0.0 & 0.974 & 0.980 \\
+ &  & paired & 44.9 & 0.35 & 9 & 1 & 100 & 0.0 & 0.966 & 0.966 \\
+ & replacement only & union & 40.5 & 0.32 & 0 & 0 & -- & 0.0 & 0.974 & 0.980 \\
+ &  & paired & 44.6 & 0.35 & 0 & 0 & -- & 0.0 & 0.966 & 0.966 \\
+\addlinespace
+coasting & pass/fail & union & 17.3 & 0.40 & 3 & 1 & 0 & 0.5 & 0.990 & 0.983 \\
+ &  & paired & 19.2 & 0.44 & 2 & 1 & 0 & 0.4 & 0.981 & 0.970 \\
+ & fixed 20\,\% & union & 21.2 & 0.36 & 99 & 20 & 0 & 1.9 & 0.982 & 0.976 \\
+ &  & paired & 23.4 & 0.39 & 99 & 20 & 1 & 1.8 & 0.970 & 0.966 \\
+ & reserve & split & 18.7 & 0.43 & 0 & 0 & -- & 0.0 & 0.981 & 0.970 \\
+ &  & union & 29.9 & 0.31 & 97 & 35 & 21 & 34.8 & 0.982 & 0.980 \\
+ &  & paired & 32.1 & 0.34 & 97 & 34 & 22 & 30.3 & 0.974 & 0.966 \\
+ &  & paired, reused data & 31.7 & 0.34 & 97 & 34 & 22 & 30.0 & 0.974 & 0.966 \\
+ &  & adaptive$^{\dagger}$ & 31.2 & 0.34 & 96 & 34 & 21 & 29.9 & 0.995 & 0.960 \\
+ &  & Monte Carlo & 35.0 & 0.39 & 97 & 33 & 24 & 25.1 & 0.959 & 0.953 \\
+ &  & Bayes & 34.7 & 0.38 & 97 & 33 & 24 & 25.5 & 0.962 & 0.956 \\
+ & reserve, cap & union & 20.9 & 0.36 & 97 & 18 & 0 & 1.4 & 0.982 & 0.976 \\
+ &  & paired & 23.2 & 0.39 & 97 & 18 & 1 & 1.4 & 0.971 & 0.966 \\
+ & reserve, late budget & union & 23.5 & 0.35 & 97 & 23 & 3 & 4.6 & 0.978 & 0.976 \\
+ &  & paired & 26.1 & 0.38 & 97 & 23 & 5 & 4.5 & 0.970 & 0.966 \\
+ & replacement only & union & 16.9 & 0.39 & 0 & 0 & -- & 0.0 & 0.990 & 0.983 \\
+ &  & paired & 18.7 & 0.43 & 0 & 0 & -- & 0.0 & 0.981 & 0.970 \\
+\bottomrule
+\end{tabular*}
+\end{table}

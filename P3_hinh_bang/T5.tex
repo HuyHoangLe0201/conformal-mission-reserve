@@ -1,0 +1,70 @@
+\begin{table}[tbp]
+\centering
+\caption{Stated extrapolation margin of the case study. (a) Components, values, evidence and sensitivity ranges; the
+thermal bound, held at its own level $\alpha_{th}$, is listed for completeness. (b) Margin budget in log units (log of
+the factor on damage) for two traction cycles and for the damage-weighted journey, with the calibrated part for
+comparison.}
+\label{tab:p3-T5}
+\footnotesize
+\textit{(a) Components}\\[2pt]
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{3.5cm}
+>{\raggedright\arraybackslash}p{2.0cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{2.9cm}@{}}
+\toprule
+Component & Rule & Stated value & Evidence & Sensitivity (Section~\ref{sec:sens}) \\
+\midrule
+Statistical error of $N^{\mathrm{mod}}$ off the tested conditions & one-sided bound on $\log V$ of the interval along
+its gradient, relative to the tested conditions & Student $t_{0.95}$; $\alpha_{stat}=0.05$ within $\alpha_{ex}$, approximate &
+fit covariance; simulated coverage 0.910--0.975 & Scheff\'e ellipsoid; none \\
+\addlinespace
+Swing below $\Delta T_{\mathcal T}=26$~K & $\gamma\log(\Delta T_{\mathcal T}/\Delta T)$ & $\gamma=1.2$ & swing exponent
+changing from 4.42 to 3.21 at a mechanism switch \cite{scheuermann2018} & $\gamma\in\{0,0.6,2.08\}$;
+$\Delta T_{\mathcal T}=68$~K \\
+\addlinespace
+Heating time 4.5--60~s & $N^{\mathrm{mod}}$ at 4.5~s plus $\gamma_t\log(t_{\mathrm{on}}/4.5\,\mathrm{s})$ &
+$\gamma_t=0.5$ & slopes $-0.19$ (solder) and $-0.27$ (wire bond) at 2--60~s \cite{junghaenel2017mr}; $-0.14$
+\cite{choi2017}; $-0.463$ (CIPS08 \cite{bayerer2008}); the long-heating-time tests lack a baseplate &
+$\gamma_t\in\{0.29,1.0\}$ \\
+\addlinespace
+Heating time above 60~s & same slope, not capped & $\gamma_t=0.5$ & solder fatigue grows with the dwell up to hours,
+12--20 times from 1~min to 10~h \cite{engelmaier1983}, against 24.5 for $\gamma_t=0.5$; no single-factor test above
+60~s & cap at 60~s; slope 0.27 above 60~s \\
+\addlinespace
+Current & clipped to 890--1250~A; no credit below 890~A & -- & current exponent not identified apart from the
+heating-time exponent (correlation 0.99); field current at most 554~A & -- \\
+\addlinespace
+Minimum temperature above 60~$^\circ$C & Arrhenius term, activation energy $E_a$; no credit below 60~$^\circ$C & $E_a=0.159$~eV & 0.069--0.159~eV
+for wire bond and solder \cite{scheuermann2018}; 0.111~eV (CIPS08); 0.132~eV for silicon carbide \cite{hoffmann2023} &
+$E_a=0.111$~eV \\
+\addlinespace
+Miner's rule & $-\log\kappa_M$ & $\kappa_M=0.85$ & 0.85 and 0.97 for the two load orders \cite{hernes2021pcim};
+0.84 and 0.93 under mixed swing durations \cite{choi2017apec}; 1.08 and 1.01 for block and alternating sequences
+\cite{zeng2019} & $\kappa_M=1$ \\
+\midrule
+Thermal bound (level $\alpha_{th}$) & upper scale of the modeled junction rise, stated or recalibrated each interval
+(Section~\ref{sec:infoloop}) & stated 1.10 & field degradation of the thermal path, 20--40\,\% at end of life &
+confidence, forgetting, pulses and drift (Table~S9) \\
+\bottomrule
+\end{tabularx}
+
+\medskip
+\textit{(b) Margin budget (log units)}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccc@{}}
+\toprule
+& Calibrated & \multicolumn{5}{c}{Stated} & & \\
+\cmidrule(lr){2-2}\cmidrule(lr){3-7}
+Cycle or mission & $-q_S$ & statistical & swing & heating time & $T_{\min}$ & Miner & stated total & factor \\
+\midrule
+40~K, 90~s, $T_{\min}$ 60~$^\circ$C & 0.17 & 0.53 & 0.00 & 1.50 & 0.00 & 0.16 & 2.19 & 9 \\
+10~K, 90~s, $T_{\min}$ 70~$^\circ$C & 0.17 & 1.67 & 1.15 & 1.50 & 0.16 & 0.16 & 4.64 & 104 \\
+journey, cruising, chip D1$^{*}$ & 0.17 & 1.10 & 0.33 & 2.49 & 0.00 & 0.16 & 4.08 & 59 \\
+\bottomrule
+\end{tabular*}
+
+\smallskip
+\begin{minipage}{\textwidth}\scriptsize
+(b) Calibrated part: lower 10\,\% quantile of the 34 leave-one-out log-strengths; statistical part with the half
+split of the bench data, for the cycles with the normal quantile 1.645 in place of $t_{0.95}$. $^{*}$Damage-weighted over
+the cruising journey without derating, the critical chip of the leg; heating time 1.28 for 4.5--60~s and 1.21 above
+60~s; the statistical part is the median ratio of the interval damage with and without it over 40 half splits.
+\end{minipage}
+\end{table}

@@ -1,0 +1,46 @@
+% Shared style of the TikZ diagrams of P3 (Figs. 1 and 2 of the manuscript: F0_khung.tex, F1_cau_truc.tex), 18/10/2026.
+% Libraries: positioning, arrows.meta, calc, fit, backgrounds (panels behind the cards), shadows (card shadows),
+% shapes.geometric (data stores), shapes.misc (step badges) and pgfplots (mini plots inside the cards).
+% Colours: Okabe-Ito, as in every figure of the paper.
+\usepackage{newtxmath}
+\usepackage[no-math]{fontspec}
+\setmainfont{TeX Gyre Termes}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{fontawesome5}   % icons; local copy in texmf_fa5 (TEXMFHOME) when the TeX installation lacks it
+% \ico{colour}{icon}: white icon in a filled circle, set inline before a card title
+\newcommand{\ico}[2]{\tikz[baseline=(icn.base)]\node[circle, fill=#1, text=white, inner sep=0pt, minimum size=4.4mm,
+  font=\fontsize{6.6pt}{7pt}\selectfont] (icn) {#2};\hspace{0.9mm}}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{positioning,arrows.meta,calc,fit,backgrounds,shadows,shapes.geometric,shapes.misc}
+\definecolor{cal}{HTML}{0072B2}
+\definecolor{sta}{HTML}{E69F00}
+\definecolor{pol}{HTML}{555555}
+\definecolor{bad}{HTML}{D55E00}
+\definecolor{fix}{HTML}{009E73}
+\definecolor{ink}{HTML}{1A1A1A}
+\tikzset{
+  every picture/.style={line cap=round, line join=round},
+  card/.style={draw=#1, rounded corners=2pt, line width=0.6pt, fill=white, align=center, inner sep=2.6pt,
+    drop shadow={shadow xshift=0.5pt, shadow yshift=-0.6pt, fill=black!25, opacity=0.6}},
+  card/.default=ink,
+  panel/.style={rounded corners=4pt, fill=#1!6, draw=#1!45, line width=0.5pt, inner sep=3mm},
+  ptitle/.style={fill=#1, text=white, rounded corners=2pt, font=\bfseries\fontsize{7pt}{8pt}\selectfont,
+    inner xsep=3pt, inner ysep=1.8pt, anchor=west},
+  badge/.style={circle, fill=#1, text=white, font=\bfseries\fontsize{6.5pt}{7pt}\selectfont, inner sep=0.8pt,
+    minimum size=3.6mm},
+  flow/.style={-{Latex[length=2.2mm, width=1.6mm]}, line width=0.75pt, draw=#1},
+  flow/.default=ink,
+  fback/.style={-{Latex[length=2mm, width=1.5mm]}, line width=0.65pt, draw=#1, dash pattern=on 2.5pt off 1.6pt},
+  fback/.default=pol,
+  tag/.style={font=\fontsize{6.4pt}{7.4pt}\selectfont, fill=white, rounded corners=1pt, inner sep=1.2pt, align=center,
+    text=#1},
+  tag/.default=pol,
+  store/.style={cylinder, shape border rotate=90, aspect=0.22, draw=#1, fill=#1!12, minimum width=5.2mm,
+    minimum height=6.2mm, line width=0.5pt},
+  ttl/.style={font=\bfseries\fontsize{7.5pt}{9pt}\selectfont},
+  small/.style={font=\fontsize{6.6pt}{7.8pt}\selectfont, align=center},
+}
+\pgfplotsset{mini/.style={width=30mm, height=15mm, scale only axis, axis lines=left, axis line style={line width=0.4pt,
+  -{Latex[length=1.1mm]}}, ticks=none, xlabel style={font=\fontsize{5.8pt}{6.5pt}\selectfont, inner sep=0.5pt},
+  ylabel style={font=\fontsize{5.8pt}{6.5pt}\selectfont, inner sep=0.5pt}, clip=false}}

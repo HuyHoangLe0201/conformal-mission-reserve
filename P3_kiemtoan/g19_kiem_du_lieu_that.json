@@ -1,0 +1,132 @@
+{
+ "alphas": [
+  0.1,
+  0.2
+ ],
+ "hernes_leave_one_run_out": {
+  "0.1": {
+   "covered": 32,
+   "n": 34,
+   "coverage": 0.941,
+   "wilson95": [
+    0.809,
+    0.984
+   ],
+   "per_group": {
+    "1": "6/7",
+    "2": "8/8",
+    "3": "5/6",
+    "4": "7/7",
+    "5": "6/6"
+   }
+  },
+  "0.2": {
+   "covered": 28,
+   "n": 34,
+   "coverage": 0.824,
+   "wilson95": [
+    0.665,
+    0.917
+   ],
+   "per_group": {
+    "1": "6/7",
+    "2": "7/8",
+    "3": "5/6",
+    "4": "5/7",
+    "5": "5/6"
+   }
+  }
+ },
+ "choi2017_leave_one_condition_out": {
+  "0.1": {
+   "covered": 36,
+   "n": 39,
+   "coverage": 0.923,
+   "wilson95": [
+    0.797,
+    0.973
+   ],
+   "per_group": {
+    "1": "5/6",
+    "2": "6/6",
+    "3": "6/7",
+    "4": "8/8",
+    "5": "6/6",
+    "6": "5/6"
+   }
+  },
+  "0.2": {
+   "covered": 32,
+   "n": 39,
+   "coverage": 0.821,
+   "wilson95": [
+    0.673,
+    0.91
+   ],
+   "per_group": {
+    "1": "4/6",
+    "2": "5/6",
+    "3": "6/7",
+    "4": "7/8",
+    "5": "6/6",
+    "6": "4/6"
+   }
+  }
+ },
+ "choi_cross_campaign": {
+  "0.1": {
+   "bound_from_2017_on_2018": {
+    "covered": 10,
+    "n": 16,
+    "coverage": 0.625,
+    "wilson95": [
+     0.386,
+     0.815
+    ]
+   },
+   "bound_from_2018_on_2017": {
+    "covered": 39,
+    "n": 39,
+    "coverage": 1.0,
+    "wilson95": [
+     0.91,
+     1.0
+    ]
+   },
+   "bound_ln": {
+    "from_2017": -0.069,
+    "from_2018": -0.387
+   }
+  },
+  "0.2": {
+   "bound_from_2017_on_2018": {
+    "covered": 10,
+    "n": 16,
+    "coverage": 0.625,
+    "wilson95": [
+     0.386,
+     0.815
+    ]
+   },
+   "bound_from_2018_on_2017": {
+    "covered": 39,
+    "n": 39,
+    "coverage": 1.0,
+    "wilson95": [
+     0.91,
+     1.0
+    ]
+   },
+   "bound_ln": {
+    "from_2017": -0.053,
+    "from_2018": -0.157
+   }
+  }
+ },
+ "sd_ln_residual": {
+  "hernes_S": 0.1273,
+  "choi2017": 0.0553,
+  "choi2018": 0.1734
+ },
+ "note": "Choi residuals are taken about the condition means, so the cross-campaign check covers a change of scatter only, not a shift of the mean life between lots."
+}

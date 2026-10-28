@@ -1,0 +1,5 @@
+numpy==2.2.4
+scipy==1.15.2
+matplotlib==3.10.1
+# only for the digitization scripts P3_kiemtoan/sohoa_*.py (they also need the source figures, not included)
+PyMuPDF==1.28.0

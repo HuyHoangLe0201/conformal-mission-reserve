@@ -1,0 +1,86 @@
+\begin{table}[htbp]
+\centering
+\caption{(a) Stated components exceeded at once, from the truth at the margins ($n_1=40$, $n_2=100$, 200 repetitions
+of 50 field legs): median true damage relative to no exceedance, and coverage of the true damage at $\alpha=0.10$, with
+the standard error over repetitions for the paired certificate (also at $\alpha=0.05$); the rows below the single
+components add them cumulatively. (b) Field lot whose log-strength law is moved or widened about its median against the
+bench lot (truth at the margins, $n_1=40$, $n_2=100$, 200 repetitions of 200 field legs, $\alpha=0.10$): coverage of the
+calibrated part, coverage of the true damage by the paired certificate, and the paired certificate recalibrated on
+$n_{\mathrm{lot}}$ bench tests of the field lot, with its median width relative to the paired certificate of the bench
+lot in parentheses. (c) Single certificates under the adverse and beyond truths ($n_2=100$, 200 repetitions of two
+modules): coverage of the true damage, calibrated part and median ratio to the oracle of the paired certificate.
+(d) Coverage of the paired certificate ($n_1=40$, $\alpha=0.10$) by the number of acting stated components that the world
+and the module exceed, with the number of module records. All coverages pool the outer and the inner module.}
+\label{tab:S6}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\textit{(a) Stated components exceeded}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccc@{}}
+\toprule
+& & \multicolumn{4}{c}{Coverage, $\alpha=0.10$} & \\
+\cmidrule(lr){3-6}
+Exceeded & \makecell{true damage\\$\times$ none} & paired & union & \makecell{Monte\\Carlo} & Bayes &
+\makecell{paired,\\$\alpha=0.05$} \\
+\midrule
+none (truth at the margins) & 1.00 & 0.980 (0.005) & 0.993 & 0.979 & 0.980 & 0.990 \\
+Miner factor 0.80 & 1.06 & 0.970 (0.007) & 0.990 & 0.969 & 0.971 & 0.983 \\
+thermal scale 1.15 & 1.07 & 0.968 (0.008) & 0.989 & 0.967 & 0.969 & 0.983 \\
+heating-time slopes 0.6 & 1.61 & 0.794 (0.024) & 0.884 & 0.782 & 0.789 & 0.848 \\
+swing exponent below 26~K, $-0.8$ & 1.36 & 0.894 (0.016) & 0.948 & 0.887 & 0.892 & 0.928 \\
+Miner factor and thermal scale & 1.14 & 0.954 (0.010) & 0.982 & 0.951 & 0.954 & 0.974 \\
+and heating-time slopes & 1.83 & 0.709 (0.028) & 0.812 & 0.696 & 0.702 & 0.769 \\
+all four & 2.29 & 0.570 (0.032) & 0.669 & 0.558 & 0.562 & 0.631 \\
+\bottomrule
+\end{tabular*}
+
+\medskip
+\textit{(b) Lot shift}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccc@{}}
+\toprule
+& \multicolumn{4}{c}{Calibrated part} & True damage & \multicolumn{3}{c}{Paired, recalibrated on $n_{\mathrm{lot}}$} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-6}\cmidrule(l){7-9}
+Field lot & paired & union & \makecell{Monte\\Carlo} & Bayes & paired & 10 & 20 & 40 \\
+\midrule
+same law & 0.900 & 0.970 & 0.894 & 0.901 & 0.970 & 0.914 (1.04) & 0.908 (1.02) & 0.902 (1.00) \\
+mean $-0.1$ & 0.772 & 0.936 & 0.754 & 0.771 & 0.955 & 0.914 (1.15) & 0.908 (1.13) & 0.902 (1.11) \\
+mean $-0.2$ & 0.527 & 0.856 & 0.486 & 0.515 & 0.935 & 0.914 (1.27) & 0.908 (1.24) & 0.902 (1.23) \\
+scatter $\times1.5$ & 0.840 & 0.934 & 0.829 & 0.838 & 0.961 & 0.912 (1.17) & 0.907 (1.13) & 0.903 (1.10) \\
+scatter $\times2$ & 0.790 & 0.897 & 0.779 & 0.787 & 0.949 & 0.910 (1.30) & 0.907 (1.25) & 0.904 (1.20) \\
+\bottomrule
+\end{tabular*}
+
+\medskip
+\textit{(c) Adverse and beyond truths}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccc@{}}
+\toprule
+& & & \multicolumn{4}{c}{Coverage of the true damage} & \multicolumn{2}{c}{Paired} \\
+\cmidrule(lr){4-7}\cmidrule(l){8-9}
+Truth & $n_1$ & $\alpha$ & paired & union & \makecell{Monte\\Carlo} & Bayes & calibrated & ratio \\
+\midrule
+adverse & 20 & 0.1 & 0.995 & 1.000 & 0.995 & 0.995 & 0.902 & 4.52 \\
+ & 20 & 0.05 & 1.000 & $\infty$ & 0.998 & 1.000 & 0.948 & 4.96 \\
+ & 40 & 0.1 & 0.995 & 0.998 & 0.995 & 0.995 & 0.897 & 3.21 \\
+ & 40 & 0.05 & 0.998 & 0.998 & 0.998 & 0.998 & 0.955 & 3.28 \\
+ & 80 & 0.1 & 0.993 & 0.998 & 0.993 & 0.993 & 0.887 & 2.48 \\
+ & 80 & 0.05 & 0.998 & 0.998 & 0.998 & 0.998 & 0.953 & 2.50 \\
+\addlinespace
+beyond & 20 & 0.1 & 0.855 & 0.905 & 0.855 & 0.855 & 0.922 & 1.95 \\
+ & 20 & 0.05 & 0.882 & $\infty$ & 0.860 & 0.865 & 0.960 & 2.09 \\
+ & 40 & 0.1 & 0.828 & 0.895 & 0.830 & 0.833 & 0.915 & 1.50 \\
+ & 40 & 0.05 & 0.873 & 0.943 & 0.855 & 0.860 & 0.955 & 1.58 \\
+ & 80 & 0.1 & 0.725 & 0.830 & 0.710 & 0.715 & 0.907 & 1.07 \\
+ & 80 & 0.05 & 0.815 & 0.895 & 0.767 & 0.777 & 0.960 & 1.07 \\
+\bottomrule
+\end{tabular*}
+
+\medskip
+\textit{(d) By the number of exceeded components}\\[2pt]
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+Truth & none & one & two & three or more \\
+\midrule
+adverse & 1.000 (81) & 0.994 (165) & 0.990 (104) & 1.000 (50) \\
+beyond & 1.000 (2) & 0.929 (14) & 0.950 (60) & 0.799 (324) \\
+\bottomrule
+\end{tabular*}
+\end{table}

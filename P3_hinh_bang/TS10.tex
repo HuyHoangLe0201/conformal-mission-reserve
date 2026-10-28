@@ -1,0 +1,39 @@
+\begin{table}[htbp]
+\centering
+\caption{Test of re-simulation: the coming interval runs under a changed policy while the recorded intervals ran under
+the base policy (cruising, base balancing pattern); paired certificate of each module on the recorded intervals as they
+are and re-simulated under the changed policy ($n_1=40$, $n_2=100$, 200 repetitions). True damage: median over the
+changed to the base policy; recorded damage: median of the re-simulated over the recorded margined damage; coverage of the
+true damage with Wilson 95\,\% interval for the recorded intervals at $\alpha=0.10$.}
+\label{tab:S10}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llcccccc@{}}
+\toprule
+& & & & \multicolumn{2}{c}{$\alpha=0.10$} & \multicolumn{2}{c}{$\alpha=0.05$} \\
+\cmidrule(lr){5-6}\cmidrule(l){7-8}
+Changed policy & Module & \makecell{true damage\\$\times$ base} & \makecell{recorded damage\\$\times$ base} &
+recorded & re-simulated & recorded & re-simulated \\
+\midrule
+\multicolumn{8}{@{}l}{\textit{Truth at the margins}} \\
+base (control) & outer & 1.00 & 1.00 & 0.975 (0.943--0.989) & 0.975 & 0.990 & 0.990 \\
+ & inner & 1.00 & 1.00 & 0.980 (0.950--0.992) & 0.980 & 0.985 & 0.985 \\
+inner pair relieved & outer & 0.84 & 0.83 & 0.980 (0.950--0.992) & 0.975 & 1.000 & 0.980 \\
+ & inner & 0.58 & 0.71 & 1.000 (0.981--1.000) & 0.975 & 1.000 & 0.980 \\
+outer pair relieved & outer & 0.67 & 0.79 & 1.000 (0.981--1.000) & 0.975 & 1.000 & 0.980 \\
+ & inner & 0.85 & 0.87 & 0.995 (0.972--0.999) & 0.980 & 0.995 & 0.985 \\
+coasting & outer & 3.04 & 2.31 & 0.310 (0.250--0.377) & 0.970 & 0.410 & 0.995 \\
+ & inner & 1.63 & 1.54 & 0.760 (0.696--0.814) & 0.975 & 0.810 & 0.990 \\
+\addlinespace
+\multicolumn{8}{@{}l}{\textit{Truth evidence}} \\
+base (control) & outer & 1.00 & 1.00 & 1.000 (0.981--1.000) & 1.000 & 1.000 & 1.000 \\
+ & inner & 1.00 & 1.00 & 1.000 (0.981--1.000) & 1.000 & 1.000 & 1.000 \\
+inner pair relieved & outer & 0.79 & 0.84 & 1.000 (0.981--1.000) & 1.000 & 1.000 & 1.000 \\
+ & inner & 0.30 & 0.72 & 1.000 (0.981--1.000) & 1.000 & 1.000 & 1.000 \\
+outer pair relieved & outer & 0.41 & 0.80 & 1.000 (0.981--1.000) & 1.000 & 1.000 & 1.000 \\
+ & inner & 0.97 & 0.87 & 1.000 (0.981--1.000) & 1.000 & 1.000 & 1.000 \\
+coasting & outer & 2.06 & 2.29 & 1.000 (0.981--1.000) & 1.000 & 1.000 & 1.000 \\
+ & inner & 1.46 & 1.53 & 1.000 (0.981--1.000) & 1.000 & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular*}
+\end{table}

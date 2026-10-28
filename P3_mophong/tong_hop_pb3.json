@@ -1,0 +1,6441 @@
+{
+ "U": {
+  "boundary|10|0.1|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 0.99,
+   "se": 0.006098026701174831,
+   "cov_Unew": 0.9175
+  },
+  "boundary|10|0.1|union a/2": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|10|0.1|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|10|0.1|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.10784656965116,
+   "cov": 0.9925,
+   "se": 0.00557892210550537,
+   "cov_Unew": 0.98
+  },
+  "boundary|10|0.1|union aV=0.02": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|10|0.05|paired": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|10|0.05|union a/2": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|10|0.05|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|10|0.05|union aV=0.01": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|10|0.05|union aV=0.02": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|20|0.1|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 0.9875,
+   "se": 0.006571504650141714,
+   "cov_Unew": 0.925
+  },
+  "boundary|20|0.1|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.165159647000121,
+   "cov": 0.9925,
+   "se": 0.00557892210550537,
+   "cov_Unew": 0.975
+  },
+  "boundary|20|0.1|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|20|0.1|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.199390889971919,
+   "cov": 0.9925,
+   "se": 0.00557892210550537,
+   "cov_Unew": 0.9825
+  },
+  "boundary|20|0.1|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1850999517632943,
+   "cov": 0.9925,
+   "se": 0.00557892210550537,
+   "cov_Unew": 0.98
+  },
+  "boundary|20|0.05|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 0.9925,
+   "se": 0.00557892210550537,
+   "cov_Unew": 0.96
+  },
+  "boundary|20|0.05|union a/2": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|20|0.05|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|20|0.05|union aV=0.01": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|20|0.05|union aV=0.02": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|40|0.1|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 0.9875,
+   "se": 0.007466424005987466,
+   "cov_Unew": 0.91
+  },
+  "boundary|40|0.1|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.164097986382679,
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "cov_Unew": 0.9775
+  },
+  "boundary|40|0.1|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|40|0.1|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1395501847049512,
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "cov_Unew": 0.9725
+  },
+  "boundary|40|0.1|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1257371929141242,
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "cov_Unew": 0.97
+  },
+  "boundary|40|0.05|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 0.99,
+   "se": 0.006098026701174831,
+   "cov_Unew": 0.955
+  },
+  "boundary|40|0.05|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1988477654931184,
+   "cov": 0.9975,
+   "se": 0.0025000000000000005,
+   "cov_Unew": 0.9875
+  },
+  "boundary|40|0.05|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|40|0.05|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.2155665703774756,
+   "cov": 0.9975,
+   "se": 0.0025000000000000005,
+   "cov_Unew": 0.9875
+  },
+  "boundary|40|0.05|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1988477654931184,
+   "cov": 0.9975,
+   "se": 0.0025000000000000005,
+   "cov_Unew": 0.9875
+  },
+  "boundary|80|0.1|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 0.9775,
+   "se": 0.008157910733618531,
+   "cov_Unew": 0.9175
+  },
+  "boundary|80|0.1|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1640814890035405,
+   "cov": 0.9925,
+   "se": 0.004308312638254648,
+   "cov_Unew": 0.975
+  },
+  "boundary|80|0.1|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|80|0.1|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.11890886253858,
+   "cov": 0.99,
+   "se": 0.00496216843505835,
+   "cov_Unew": 0.9625
+  },
+  "boundary|80|0.1|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.12432072333901,
+   "cov": 0.99,
+   "se": 0.00496216843505835,
+   "cov_Unew": 0.9675
+  },
+  "boundary|80|0.05|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 0.99,
+   "se": 0.004962168435058351,
+   "cov_Unew": 0.9525
+  },
+  "boundary|80|0.05|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.2065229685341712,
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "cov_Unew": 0.9925
+  },
+  "boundary|80|0.05|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "boundary|80|0.05|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1537752145223248,
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "cov_Unew": 0.9875
+  },
+  "boundary|80|0.05|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.2065229685341712,
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "cov_Unew": 0.9925
+  },
+  "evidence|10|0.1|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.94
+  },
+  "evidence|10|0.1|union a/2": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|10|0.1|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|10|0.1|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1123233648944375,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9625
+  },
+  "evidence|10|0.1|union aV=0.02": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|10|0.05|paired": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|10|0.05|union a/2": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|10|0.05|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|10|0.05|union aV=0.01": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|10|0.05|union aV=0.02": {
+   "finite": 0.0,
+   "size_vs_paired": NaN,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|20|0.1|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.905
+  },
+  "evidence|20|0.1|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1741074656695727,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9675
+  },
+  "evidence|20|0.1|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|20|0.1|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.2176695351566096,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.975
+  },
+  "evidence|20|0.1|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1983271634876576,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.975
+  },
+  "evidence|20|0.05|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9525
+  },
+  "evidence|20|0.05|union a/2": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|20|0.05|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|20|0.05|union aV=0.01": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|20|0.05|union aV=0.02": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|40|0.1|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9025
+  },
+  "evidence|40|0.1|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1748739722406816,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9625
+  },
+  "evidence|40|0.1|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|40|0.1|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.14863625439459,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.96
+  },
+  "evidence|40|0.1|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.132989239457237,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.96
+  },
+  "evidence|40|0.05|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.95
+  },
+  "evidence|40|0.05|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.2036410933028323,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9825
+  },
+  "evidence|40|0.05|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|40|0.05|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.219114511648805,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.985
+  },
+  "evidence|40|0.05|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.2036410933028323,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9825
+  },
+  "evidence|80|0.1|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9
+  },
+  "evidence|80|0.1|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1614820495841547,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.96
+  },
+  "evidence|80|0.1|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|80|0.1|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.118530116652801,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.95
+  },
+  "evidence|80|0.1|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.122684250789359,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.95
+  },
+  "evidence|80|0.05|paired": {
+   "finite": 1.0,
+   "size_vs_paired": 1.0,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9425
+  },
+  "evidence|80|0.05|union a/2": {
+   "finite": 1.0,
+   "size_vs_paired": 1.2123561255489765,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9825
+  },
+  "evidence|80|0.05|union aV=0.005": {
+   "finite": 0.0,
+   "size_vs_paired": Infinity,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 1.0
+  },
+  "evidence|80|0.05|union aV=0.01": {
+   "finite": 1.0,
+   "size_vs_paired": 1.1484315284535889,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9675
+  },
+  "evidence|80|0.05|union aV=0.02": {
+   "finite": 1.0,
+   "size_vs_paired": 1.2123561255489765,
+   "cov": 1.0,
+   "se": 0.0,
+   "cov_Unew": 0.9825
+  }
+ },
+ "Q": {
+  "Q_boundary_int|20|0.1|U1 box": {
+   "cov": 0.9125,
+   "se": 0.0160234987615943,
+   "size_vs_oracle": 2.6368509638431137
+  },
+  "Q_boundary_int|20|0.1|U2 Monte Carlo": {
+   "cov": 0.86,
+   "se": 0.019785279538893575,
+   "size_vs_oracle": 2.0160612908418734
+  },
+  "Q_boundary_int|20|0.1|U3 Bayes": {
+   "cov": 0.865,
+   "se": 0.019319451494029295,
+   "size_vs_oracle": 2.044786884085509
+  },
+  "Q_boundary_int|20|0.1|U5 union": {
+   "cov": 0.905,
+   "se": 0.016771446181983708,
+   "size_vs_oracle": 2.5368659721307276
+  },
+  "Q_boundary_int|20|0.1|U6 paired": {
+   "cov": 0.865,
+   "se": 0.019319451494029295,
+   "size_vs_oracle": 2.1225465366376857
+  },
+  "Q_boundary_int|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_int|20|0.1|calibrated": {
+   "cov": 0.9275,
+   "se": 0.01390812459134017
+  },
+  "Q_boundary_int|20|0.05|U1 box": {
+   "cov": 0.9125,
+   "se": 0.0160234987615943,
+   "size_vs_oracle": 2.4193635572522147
+  },
+  "Q_boundary_int|20|0.05|U2 Monte Carlo": {
+   "cov": 0.8775,
+   "se": 0.018245086073492383,
+   "size_vs_oracle": 2.027553060430347
+  },
+  "Q_boundary_int|20|0.05|U3 Bayes": {
+   "cov": 0.885,
+   "se": 0.017618942524407984,
+   "size_vs_oracle": 2.0955372333774345
+  },
+  "Q_boundary_int|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_int|20|0.05|U6 paired": {
+   "cov": 0.89,
+   "se": 0.01777865017401631,
+   "size_vs_oracle": 2.232082879826393
+  },
+  "Q_boundary_int|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_int|20|0.05|calibrated": {
+   "cov": 0.965,
+   "se": 0.009713224679185678
+  },
+  "Q_boundary_int|40|0.1|U1 box": {
+   "cov": 0.8975,
+   "se": 0.01596852274297672,
+   "size_vs_oracle": 2.026144808714743
+  },
+  "Q_boundary_int|40|0.1|U2 Monte Carlo": {
+   "cov": 0.7825,
+   "se": 0.023397778316557188,
+   "size_vs_oracle": 1.3725258981533215
+  },
+  "Q_boundary_int|40|0.1|U3 Bayes": {
+   "cov": 0.7825,
+   "se": 0.023397778316557188,
+   "size_vs_oracle": 1.3872207220094153
+  },
+  "Q_boundary_int|40|0.1|U5 union": {
+   "cov": 0.85,
+   "se": 0.018755233775398512,
+   "size_vs_oracle": 1.7338679100389147
+  },
+  "Q_boundary_int|40|0.1|U6 paired": {
+   "cov": 0.7975,
+   "se": 0.022722241334346426,
+   "size_vs_oracle": 1.4068916412489867
+  },
+  "Q_boundary_int|40|0.1|U9 PAC": {
+   "cov": 0.8275,
+   "se": 0.020544564870754584,
+   "size_vs_oracle": 1.6273215873893119
+  },
+  "Q_boundary_int|40|0.1|calibrated": {
+   "cov": 0.9,
+   "se": 0.015851065623706036
+  },
+  "Q_boundary_int|40|0.05|U1 box": {
+   "cov": 0.8975,
+   "se": 0.01596852274297672,
+   "size_vs_oracle": 1.8639646808239116
+  },
+  "Q_boundary_int|40|0.05|U2 Monte Carlo": {
+   "cov": 0.81,
+   "se": 0.022009591330889446,
+   "size_vs_oracle": 1.3384525408959569
+  },
+  "Q_boundary_int|40|0.05|U3 Bayes": {
+   "cov": 0.8125,
+   "se": 0.021686870492507532,
+   "size_vs_oracle": 1.3566362549266735
+  },
+  "Q_boundary_int|40|0.05|U5 union": {
+   "cov": 0.895,
+   "se": 0.01608316951687517,
+   "size_vs_oracle": 1.8386753320899232
+  },
+  "Q_boundary_int|40|0.05|U6 paired": {
+   "cov": 0.8275,
+   "se": 0.020544564870754584,
+   "size_vs_oracle": 1.48242832093485
+  },
+  "Q_boundary_int|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_int|40|0.05|calibrated": {
+   "cov": 0.945,
+   "se": 0.011090083396834476
+  },
+  "Q_boundary_int|oracle_cov_0.1": 0.9,
+  "Q_evidence_int|20|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 24.285839858030297
+  },
+  "Q_evidence_int|20|0.1|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.709946358094957
+  },
+  "Q_evidence_int|20|0.1|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 18.051945343301547
+  },
+  "Q_evidence_int|20|0.1|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 23.20659362301184
+  },
+  "Q_evidence_int|20|0.1|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 18.399297792280645
+  },
+  "Q_evidence_int|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_int|20|0.1|calibrated": {
+   "cov": 0.91,
+   "se": 0.015351820477057401
+  },
+  "Q_evidence_int|20|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 21.840920853771856
+  },
+  "Q_evidence_int|20|0.05|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.492515864249256
+  },
+  "Q_evidence_int|20|0.05|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 18.016047351706057
+  },
+  "Q_evidence_int|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_int|20|0.05|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 19.58952523571056
+  },
+  "Q_evidence_int|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_int|20|0.05|calibrated": {
+   "cov": 0.9475,
+   "se": 0.01196597983312834
+  },
+  "Q_evidence_int|40|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 19.683058805946164
+  },
+  "Q_evidence_int|40|0.1|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.164127397931217
+  },
+  "Q_evidence_int|40|0.1|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.273624641532514
+  },
+  "Q_evidence_int|40|0.1|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.238801894441586
+  },
+  "Q_evidence_int|40|0.1|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.329887111499275
+  },
+  "Q_evidence_int|40|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 15.123782849045359
+  },
+  "Q_evidence_int|40|0.1|calibrated": {
+   "cov": 0.9275,
+   "se": 0.015202775136773433
+  },
+  "Q_evidence_int|40|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.961189252267037
+  },
+  "Q_evidence_int|40|0.05|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.038497567105349
+  },
+  "Q_evidence_int|40|0.05|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.20808126692862
+  },
+  "Q_evidence_int|40|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.850252192114638
+  },
+  "Q_evidence_int|40|0.05|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.941171674992098
+  },
+  "Q_evidence_int|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_int|40|0.05|calibrated": {
+   "cov": 0.9625,
+   "se": 0.010596232856716997
+  },
+  "Q_evidence_int|oracle_cov_0.1": 0.905,
+  "Q_boundary_lutz|20|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 4.867768826721893
+  },
+  "Q_boundary_lutz|20|0.1|U2 Monte Carlo": {
+   "cov": 0.9825,
+   "se": 0.008219278110838966,
+   "size_vs_oracle": 3.5620851980116557
+  },
+  "Q_boundary_lutz|20|0.1|U3 Bayes": {
+   "cov": 0.985,
+   "se": 0.007853879110696009,
+   "size_vs_oracle": 3.617104181517038
+  },
+  "Q_boundary_lutz|20|0.1|U5 union": {
+   "cov": 0.9975,
+   "se": 0.0025000000000000005,
+   "size_vs_oracle": 4.715526319069825
+  },
+  "Q_boundary_lutz|20|0.1|U6 paired": {
+   "cov": 0.9875,
+   "se": 0.006571504650141713,
+   "size_vs_oracle": 3.7492465402838633
+  },
+  "Q_boundary_lutz|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_lutz|20|0.1|calibrated": {
+   "cov": 0.89,
+   "se": 0.016304267715191726
+  },
+  "Q_boundary_lutz|20|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 4.443986387385465
+  },
+  "Q_boundary_lutz|20|0.05|U2 Monte Carlo": {
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "size_vs_oracle": 3.499460381172864
+  },
+  "Q_boundary_lutz|20|0.05|U3 Bayes": {
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "size_vs_oracle": 3.5878538737058707
+  },
+  "Q_boundary_lutz|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_lutz|20|0.05|U6 paired": {
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "size_vs_oracle": 4.0997295745436615
+  },
+  "Q_boundary_lutz|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_lutz|20|0.05|calibrated": {
+   "cov": 0.945,
+   "se": 0.011642712906324517
+  },
+  "Q_boundary_lutz|40|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 3.613102531397889
+  },
+  "Q_boundary_lutz|40|0.1|U2 Monte Carlo": {
+   "cov": 0.9975,
+   "se": 0.0025000000000000005,
+   "size_vs_oracle": 2.364740006162563
+  },
+  "Q_boundary_lutz|40|0.1|U3 Bayes": {
+   "cov": 0.9975,
+   "se": 0.0025000000000000005,
+   "size_vs_oracle": 2.401198699620725
+  },
+  "Q_boundary_lutz|40|0.1|U5 union": {
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "size_vs_oracle": 2.9216177497972664
+  },
+  "Q_boundary_lutz|40|0.1|U6 paired": {
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "size_vs_oracle": 2.423322866276024
+  },
+  "Q_boundary_lutz|40|0.1|U9 PAC": {
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "size_vs_oracle": 2.722372179048561
+  },
+  "Q_boundary_lutz|40|0.1|calibrated": {
+   "cov": 0.8775,
+   "se": 0.016047002256092416
+  },
+  "Q_boundary_lutz|40|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 3.3120345989831144
+  },
+  "Q_boundary_lutz|40|0.05|U2 Monte Carlo": {
+   "cov": 0.9975,
+   "se": 0.0025000000000000005,
+   "size_vs_oracle": 2.3431550537210217
+  },
+  "Q_boundary_lutz|40|0.05|U3 Bayes": {
+   "cov": 0.9975,
+   "se": 0.0025000000000000005,
+   "size_vs_oracle": 2.371797664344956
+  },
+  "Q_boundary_lutz|40|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 3.2908510772649917
+  },
+  "Q_boundary_lutz|40|0.05|U6 paired": {
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "size_vs_oracle": 2.4791134750335173
+  },
+  "Q_boundary_lutz|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_lutz|40|0.05|calibrated": {
+   "cov": 0.9275,
+   "se": 0.01247988331023916
+  },
+  "Q_boundary_lutz|oracle_cov_0.1": 0.87,
+  "Q_boundary_nc|20|0.1|U1 box": {
+   "cov": 0.9875,
+   "se": 0.0065715046501417145,
+   "size_vs_oracle": 3.7177295585649497
+  },
+  "Q_boundary_nc|20|0.1|U2 Monte Carlo": {
+   "cov": 0.975,
+   "se": 0.009867208776813538,
+   "size_vs_oracle": 2.9569874815603345
+  },
+  "Q_boundary_nc|20|0.1|U3 Bayes": {
+   "cov": 0.975,
+   "se": 0.009867208776813538,
+   "size_vs_oracle": 3.021092146056519
+  },
+  "Q_boundary_nc|20|0.1|U5 union": {
+   "cov": 0.9875,
+   "se": 0.0065715046501417145,
+   "size_vs_oracle": 3.6338883471906884
+  },
+  "Q_boundary_nc|20|0.1|U6 paired": {
+   "cov": 0.9825,
+   "se": 0.007415774982627562,
+   "size_vs_oracle": 2.974738843462006
+  },
+  "Q_boundary_nc|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_nc|20|0.1|calibrated": {
+   "cov": 0.9075,
+   "se": 0.014647233775919335
+  },
+  "Q_boundary_nc|20|0.05|U1 box": {
+   "cov": 0.9875,
+   "se": 0.0065715046501417145,
+   "size_vs_oracle": 3.416812834782258
+  },
+  "Q_boundary_nc|20|0.05|U2 Monte Carlo": {
+   "cov": 0.9775,
+   "se": 0.008894623185275483,
+   "size_vs_oracle": 2.924857702503651
+  },
+  "Q_boundary_nc|20|0.05|U3 Bayes": {
+   "cov": 0.98,
+   "se": 0.007797693255091695,
+   "size_vs_oracle": 3.000345194435589
+  },
+  "Q_boundary_nc|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_nc|20|0.05|U6 paired": {
+   "cov": 0.985,
+   "se": 0.007008609206902276,
+   "size_vs_oracle": 3.1469410984873605
+  },
+  "Q_boundary_nc|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_nc|20|0.05|calibrated": {
+   "cov": 0.955,
+   "se": 0.010744871395532507
+  },
+  "Q_boundary_nc|40|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 2.967893055113614
+  },
+  "Q_boundary_nc|40|0.1|U2 Monte Carlo": {
+   "cov": 0.9675,
+   "se": 0.011251744699999632,
+   "size_vs_oracle": 1.9701433930733918
+  },
+  "Q_boundary_nc|40|0.1|U3 Bayes": {
+   "cov": 0.97,
+   "se": 0.011004795665444723,
+   "size_vs_oracle": 1.9920324085660137
+  },
+  "Q_boundary_nc|40|0.1|U5 union": {
+   "cov": 0.995,
+   "se": 0.0035266394669214826,
+   "size_vs_oracle": 2.385780078675271
+  },
+  "Q_boundary_nc|40|0.1|U6 paired": {
+   "cov": 0.97,
+   "se": 0.011004795665444723,
+   "size_vs_oracle": 2.011562802852149
+  },
+  "Q_boundary_nc|40|0.1|U9 PAC": {
+   "cov": 0.99,
+   "se": 0.006098026701174831,
+   "size_vs_oracle": 2.2311243760532644
+  },
+  "Q_boundary_nc|40|0.1|calibrated": {
+   "cov": 0.915,
+   "se": 0.013313951574670206
+  },
+  "Q_boundary_nc|40|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 2.7101977307119367
+  },
+  "Q_boundary_nc|40|0.05|U2 Monte Carlo": {
+   "cov": 0.9825,
+   "se": 0.007415774982627563,
+   "size_vs_oracle": 1.9291731884861276
+  },
+  "Q_boundary_nc|40|0.05|U3 Bayes": {
+   "cov": 0.985,
+   "se": 0.007008609206902277,
+   "size_vs_oracle": 1.9556695975788827
+  },
+  "Q_boundary_nc|40|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 2.680724933686819
+  },
+  "Q_boundary_nc|40|0.05|U6 paired": {
+   "cov": 0.99,
+   "se": 0.006098026701174831,
+   "size_vs_oracle": 2.039435641910176
+  },
+  "Q_boundary_nc|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_nc|40|0.05|calibrated": {
+   "cov": 0.955,
+   "se": 0.01014344355907701
+  },
+  "Q_boundary_nc|oracle_cov_0.1": 0.905,
+  "Q_evidence_nc|20|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 23.049346299994628
+  },
+  "Q_evidence_nc|20|0.1|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.176160212052928
+  },
+  "Q_evidence_nc|20|0.1|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.414618437695967
+  },
+  "Q_evidence_nc|20|0.1|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 22.253819033027284
+  },
+  "Q_evidence_nc|20|0.1|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 18.10925298925487
+  },
+  "Q_evidence_nc|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_nc|20|0.1|calibrated": {
+   "cov": 0.9275,
+   "se": 0.013448907597938554
+  },
+  "Q_evidence_nc|20|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 20.9084395445784
+  },
+  "Q_evidence_nc|20|0.05|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.824993387019198
+  },
+  "Q_evidence_nc|20|0.05|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.34084337440853
+  },
+  "Q_evidence_nc|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_nc|20|0.05|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 18.9047002776378
+  },
+  "Q_evidence_nc|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_nc|20|0.05|calibrated": {
+   "cov": 0.965,
+   "se": 0.009043446223536132
+  },
+  "Q_evidence_nc|40|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 19.42153031492311
+  },
+  "Q_evidence_nc|40|0.1|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.408790380800966
+  },
+  "Q_evidence_nc|40|0.1|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.51978586000335
+  },
+  "Q_evidence_nc|40|0.1|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.521342703565036
+  },
+  "Q_evidence_nc|40|0.1|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.49204805298979
+  },
+  "Q_evidence_nc|40|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 15.269947767123924
+  },
+  "Q_evidence_nc|40|0.1|calibrated": {
+   "cov": 0.93,
+   "se": 0.012799183391036592
+  },
+  "Q_evidence_nc|40|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.550924412572176
+  },
+  "Q_evidence_nc|40|0.05|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 12.968871013536184
+  },
+  "Q_evidence_nc|40|0.05|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.13763465136351
+  },
+  "Q_evidence_nc|40|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.467803714086102
+  },
+  "Q_evidence_nc|40|0.05|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.96858907234483
+  },
+  "Q_evidence_nc|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_nc|40|0.05|calibrated": {
+   "cov": 0.9675,
+   "se": 0.008737877460376908
+  },
+  "Q_evidence_nc|oracle_cov_0.1": 0.9175,
+  "Q_boundary_th|20|0.1|U1 box": {
+   "cov": 0.97,
+   "se": 0.010418383443118188,
+   "size_vs_oracle": 3.178507086133865
+  },
+  "Q_boundary_th|20|0.1|U2 Monte Carlo": {
+   "cov": 0.94,
+   "se": 0.01526976847059996,
+   "size_vs_oracle": 2.28944081996244
+  },
+  "Q_boundary_th|20|0.1|U3 Bayes": {
+   "cov": 0.94,
+   "se": 0.01526976847059996,
+   "size_vs_oracle": 2.3283256365829406
+  },
+  "Q_boundary_th|20|0.1|U5 union": {
+   "cov": 0.9675,
+   "se": 0.010678901850078878,
+   "size_vs_oracle": 3.021639858959732
+  },
+  "Q_boundary_th|20|0.1|U6 paired": {
+   "cov": 0.945,
+   "se": 0.014523417237041912,
+   "size_vs_oracle": 2.411278474670907
+  },
+  "Q_boundary_th|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_th|20|0.1|calibrated": {
+   "cov": 0.915,
+   "se": 0.013777667458717932
+  },
+  "Q_boundary_th|20|0.05|U1 box": {
+   "cov": 0.97,
+   "se": 0.010418383443118188,
+   "size_vs_oracle": 2.895077024686942
+  },
+  "Q_boundary_th|20|0.05|U2 Monte Carlo": {
+   "cov": 0.95,
+   "se": 0.013727425507183652,
+   "size_vs_oracle": 2.269082063351513
+  },
+  "Q_boundary_th|20|0.05|U3 Bayes": {
+   "cov": 0.95,
+   "se": 0.013727425507183652,
+   "size_vs_oracle": 2.337682866931879
+  },
+  "Q_boundary_th|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_th|20|0.05|U6 paired": {
+   "cov": 0.9575,
+   "se": 0.012669702316310342,
+   "size_vs_oracle": 2.6294068539852096
+  },
+  "Q_boundary_th|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_th|20|0.05|calibrated": {
+   "cov": 0.9575,
+   "se": 0.009884699612641793
+  },
+  "Q_boundary_th|40|0.1|U1 box": {
+   "cov": 0.975,
+   "se": 0.009867208776813538,
+   "size_vs_oracle": 2.440422321628655
+  },
+  "Q_boundary_th|40|0.1|U2 Monte Carlo": {
+   "cov": 0.935,
+   "se": 0.015575234820011302,
+   "size_vs_oracle": 1.6383328639680528
+  },
+  "Q_boundary_th|40|0.1|U3 Bayes": {
+   "cov": 0.935,
+   "se": 0.015575234820011302,
+   "size_vs_oracle": 1.6629864142157738
+  },
+  "Q_boundary_th|40|0.1|U5 union": {
+   "cov": 0.9625,
+   "se": 0.011722021109624075,
+   "size_vs_oracle": 2.0156426611655522
+  },
+  "Q_boundary_th|40|0.1|U6 paired": {
+   "cov": 0.9375,
+   "se": 0.015424276043214682,
+   "size_vs_oracle": 1.6768535978201062
+  },
+  "Q_boundary_th|40|0.1|U9 PAC": {
+   "cov": 0.955,
+   "se": 0.012872587835704977,
+   "size_vs_oracle": 1.8829566745328221
+  },
+  "Q_boundary_th|40|0.1|calibrated": {
+   "cov": 0.925,
+   "se": 0.012656060974765605
+  },
+  "Q_boundary_th|40|0.05|U1 box": {
+   "cov": 0.975,
+   "se": 0.009867208776813538,
+   "size_vs_oracle": 2.2322397019223033
+  },
+  "Q_boundary_th|40|0.05|U2 Monte Carlo": {
+   "cov": 0.945,
+   "se": 0.014523417237041909,
+   "size_vs_oracle": 1.597169223242729
+  },
+  "Q_boundary_th|40|0.05|U3 Bayes": {
+   "cov": 0.95,
+   "se": 0.013727425507183652,
+   "size_vs_oracle": 1.6175241147821797
+  },
+  "Q_boundary_th|40|0.05|U5 union": {
+   "cov": 0.9725,
+   "se": 0.010148086930141489,
+   "size_vs_oracle": 2.1996423910060567
+  },
+  "Q_boundary_th|40|0.05|U6 paired": {
+   "cov": 0.955,
+   "se": 0.012872587835704977,
+   "size_vs_oracle": 1.7412628934291807
+  },
+  "Q_boundary_th|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_th|40|0.05|calibrated": {
+   "cov": 0.9675,
+   "se": 0.008737877460376908
+  },
+  "Q_boundary_th|oracle_cov_0.1": 0.9,
+  "Q_evidence_th|20|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 19.948347063644263
+  },
+  "Q_evidence_th|20|0.1|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 15.165565709493176
+  },
+  "Q_evidence_th|20|0.1|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 15.441215469683812
+  },
+  "Q_evidence_th|20|0.1|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 19.335360369536374
+  },
+  "Q_evidence_th|20|0.1|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.18237093044982
+  },
+  "Q_evidence_th|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_th|20|0.1|calibrated": {
+   "cov": 0.935,
+   "se": 0.012931011378712104
+  },
+  "Q_evidence_th|20|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 18.540964396501916
+  },
+  "Q_evidence_th|20|0.05|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 15.003245561753644
+  },
+  "Q_evidence_th|20|0.05|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 15.534440278059183
+  },
+  "Q_evidence_th|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_th|20|0.05|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.63918940685132
+  },
+  "Q_evidence_th|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_th|20|0.05|calibrated": {
+   "cov": 0.9725,
+   "se": 0.00882372031520747
+  },
+  "Q_evidence_th|40|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.507148954824814
+  },
+  "Q_evidence_th|40|0.1|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 10.509929512339914
+  },
+  "Q_evidence_th|40|0.1|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 10.63401851251935
+  },
+  "Q_evidence_th|40|0.1|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.392641525869212
+  },
+  "Q_evidence_th|40|0.1|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 10.867356889587324
+  },
+  "Q_evidence_th|40|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 12.51907960190543
+  },
+  "Q_evidence_th|40|0.1|calibrated": {
+   "cov": 0.9225,
+   "se": 0.01465580818542052
+  },
+  "Q_evidence_th|40|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 15.096254162915653
+  },
+  "Q_evidence_th|40|0.05|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 10.403389819371764
+  },
+  "Q_evidence_th|40|0.05|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 10.603018082001963
+  },
+  "Q_evidence_th|40|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 14.899694471094552
+  },
+  "Q_evidence_th|40|0.05|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 11.445277162185018
+  },
+  "Q_evidence_th|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_th|40|0.05|calibrated": {
+   "cov": 0.96,
+   "se": 0.01024817669774193
+  },
+  "Q_evidence_th|oracle_cov_0.1": 0.91,
+  "Q_boundary_seq|20|0.1|U1 box": {
+   "cov": 0.97,
+   "se": 0.010418383443118188,
+   "size_vs_oracle": 3.572662839396553
+  },
+  "Q_boundary_seq|20|0.1|U2 Monte Carlo": {
+   "cov": 0.9425,
+   "se": 0.015111603249285599,
+   "size_vs_oracle": 2.6321820709850767
+  },
+  "Q_boundary_seq|20|0.1|U3 Bayes": {
+   "cov": 0.945,
+   "se": 0.014949664287587124,
+   "size_vs_oracle": 2.689885275070777
+  },
+  "Q_boundary_seq|20|0.1|U5 union": {
+   "cov": 0.97,
+   "se": 0.010418383443118188,
+   "size_vs_oracle": 3.4777827922448266
+  },
+  "Q_boundary_seq|20|0.1|U6 paired": {
+   "cov": 0.9425,
+   "se": 0.015111603249285599,
+   "size_vs_oracle": 2.7322540881401736
+  },
+  "Q_boundary_seq|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_seq|20|0.1|calibrated": {
+   "cov": 0.8825,
+   "se": 0.01623380522738905
+  },
+  "Q_boundary_seq|20|0.05|U1 box": {
+   "cov": 0.97,
+   "se": 0.010418383443118188,
+   "size_vs_oracle": 3.2764402570965894
+  },
+  "Q_boundary_seq|20|0.05|U2 Monte Carlo": {
+   "cov": 0.9525,
+   "se": 0.013541996839165182,
+   "size_vs_oracle": 2.640546490734504
+  },
+  "Q_boundary_seq|20|0.05|U3 Bayes": {
+   "cov": 0.955,
+   "se": 0.013351641534219359,
+   "size_vs_oracle": 2.7131523533400457
+  },
+  "Q_boundary_seq|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_seq|20|0.05|U6 paired": {
+   "cov": 0.96,
+   "se": 0.011946278409579946,
+   "size_vs_oracle": 2.98423253942845
+  },
+  "Q_boundary_seq|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_seq|20|0.05|calibrated": {
+   "cov": 0.94,
+   "se": 0.012561406956373086
+  },
+  "Q_boundary_seq|40|0.1|U1 box": {
+   "cov": 0.99,
+   "se": 0.00496216843505835,
+   "size_vs_oracle": 2.814101403487377
+  },
+  "Q_boundary_seq|40|0.1|U2 Monte Carlo": {
+   "cov": 0.97,
+   "se": 0.011004795665444723,
+   "size_vs_oracle": 1.8436355900833776
+  },
+  "Q_boundary_seq|40|0.1|U3 Bayes": {
+   "cov": 0.975,
+   "se": 0.009208636977038153,
+   "size_vs_oracle": 1.8627854557422383
+  },
+  "Q_boundary_seq|40|0.1|U5 union": {
+   "cov": 0.985,
+   "se": 0.007008609206902279,
+   "size_vs_oracle": 2.2574176112292106
+  },
+  "Q_boundary_seq|40|0.1|U6 paired": {
+   "cov": 0.975,
+   "se": 0.009208636977038153,
+   "size_vs_oracle": 1.8692780306150425
+  },
+  "Q_boundary_seq|40|0.1|U9 PAC": {
+   "cov": 0.9825,
+   "se": 0.007415774982627563,
+   "size_vs_oracle": 2.134677946113521
+  },
+  "Q_boundary_seq|40|0.1|calibrated": {
+   "cov": 0.895,
+   "se": 0.01528210435665976
+  },
+  "Q_boundary_seq|40|0.05|U1 box": {
+   "cov": 0.99,
+   "se": 0.00496216843505835,
+   "size_vs_oracle": 2.5633436358775112
+  },
+  "Q_boundary_seq|40|0.05|U2 Monte Carlo": {
+   "cov": 0.9825,
+   "se": 0.007415774982627563,
+   "size_vs_oracle": 1.8231042343835797
+  },
+  "Q_boundary_seq|40|0.05|U3 Bayes": {
+   "cov": 0.9825,
+   "se": 0.007415774982627563,
+   "size_vs_oracle": 1.8510248112507521
+  },
+  "Q_boundary_seq|40|0.05|U5 union": {
+   "cov": 0.9875,
+   "se": 0.006571504650141714,
+   "size_vs_oracle": 2.521705712654511
+  },
+  "Q_boundary_seq|40|0.05|U6 paired": {
+   "cov": 0.9825,
+   "se": 0.007415774982627563,
+   "size_vs_oracle": 1.9608838008468128
+  },
+  "Q_boundary_seq|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_boundary_seq|40|0.05|calibrated": {
+   "cov": 0.9425,
+   "se": 0.01236865669107638
+  },
+  "Q_boundary_seq|oracle_cov_0.1": 0.8825,
+  "Q_evidence_seq|20|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 22.301401166161636
+  },
+  "Q_evidence_seq|20|0.1|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.68411159570808
+  },
+  "Q_evidence_seq|20|0.1|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.009758995679704
+  },
+  "Q_evidence_seq|20|0.1|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 21.569511389966074
+  },
+  "Q_evidence_seq|20|0.1|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.537690031783114
+  },
+  "Q_evidence_seq|20|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_seq|20|0.1|calibrated": {
+   "cov": 0.945,
+   "se": 0.011642712906324517
+  },
+  "Q_evidence_seq|20|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 20.19381325267682
+  },
+  "Q_evidence_seq|20|0.05|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.396528813276646
+  },
+  "Q_evidence_seq|20|0.05|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 17.035978984950855
+  },
+  "Q_evidence_seq|20|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_seq|20|0.05|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 18.759919114499617
+  },
+  "Q_evidence_seq|20|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_seq|20|0.05|calibrated": {
+   "cov": 0.97,
+   "se": 0.008417497927340638
+  },
+  "Q_evidence_seq|40|0.1|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 18.090035403182792
+  },
+  "Q_evidence_seq|40|0.1|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 12.606456321681
+  },
+  "Q_evidence_seq|40|0.1|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 12.704507855492846
+  },
+  "Q_evidence_seq|40|0.1|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 15.353117515585097
+  },
+  "Q_evidence_seq|40|0.1|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.062958074268211
+  },
+  "Q_evidence_seq|40|0.1|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 14.34633572829441
+  },
+  "Q_evidence_seq|40|0.1|calibrated": {
+   "cov": 0.92,
+   "se": 0.013927305886144352
+  },
+  "Q_evidence_seq|40|0.05|U1 box": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.695575002266565
+  },
+  "Q_evidence_seq|40|0.05|U2 Monte Carlo": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 12.545251632312521
+  },
+  "Q_evidence_seq|40|0.05|U3 Bayes": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 12.683028795289003
+  },
+  "Q_evidence_seq|40|0.05|U5 union": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 16.536604124954614
+  },
+  "Q_evidence_seq|40|0.05|U6 paired": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": 13.159945967369033
+  },
+  "Q_evidence_seq|40|0.05|U9 PAC": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_oracle": NaN
+  },
+  "Q_evidence_seq|40|0.05|calibrated": {
+   "cov": 0.9675,
+   "se": 0.008737877460376908
+  },
+  "Q_evidence_seq|oracle_cov_0.1": 0.9025
+ },
+ "M": {
+  "M_boundary_cruise_coast": {
+   "lives": 300,
+   "runs": {
+    "cert|paired": {
+     "intervals": 28.816666666666666,
+     "failed": 0.006666666666666667,
+     "failed_ci": [
+      0.0018301100329710784,
+      0.023978074231461442
+     ],
+     "cost10": 3.6784268363215733,
+     "cost50": 4.603817235396183,
+     "cov_decision": 0.9733371891266628,
+     "cov_after_switch": 0.9652882583760942,
+     "lives_all_covered": 0.96
+    },
+    "cert|paired stale": {
+     "intervals": 29.28,
+     "failed": 0.006666666666666667,
+     "failed_ci": [
+      0.0018301100329710784,
+      0.023978074231461442
+     ],
+     "cost10": 3.620218579234973,
+     "cost50": 4.530965391621129,
+     "cov_decision": 0.9710268670309654,
+     "cov_after_switch": 0.9597334878331402,
+     "lives_all_covered": 0.96
+    },
+    "cert|union": {
+     "intervals": 26.64,
+     "failed": 0.006666666666666667,
+     "failed_ci": [
+      0.0018301100329710784,
+      0.023978074231461442
+     ],
+     "cost10": 3.978978978978979,
+     "cost50": 4.97997997997998,
+     "cov_decision": 0.9899274274274275,
+     "cov_after_switch": 0.9812680115273775,
+     "lives_all_covered": 0.9833333333333333
+    },
+    "cert|mc": {
+     "intervals": 31.626666666666665,
+     "failed": 0.02,
+     "failed_ci": [
+      0.009197506067771085,
+      0.042940186730055147
+     ],
+     "cost10": 3.731028667790894,
+     "cost50": 6.260539629005059,
+     "cov_decision": 0.9552065767284992,
+     "cov_after_switch": 0.9433637035213002,
+     "lives_all_covered": 0.94
+    },
+    "none|tbr60": {
+     "intervals": 56.46,
+     "failed": 0.6133333333333333,
+     "failed_ci": [
+      0.5571234733195609,
+      0.6666773492142857
+     ],
+     "cost10": 11.547998583067658,
+     "cost50": 55.000590388475615
+    },
+    "none|rtf": {
+     "intervals": 58.28,
+     "failed": 1.0,
+     "failed_ci": [
+      0.9873565700022643,
+      0.9999999999999999
+     ],
+     "cost10": 17.158544955387782,
+     "cost50": 85.79272477693891
+    },
+    "none|cert_age": {
+     "intervals": 39.38333333333333,
+     "failed": 0.3466666666666667,
+     "failed_ci": [
+      0.29505763866563084,
+      0.40215301320034147
+     ],
+     "cost10": 10.461278036394415,
+     "cost50": 45.670757511637746
+    },
+    "replan|cert_age": {
+     "intervals": 30.86,
+     "failed": 0.01,
+     "failed_ci": [
+      0.0034065567627181124,
+      0.028984004635062833
+     ],
+     "cost10": 3.5320803629293582,
+     "cost50": 4.828256642903435
+    },
+    "none|mc_age": {
+     "intervals": 39.086666666666666,
+     "failed": 0.3333333333333333,
+     "failed_ci": [
+      0.2823925597902556,
+      0.3884885835423229
+     ],
+     "cost10": 10.233668770254136,
+     "cost50": 44.34589800443459
+    },
+    "replan|mc_age": {
+     "intervals": 31.05,
+     "failed": 0.016666666666666666,
+     "failed_ci": [
+      0.0071393720427721935,
+      0.038415943621705605
+     ],
+     "cost10": 3.7037037037037037,
+     "cost50": 5.850778314546431
+    },
+    "none|mc_opt10": {
+     "intervals": 34.7,
+     "failed": 0.21333333333333335,
+     "failed_ci": [
+      0.1707518836854917,
+      0.26316368284654346
+     ],
+     "cost10": 8.414985590778098,
+     "cost50": 33.00672430355427
+    },
+    "replan|mc_opt10": {
+     "intervals": 28.116666666666667,
+     "failed": 0.006666666666666667,
+     "failed_ci": [
+      0.0018301100329710784,
+      0.023978074231461442
+     ],
+     "cost10": 3.770005927682276,
+     "cost50": 4.718435091879075
+    },
+    "none|mc_opt50": {
+     "intervals": 30.53,
+     "failed": 0.12666666666666668,
+     "failed_ci": [
+      0.09369172511697449,
+      0.16908203594800147
+     ],
+     "cost10": 7.009498853586636,
+     "cost50": 23.605197073916365
+    },
+    "replan|mc_opt50": {
+     "intervals": 24.906666666666666,
+     "failed": 0.0033333333333333335,
+     "failed_ci": [
+      0.0005886425761407379,
+      0.018637164554943353
+     ],
+     "cost10": 4.135438972162741,
+     "cost50": 4.670770877944325
+    }
+   },
+   "diff_vs_paired": {
+    "cert|paired stale": {
+     "10": {
+      "diff": -0.05820825708660049,
+      "ci": [
+       -0.0669764309765791,
+       -0.05049748832861491
+      ]
+     },
+     "50": {
+      "diff": -0.07285184377505338,
+      "ci": [
+       -0.10078304809808696,
+       -0.052358514056659616
+      ]
+     }
+    },
+    "cert|union": {
+     "10": {
+      "diff": 0.3005521426574056,
+      "ci": [
+       0.2449837354334815,
+       0.3681304133448185
+      ]
+     },
+     "50": {
+      "diff": 0.37616274458379717,
+      "ci": [
+       0.2631519942790556,
+       0.5450401650949145
+      ]
+     }
+    },
+    "cert|mc": {
+     "10": {
+      "diff": 0.052601831469320626,
+      "ci": [
+       -0.28163679933943864,
+       0.44995953289231283
+      ]
+     },
+     "50": {
+      "diff": 1.6567223936088764,
+      "ci": [
+       -0.01661741568530637,
+       3.808326663596074
+      ]
+     }
+    },
+    "none|tbr60": {
+     "10": {
+      "diff": 7.869571746746084,
+      "ci": [
+       6.93562303043974,
+       8.758066865935444
+      ]
+     },
+     "50": {
+      "diff": 50.39677315307943,
+      "ci": [
+       45.357925999935865,
+       55.39408475137778
+      ]
+     }
+    },
+    "none|rtf": {
+     "10": {
+      "diff": 13.480118119066208,
+      "ci": [
+       13.122419142702778,
+       13.788217282588375
+      ]
+     },
+     "50": {
+      "diff": 81.18890754154273,
+      "ci": [
+       79.50471772032523,
+       82.65099717786156
+      ]
+     }
+    },
+    "none|cert_age": {
+     "10": {
+      "diff": 6.782851200072841,
+      "ci": [
+       5.756339367535046,
+       7.781426573081201
+      ]
+     },
+     "50": {
+      "diff": 41.06694027624156,
+      "ci": [
+       35.56579219605409,
+       46.42590049611623
+      ]
+     }
+    },
+    "replan|cert_age": {
+     "10": {
+      "diff": -0.14634647339221507,
+      "ci": [
+       -0.2861936436978846,
+       0.07921736452748411
+      ]
+     },
+     "50": {
+      "diff": 0.22443940750725222,
+      "ci": [
+       -0.39922150955057845,
+       1.3623441073726565
+      ]
+     }
+    },
+    "none|mc_age": {
+     "10": {
+      "diff": 6.555241933932562,
+      "ci": [
+       5.540862071963928,
+       7.566529022568433
+      ]
+     },
+     "50": {
+      "diff": 39.7420807690384,
+      "ci": [
+       34.18480531509806,
+       45.24383377413213
+      ]
+     }
+    },
+    "replan|mc_age": {
+     "10": {
+      "diff": 0.02527686738213042,
+      "ci": [
+       -0.26828760402864643,
+       0.38522383796760645
+      ]
+     },
+     "50": {
+      "diff": 1.246961079150248,
+      "ci": [
+       -0.3303280820376015,
+       3.224583392987285
+      ]
+     }
+    },
+    "none|mc_opt10": {
+     "10": {
+      "diff": 4.736558754456524,
+      "ci": [
+       3.7025190444133687,
+       5.722800894558639
+      ]
+     },
+     "50": {
+      "diff": 28.40290706815809,
+      "ci": [
+       22.731850750649343,
+       33.77835388617822
+      ]
+     }
+    },
+    "replan|mc_opt10": {
+     "10": {
+      "diff": 0.09157909136070286,
+      "ci": [
+       -0.2081822202119883,
+       0.404945350595696
+      ]
+     },
+     "50": {
+      "diff": 0.11461785648289258,
+      "ci": [
+       -1.5823711094427477,
+       1.837173166875397
+      ]
+     }
+    },
+    "none|mc_opt50": {
+     "10": {
+      "diff": 3.3310720172650625,
+      "ci": [
+       2.372513430198571,
+       4.242494816307217
+      ]
+     },
+     "50": {
+      "diff": 19.001379838520183,
+      "ci": [
+       13.673783209303386,
+       24.08669382002937
+      ]
+     }
+    },
+    "replan|mc_opt50": {
+     "10": {
+      "diff": 0.45701213584116784,
+      "ci": [
+       0.20346769970792716,
+       0.62333910481466
+      ]
+     },
+     "50": {
+      "diff": 0.06695364254814251,
+      "ci": [
+       -1.1726996317505005,
+       0.8001214088197163
+      ]
+     }
+    }
+   },
+   "t_sw_mean": 19.836666666666666,
+   "share_some_static_age_before_change": 0.31666666666666665
+  },
+  "M_boundary_coast_cruise": {
+   "lives": 300,
+   "runs": {
+    "cert|paired": {
+     "intervals": 26.7,
+     "failed": 0.02,
+     "failed_ci": [
+      0.009197506067771085,
+      0.042940186730055147
+     ],
+     "cost10": 4.419475655430712,
+     "cost50": 7.415730337078652,
+     "cov_decision": 0.9441323345817728,
+     "cov_after_switch": 0.8958638897037254,
+     "lives_all_covered": 0.9733333333333334
+    },
+    "cert|paired stale": {
+     "intervals": 25.886666666666667,
+     "failed": 0.02,
+     "failed_ci": [
+      0.009197506067771085,
+      0.042940186730055147
+     ],
+     "cost10": 4.558331187226371,
+     "cost50": 7.648725212464589,
+     "cov_decision": 0.9447592067988668,
+     "cov_after_switch": 0.8936808846761454,
+     "lives_all_covered": 0.9733333333333334
+    },
+    "cert|union": {
+     "intervals": 23.046666666666667,
+     "failed": 0.02,
+     "failed_ci": [
+      0.009197506067771085,
+      0.042940186730055147
+     ],
+     "cost10": 5.120046282904252,
+     "cost50": 8.59126410182239,
+     "cov_decision": 0.9473531964130749,
+     "cov_after_switch": 0.8874467260751646,
+     "lives_all_covered": 0.98
+    },
+    "cert|mc": {
+     "intervals": 32.2,
+     "failed": 0.02666666666666667,
+     "failed_ci": [
+      0.013572906766976815,
+      0.051729540297546284
+     ],
+     "cost10": 3.8509316770186337,
+     "cost50": 7.163561076604555,
+     "cov_decision": 0.9437370600414079,
+     "cov_after_switch": 0.909051631021819,
+     "lives_all_covered": 0.9633333333333334
+    },
+    "none|tbr60": {
+     "intervals": 59.333333333333336,
+     "failed": 0.04,
+     "failed_ci": [
+      0.02302709213793877,
+      0.06860486345997804
+     ],
+     "cost10": 2.292134831460674,
+     "cost50": 4.98876404494382
+    },
+    "none|rtf": {
+     "intervals": 97.58666666666667,
+     "failed": 1.0,
+     "failed_ci": [
+      0.9873565700022643,
+      0.9999999999999999
+     ],
+     "cost10": 10.247301543926765,
+     "cost50": 51.23650771963383
+    },
+    "none|cert_age": {
+     "intervals": 20.97,
+     "failed": 0.0033333333333333335,
+     "failed_ci": [
+      0.0005886425761407379,
+      0.018637164554943353
+     ],
+     "cost10": 4.9117787315212205,
+     "cost50": 5.54760769353044
+    },
+    "replan|cert_age": {
+     "intervals": 30.536666666666665,
+     "failed": 0.02666666666666667,
+     "failed_ci": [
+      0.013572906766976815,
+      0.051729540297546284
+     ],
+     "cost10": 4.060692064185132,
+     "cost50": 7.553760506494924
+    },
+    "none|mc_age": {
+     "intervals": 21.516666666666666,
+     "failed": 0.0033333333333333335,
+     "failed_ci": [
+      0.0005886425761407379,
+      0.018637164554943353
+     ],
+     "cost10": 4.786986831913246,
+     "cost50": 5.406661502711077
+    },
+    "replan|mc_age": {
+     "intervals": 31.63,
+     "failed": 0.02666666666666667,
+     "failed_ci": [
+      0.013572906766976815,
+      0.051729540297546284
+     ],
+     "cost10": 3.920328801770471,
+     "cost50": 7.2926546527558225
+    },
+    "none|mc_opt10": {
+     "intervals": 17.743333333333332,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 5.63591959421379,
+     "cost50": 5.63591959421379
+    },
+    "replan|mc_opt10": {
+     "intervals": 26.07,
+     "failed": 0.013333333333333334,
+     "failed_ci": [
+      0.005196877684679467,
+      0.03377606084644991
+     ],
+     "cost10": 4.2961258151131565,
+     "cost50": 6.3419000127860885
+    },
+    "none|mc_opt50": {
+     "intervals": 14.89,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 6.715916722632639,
+     "cost50": 6.715916722632639
+    },
+    "replan|mc_opt50": {
+     "intervals": 20.16,
+     "failed": 0.0033333333333333335,
+     "failed_ci": [
+      0.0005886425761407379,
+      0.018637164554943353
+     ],
+     "cost10": 5.109126984126984,
+     "cost50": 5.770502645502646
+    }
+   },
+   "diff_vs_paired": {
+    "cert|paired stale": {
+     "10": {
+      "diff": 0.13885553179565946,
+      "ci": [
+       0.12317795035568845,
+       0.1555477992610177
+      ]
+     },
+     "50": {
+      "diff": 0.23299487538593677,
+      "ci": [
+       0.15731646982391603,
+       0.31217148599011374
+      ]
+     }
+    },
+    "cert|union": {
+     "10": {
+      "diff": 0.7005706274735406,
+      "ci": [
+       0.5425900146876462,
+       0.8760013175958552
+      ]
+     },
+     "50": {
+      "diff": 1.1755337647437374,
+      "ci": [
+       0.755515879107333,
+       1.6764883533092274
+      ]
+     }
+    },
+    "cert|mc": {
+     "10": {
+      "diff": -0.568543978412078,
+      "ci": [
+       -0.8286601309629258,
+       -0.26648321466227787
+      ]
+     },
+     "50": {
+      "diff": -0.2521692604740968,
+      "ci": [
+       -1.5068872149253656,
+       1.3886266744039337
+      ]
+     }
+    },
+    "none|tbr60": {
+     "10": {
+      "diff": -2.1273408239700378,
+      "ci": [
+       -2.739057576004129,
+       -1.579057179515591
+      ]
+     },
+     "50": {
+      "diff": -2.426966292134832,
+      "ci": [
+       -5.699738296445311,
+       0.6748478068242812
+      ]
+     }
+    },
+    "none|rtf": {
+     "10": {
+      "diff": 5.827825888496053,
+      "ci": [
+       5.295664322385339,
+       6.30969137129579
+      ]
+     },
+     "50": {
+      "diff": 43.82077738255518,
+      "ci": [
+       40.92332312489596,
+       46.503361219650756
+      ]
+     }
+    },
+    "none|cert_age": {
+     "10": {
+      "diff": 0.4923030760905087,
+      "ci": [
+       -0.13856323646638663,
+       1.096051474525686
+      ]
+     },
+     "50": {
+      "diff": -1.8681226435482117,
+      "ci": [
+       -5.214399464285404,
+       1.306548519082895
+      ]
+     }
+    },
+    "replan|cert_age": {
+     "10": {
+      "diff": -0.35878359124557946,
+      "ci": [
+       -0.6168854005547765,
+       -0.051384085482658715
+      ]
+     },
+     "50": {
+      "diff": 0.13803016941627178,
+      "ci": [
+       -1.0828688831613789,
+       1.842727281751835
+      ]
+     }
+    },
+    "none|mc_age": {
+     "10": {
+      "diff": 0.36751117648253384,
+      "ci": [
+       -0.24518752433963556,
+       0.9612682080911229
+      ]
+     },
+     "50": {
+      "diff": -2.009068834367575,
+      "ci": [
+       -5.30060624901565,
+       1.1569968339896008
+      ]
+     }
+    },
+    "replan|mc_age": {
+     "10": {
+      "diff": -0.4991468536602408,
+      "ci": [
+       -0.7592714391194006,
+       -0.1906770222098425
+      ]
+     },
+     "50": {
+      "diff": -0.12307568432282956,
+      "ci": [
+       -1.3562398239304065,
+       1.5375654722564727
+      ]
+     }
+    },
+    "none|mc_opt10": {
+     "10": {
+      "diff": 1.2164439387830779,
+      "ci": [
+       0.64571787875245,
+       1.702580834699156
+      ]
+     },
+     "50": {
+      "diff": -1.7798107428648624,
+      "ci": [
+       -4.782999202474481,
+       0.7644977431488778
+      ]
+     }
+    },
+    "replan|mc_opt10": {
+     "10": {
+      "diff": -0.12334984031755525,
+      "ci": [
+       -0.5081175752161826,
+       0.16499469715276432
+      ]
+     },
+     "50": {
+      "diff": -1.0738303242925635,
+      "ci": [
+       -3.0530459741855305,
+       0.23265583764374198
+      ]
+     }
+    },
+    "none|mc_opt50": {
+     "10": {
+      "diff": 2.2964410672019273,
+      "ci": [
+       1.7399573799045993,
+       2.7805447329526958
+      ]
+     },
+     "50": {
+      "diff": -0.699813614446013,
+      "ci": [
+       -3.674344604647202,
+       1.848746143325832
+      ]
+     }
+    },
+    "replan|mc_opt50": {
+     "10": {
+      "diff": 0.6896513286962724,
+      "ci": [
+       0.13463939661415586,
+       1.1823437097079712
+      ]
+     },
+     "50": {
+      "diff": -1.6452276915760065,
+      "ci": [
+       -4.49201064641866,
+       0.7515792064429594
+      ]
+     }
+    }
+   },
+   "t_sw_mean": 19.91,
+   "share_some_static_age_before_change": 0.7466666666666667
+  },
+  "M_evidence_cruise_coast": {
+   "lives": 300,
+   "runs": {
+    "cert|paired": {
+     "intervals": 29.233333333333334,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.420752565564424,
+     "cost50": 3.420752565564424,
+     "cov_decision": 1.0,
+     "cov_after_switch": 1.0,
+     "lives_all_covered": 1.0
+    },
+    "cert|paired stale": {
+     "intervals": 29.653333333333332,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.3723021582733814,
+     "cost50": 3.3723021582733814,
+     "cov_decision": 1.0,
+     "cov_after_switch": 1.0,
+     "lives_all_covered": 1.0
+    },
+    "cert|union": {
+     "intervals": 27.096666666666668,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.6904908352810923,
+     "cost50": 3.6904908352810923,
+     "cov_decision": 1.0,
+     "cov_after_switch": 1.0,
+     "lives_all_covered": 1.0
+    },
+    "cert|mc": {
+     "intervals": 32.14,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.1113876789047916,
+     "cost50": 3.1113876789047916,
+     "cov_decision": 1.0,
+     "cov_after_switch": 1.0,
+     "lives_all_covered": 1.0
+    },
+    "none|tbr60": {
+     "intervals": 60.0,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 1.6666666666666667,
+     "cost50": 1.6666666666666667
+    },
+    "none|rtf": {
+     "intervals": 235.40666666666667,
+     "failed": 0.10333333333333333,
+     "failed_ci": [
+      0.07375612591943384,
+      0.14294099521210313
+     ],
+     "cost10": 0.8198578346690832,
+     "cost50": 2.575684630851576
+    },
+    "none|cert_age": {
+     "intervals": 47.59,
+     "failed": 0.0033333333333333335,
+     "failed_ci": [
+      0.0005886425761407379,
+      0.018637164554943353
+     ],
+     "cost10": 2.1643202353435598,
+     "cost50": 2.444491139595153
+    },
+    "replan|cert_age": {
+     "intervals": 31.533333333333335,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.171247357293869,
+     "cost50": 3.171247357293869
+    },
+    "none|mc_age": {
+     "intervals": 46.18333333333333,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 2.165283291230603,
+     "cost50": 2.165283291230603
+    },
+    "replan|mc_age": {
+     "intervals": 31.543333333333333,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.170241995138962,
+     "cost50": 3.170241995138962
+    },
+    "none|mc_opt10": {
+     "intervals": 37.71333333333333,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 2.6515821106593602,
+     "cost50": 2.6515821106593602
+    },
+    "replan|mc_opt10": {
+     "intervals": 28.666666666666668,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.488372093023256,
+     "cost50": 3.488372093023256
+    },
+    "none|mc_opt50": {
+     "intervals": 31.786666666666665,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.1459731543624163,
+     "cost50": 3.1459731543624163
+    },
+    "replan|mc_opt50": {
+     "intervals": 25.526666666666667,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.917471924784539,
+     "cost50": 3.917471924784539
+    }
+   },
+   "diff_vs_paired": {
+    "cert|paired stale": {
+     "10": {
+      "diff": -0.04845040729104255,
+      "ci": [
+       -0.054484245761704755,
+       -0.04246071271314923
+      ]
+     },
+     "50": {
+      "diff": -0.04845040729104255,
+      "ci": [
+       -0.054484245761704755,
+       -0.04246071271314923
+      ]
+     }
+    },
+    "cert|union": {
+     "10": {
+      "diff": 0.26973826971666837,
+      "ci": [
+       0.22669011886174484,
+       0.31715552660906526
+      ]
+     },
+     "50": {
+      "diff": 0.26973826971666837,
+      "ci": [
+       0.22669011886174484,
+       0.31715552660906526
+      ]
+     }
+    },
+    "cert|mc": {
+     "10": {
+      "diff": -0.30936488665963235,
+      "ci": [
+       -0.3665231249068961,
+       -0.25689692462510755
+      ]
+     },
+     "50": {
+      "diff": -0.30936488665963235,
+      "ci": [
+       -0.3665231249068961,
+       -0.25689692462510755
+      ]
+     }
+    },
+    "none|tbr60": {
+     "10": {
+      "diff": -1.7540858988977572,
+      "ci": [
+       -1.9240298499762685,
+       -1.6016632167629006
+      ]
+     },
+     "50": {
+      "diff": -1.7540858988977572,
+      "ci": [
+       -1.9240298499762685,
+       -1.6016632167629006
+      ]
+     }
+    },
+    "none|rtf": {
+     "10": {
+      "diff": -2.600894730895341,
+      "ci": [
+       -2.812305503861507,
+       -2.392726003501685
+      ]
+     },
+     "50": {
+      "diff": -0.8450679347128478,
+      "ci": [
+       -1.5478873023813382,
+       -0.06918782175170046
+      ]
+     }
+    },
+    "none|cert_age": {
+     "10": {
+      "diff": -1.2564323302208642,
+      "ci": [
+       -1.375921167102942,
+       -1.1044157151265481
+      ]
+     },
+     "50": {
+      "diff": -0.976261425969271,
+      "ci": [
+       -1.375103145102253,
+       -0.2606287797399933
+      ]
+     }
+    },
+    "replan|cert_age": {
+     "10": {
+      "diff": -0.2495052082705551,
+      "ci": [
+       -0.30492931871660117,
+       -0.1988567469820681
+      ]
+     },
+     "50": {
+      "diff": -0.2495052082705551,
+      "ci": [
+       -0.30492931871660117,
+       -0.1988567469820681
+      ]
+     }
+    },
+    "none|mc_age": {
+     "10": {
+      "diff": -1.2554692743338212,
+      "ci": [
+       -1.3333329681864368,
+       -1.1724013979916843
+      ]
+     },
+     "50": {
+      "diff": -1.2554692743338212,
+      "ci": [
+       -1.3333329681864368,
+       -1.1724013979916843
+      ]
+     }
+    },
+    "replan|mc_age": {
+     "10": {
+      "diff": -0.25051057042546176,
+      "ci": [
+       -0.30313511525117587,
+       -0.1984684610784187
+      ]
+     },
+     "50": {
+      "diff": -0.25051057042546176,
+      "ci": [
+       -0.30313511525117587,
+       -0.1984684610784187
+      ]
+     }
+    },
+    "none|mc_opt10": {
+     "10": {
+      "diff": -0.7691704549050637,
+      "ci": [
+       -0.8499192885061734,
+       -0.6769117014878181
+      ]
+     },
+     "50": {
+      "diff": -0.7691704549050637,
+      "ci": [
+       -0.8499192885061734,
+       -0.6769117014878181
+      ]
+     }
+    },
+    "replan|mc_opt10": {
+     "10": {
+      "diff": 0.06761952745883182,
+      "ci": [
+       0.01324401467410139,
+       0.1197528948206503
+      ]
+     },
+     "50": {
+      "diff": 0.06761952745883182,
+      "ci": [
+       0.01324401467410139,
+       0.1197528948206503
+      ]
+     }
+    },
+    "none|mc_opt50": {
+     "10": {
+      "diff": -0.27477941120200766,
+      "ci": [
+       -0.3699745488504939,
+       -0.17043000098361574
+      ]
+     },
+     "50": {
+      "diff": -0.27477941120200766,
+      "ci": [
+       -0.3699745488504939,
+       -0.17043000098361574
+      ]
+     }
+    },
+    "replan|mc_opt50": {
+     "10": {
+      "diff": 0.4967193592201151,
+      "ci": [
+       0.4313350902983462,
+       0.5642427460679512
+      ]
+     },
+     "50": {
+      "diff": 0.4967193592201151,
+      "ci": [
+       0.4313350902983462,
+       0.5642427460679512
+      ]
+     }
+    }
+   },
+   "t_sw_mean": 20.23,
+   "share_some_static_age_before_change": 0.2833333333333333
+  },
+  "M_evidence_coast_cruise": {
+   "lives": 300,
+   "runs": {
+    "cert|paired": {
+     "intervals": 26.086666666666666,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.833375926399182,
+     "cost50": 3.833375926399182,
+     "cov_decision": 1.0,
+     "cov_after_switch": 1.0,
+     "lives_all_covered": 1.0
+    },
+    "cert|paired stale": {
+     "intervals": 25.233333333333334,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.963011889035667,
+     "cost50": 3.963011889035667,
+     "cov_decision": 1.0,
+     "cov_after_switch": 1.0,
+     "lives_all_covered": 1.0
+    },
+    "cert|union": {
+     "intervals": 22.466666666666665,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 4.451038575667655,
+     "cost50": 4.451038575667655,
+     "cov_decision": 1.0,
+     "cov_after_switch": 1.0,
+     "lives_all_covered": 1.0
+    },
+    "cert|mc": {
+     "intervals": 31.536666666666665,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.170912165733009,
+     "cost50": 3.170912165733009,
+     "cov_decision": 1.0,
+     "cov_after_switch": 1.0,
+     "lives_all_covered": 1.0
+    },
+    "none|tbr60": {
+     "intervals": 60.0,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 1.6666666666666667,
+     "cost50": 1.6666666666666667
+    },
+    "none|rtf": {
+     "intervals": 239.58666666666667,
+     "failed": 0.0033333333333333335,
+     "failed_ci": [
+      0.0005886425761407379,
+      0.018637164554943353
+     ],
+     "cost10": 0.4299070621626134,
+     "cost50": 0.48555846179531414
+    },
+    "none|cert_age": {
+     "intervals": 20.623333333333335,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 4.848876676903184,
+     "cost50": 4.848876676903184
+    },
+    "replan|cert_age": {
+     "intervals": 30.066666666666666,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.3259423503325944,
+     "cost50": 3.3259423503325944
+    },
+    "none|mc_age": {
+     "intervals": 21.106666666666666,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 4.737839545167404,
+     "cost50": 4.737839545167404
+    },
+    "replan|mc_age": {
+     "intervals": 30.993333333333332,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.226500322650032,
+     "cost50": 3.226500322650032
+    },
+    "none|mc_opt10": {
+     "intervals": 17.416666666666668,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 5.741626794258373,
+     "cost50": 5.741626794258373
+    },
+    "replan|mc_opt10": {
+     "intervals": 25.266666666666666,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 3.9577836411609497,
+     "cost50": 3.9577836411609497
+    },
+    "none|mc_opt50": {
+     "intervals": 14.676666666666666,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 6.813536225300931,
+     "cost50": 6.813536225300931
+    },
+    "replan|mc_opt50": {
+     "intervals": 19.656666666666666,
+     "failed": 0.0,
+     "failed_ci": [
+      0.0,
+      0.012643429997735661
+     ],
+     "cost10": 5.087332541970493,
+     "cost50": 5.087332541970493
+    }
+   },
+   "diff_vs_paired": {
+    "cert|paired stale": {
+     "10": {
+      "diff": 0.12963596263648514,
+      "ci": [
+       0.11381616512217273,
+       0.14757586705409684
+      ]
+     },
+     "50": {
+      "diff": 0.12963596263648514,
+      "ci": [
+       0.11381616512217273,
+       0.14757586705409684
+      ]
+     }
+    },
+    "cert|union": {
+     "10": {
+      "diff": 0.6176626492684734,
+      "ci": [
+       0.5008164630740142,
+       0.7677740314291334
+      ]
+     },
+     "50": {
+      "diff": 0.6176626492684734,
+      "ci": [
+       0.5008164630740142,
+       0.7677740314291334
+      ]
+     }
+    },
+    "cert|mc": {
+     "10": {
+      "diff": -0.662463760666173,
+      "ci": [
+       -0.8072998522486124,
+       -0.5312506483307364
+      ]
+     },
+     "50": {
+      "diff": -0.662463760666173,
+      "ci": [
+       -0.8072998522486124,
+       -0.5312506483307364
+      ]
+     }
+    },
+    "none|tbr60": {
+     "10": {
+      "diff": -2.1667092597325155,
+      "ci": [
+       -2.528638858582484,
+       -1.8552455157658414
+      ]
+     },
+     "50": {
+      "diff": -2.1667092597325155,
+      "ci": [
+       -2.528638858582484,
+       -1.8552455157658414
+      ]
+     }
+    },
+    "none|rtf": {
+     "10": {
+      "diff": -3.4034688642365687,
+      "ci": [
+       -3.763372453956472,
+       -3.083310643930743
+      ]
+     },
+     "50": {
+      "diff": -3.347817464603868,
+      "ci": [
+       -3.7356399706929375,
+       -2.9781389767795052
+      ]
+     }
+    },
+    "none|cert_age": {
+     "10": {
+      "diff": 1.015500750504002,
+      "ci": [
+       0.8011652002552355,
+       1.2144392407401365
+      ]
+     },
+     "50": {
+      "diff": 1.015500750504002,
+      "ci": [
+       0.8011652002552355,
+       1.2144392407401365
+      ]
+     }
+    },
+    "replan|cert_age": {
+     "10": {
+      "diff": -0.5074335760665876,
+      "ci": [
+       -0.6445042292000308,
+       -0.38378902638941104
+      ]
+     },
+     "50": {
+      "diff": -0.5074335760665876,
+      "ci": [
+       -0.6445042292000308,
+       -0.38378902638941104
+      ]
+     }
+    },
+    "none|mc_age": {
+     "10": {
+      "diff": 0.9044636187682218,
+      "ci": [
+       0.6859341599826554,
+       1.1100044144909529
+      ]
+     },
+     "50": {
+      "diff": 0.9044636187682218,
+      "ci": [
+       0.6859341599826554,
+       1.1100044144909529
+      ]
+     }
+    },
+    "replan|mc_age": {
+     "10": {
+      "diff": -0.6068756037491498,
+      "ci": [
+       -0.7486399631357634,
+       -0.4791335659995414
+      ]
+     },
+     "50": {
+      "diff": -0.6068756037491498,
+      "ci": [
+       -0.7486399631357634,
+       -0.4791335659995414
+      ]
+     }
+    },
+    "none|mc_opt10": {
+     "10": {
+      "diff": 1.908250867859191,
+      "ci": [
+       1.7054424210006889,
+       2.1031021811837163
+      ]
+     },
+     "50": {
+      "diff": 1.908250867859191,
+      "ci": [
+       1.7054424210006889,
+       2.1031021811837163
+      ]
+     }
+    },
+    "replan|mc_opt10": {
+     "10": {
+      "diff": 0.12440771476176771,
+      "ci": [
+       -0.015124389214670417,
+       0.26490247658449795
+      ]
+     },
+     "50": {
+      "diff": 0.12440771476176771,
+      "ci": [
+       -0.015124389214670417,
+       0.26490247658449795
+      ]
+     }
+    },
+    "none|mc_opt50": {
+     "10": {
+      "diff": 2.980160298901749,
+      "ci": [
+       2.781422739569828,
+       3.183541513953844
+      ]
+     },
+     "50": {
+      "diff": 2.980160298901749,
+      "ci": [
+       2.781422739569828,
+       3.183541513953844
+      ]
+     }
+    },
+    "replan|mc_opt50": {
+     "10": {
+      "diff": 1.2539566155713113,
+      "ci": [
+       1.0843035352685544,
+       1.436289796839652
+      ]
+     },
+     "50": {
+      "diff": 1.2539566155713113,
+      "ci": [
+       1.0843035352685544,
+       1.436289796839652
+      ]
+     }
+    }
+   },
+   "t_sw_mean": 20.12,
+   "share_some_static_age_before_change": 0.75
+  }
+ },
+ "C05": {
+  "C_boundary_cruise_a05": {
+   "reserve|union": {
+    "intervals": 44.766666666666666,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "coverage": 0.9946822537193754,
+    "late": 0.005512891683681908,
+    "cost10": 2.3678332092330603,
+    "cost50": 2.9635145197319432
+   },
+   "reserve|paired": {
+    "intervals": 50.03,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "coverage": 0.9880066151472897,
+    "late": 0.00015057803154354708,
+    "cost10": 2.358584849090546,
+    "cost50": 3.957625424745153
+   },
+   "replace|union": {
+    "intervals": 44.56333333333333,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "coverage": 0.9946822537193754,
+    "late": 0.0,
+    "cost10": 2.3786371456354254,
+    "cost50": 2.977036427556287
+   },
+   "replace|paired": {
+    "intervals": 49.776666666666664,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "coverage": 0.9880066151472897,
+    "late": 0.0,
+    "cost10": 2.3705886292104736,
+    "cost50": 3.977767360878591
+   },
+   "none|tbr60": {
+    "intervals": 60.0,
+    "failed": 0.0,
+    "failed_ci": [
+     0.0,
+     0.012643429997735661
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 1.6666666666666667,
+    "cost50": 1.6666666666666667
+   },
+   "none|rtf": {
+    "intervals": 126.51666666666667,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 7.904096956922672,
+    "cost50": 39.52048478461336
+   },
+   "none|fix20_tbr60": {
+    "intervals": 59.96333333333333,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "coverage": null,
+    "late": 0.014599999999999946,
+    "cost10": 1.8678081049530268,
+    "cost50": 2.7572405358830396
+   },
+   "none|cert_age": {
+    "intervals": 53.58,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 2.2583053378126166,
+    "cost50": 4.000248849073037
+   },
+   "none|mc_age": {
+    "intervals": 55.34,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 2.1322732200939645,
+    "cost50": 3.577882182869534
+   },
+   "none|mc_opt10": {
+    "intervals": 48.843333333333334,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 2.293045792670443,
+    "cost50": 3.384972360608749
+   },
+   "none|mc_opt50": {
+    "intervals": 41.27,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 2.495759631693724,
+    "cost50": 2.8188353121718763
+   }
+  },
+  "C_boundary_coast_a05": {
+   "reserve|union": {
+    "intervals": 33.193333333333335,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "coverage": 0.9966954022988506,
+    "late": 0.35958691743864746,
+    "cost10": 3.1030327374974895,
+    "cost50": 3.504719823257682
+   },
+   "reserve|paired": {
+    "intervals": 35.93333333333333,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "coverage": 0.9965833333333334,
+    "late": 0.3311501853232838,
+    "cost10": 3.116883116883117,
+    "cost50": 4.601113172541744
+   },
+   "replace|union": {
+    "intervals": 17.683333333333334,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "coverage": 0.996875,
+    "late": 0.0,
+    "cost10": 5.824693685202639,
+    "cost50": 6.578699340245052
+   },
+   "replace|paired": {
+    "intervals": 19.61,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "coverage": 0.9946255660048763,
+    "late": 0.0,
+    "cost10": 5.405405405405405,
+    "cost50": 6.765255821859595
+   },
+   "none|tbr60": {
+    "intervals": 44.53666666666667,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 22.453409175959884,
+    "cost50": 112.26704587979941
+   },
+   "none|rtf": {
+    "intervals": 44.53666666666667,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 22.453409175959884,
+    "cost50": 112.26704587979941
+   },
+   "none|fix20_tbr60": {
+    "intervals": 57.56,
+    "failed": 0.43,
+    "failed_ci": [
+     0.3752101984887211,
+     0.4865598817109618
+    ],
+    "coverage": null,
+    "late": 0.014599999999999946,
+    "cost10": 8.460736622654622,
+    "cost50": 38.34259902710215
+   },
+   "none|cert_age": {
+    "intervals": 20.73,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 4.968644476603956,
+    "cost50": 5.611834700112558
+   },
+   "none|mc_age": {
+    "intervals": 22.7,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 4.669603524229075,
+    "cost50": 5.844346549192364
+   },
+   "none|mc_opt10": {
+    "intervals": 20.133333333333333,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 5.1158940397351,
+    "cost50": 5.7781456953642385
+   },
+   "none|mc_opt50": {
+    "intervals": 17.0,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 6.0588235294117645,
+    "cost50": 6.8431372549019605
+   }
+  }
+ },
+ "F": {
+  "F_boundary_cruise": {
+   "fleets": 100,
+   "legs": 20,
+   "pac_rank": [
+    31
+   ],
+   "runs": {
+    "paired": {
+     "failed": 0.0155,
+     "median": 0.0,
+     "q90": 0.05,
+     "max": 0.25,
+     "fleets_ge2": 0.06,
+     "cost10": 1.9154801728050563,
+     "cost50": 2.957689656911362,
+     "coverage": 0.9841861520617257,
+     "intervals": 59.489
+    },
+    "union": {
+     "failed": 0.008,
+     "median": 0.0,
+     "q90": 0.05,
+     "max": 0.2,
+     "fleets_ge2": 0.02,
+     "cost10": 1.9872828726618839,
+     "cost50": 2.580501640620655,
+     "coverage": 0.9938499898040525,
+     "intervals": 53.943
+    },
+    "pac": {
+     "failed": 0.0045,
+     "median": 0.0,
+     "q90": 0.0,
+     "max": 0.2,
+     "fleets_ge2": 0.02,
+     "cost10": 2.2364320257925847,
+     "cost50": 2.6233207952713595,
+     "coverage": 0.9943739924771628,
+     "intervals": 46.525
+    },
+    "tbr60": {
+     "failed": 0.002,
+     "median": 0.0,
+     "q90": 0.0,
+     "max": 0.05,
+     "fleets_ge2": 0.0,
+     "cost10": 1.6968929190558741,
+     "cost50": 1.8302440325376717,
+     "coverage": null,
+     "intervals": 59.992
+    },
+    "cert_age": {
+     "failed": 0.015,
+     "median": 0.0,
+     "q90": 0.05,
+     "max": 0.35,
+     "fleets_ge2": 0.04,
+     "cost10": 1.8959800212149307,
+     "cost50": 2.8982602086413256,
+     "coverage": null,
+     "intervals": 59.8635
+    },
+    "mc_age": {
+     "failed": 0.012,
+     "median": 0.0,
+     "q90": 0.05,
+     "max": 0.25,
+     "fleets_ge2": 0.05,
+     "cost10": 1.9264539685299487,
+     "cost50": 2.7610188646440057,
+     "coverage": null,
+     "intervals": 57.515
+    },
+    "mc_opt10": {
+     "failed": 0.0030000000000000005,
+     "median": 0.0,
+     "q90": 0.0,
+     "max": 0.1,
+     "fleets_ge2": 0.01,
+     "cost10": 2.176101028721567,
+     "cost50": 2.4303679454173683,
+     "coverage": null,
+     "intervals": 47.1945
+    }
+   }
+  },
+  "F_boundary_coast": {
+   "fleets": 100,
+   "legs": 20,
+   "pac_rank": [
+    31
+   ],
+   "runs": {
+    "paired": {
+     "failed": 0.020499999999999997,
+     "median": 0.0,
+     "q90": 0.1,
+     "max": 0.3,
+     "fleets_ge2": 0.11,
+     "cost10": 4.754927542049697,
+     "cost50": 8.046646059973506,
+     "coverage": 0.9817851551523423,
+     "intervals": 24.911
+    },
+    "union": {
+     "failed": 0.0105,
+     "median": 0.0,
+     "q90": 0.05,
+     "max": 0.25,
+     "fleets_ge2": 0.04,
+     "cost10": 4.838852292320615,
+     "cost50": 6.695698306733277,
+     "coverage": 0.9893894513462134,
+     "intervals": 22.619
+    },
+    "pac": {
+     "failed": 0.011500000000000002,
+     "median": 0.0,
+     "q90": 0.05,
+     "max": 0.2,
+     "fleets_ge2": 0.05,
+     "cost10": 5.251885872022464,
+     "cost50": 7.441163172548366,
+     "coverage": 0.9936225400375984,
+     "intervals": 21.0115
+    },
+    "tbr60": {
+     "failed": 1.0,
+     "median": 1.0,
+     "q90": 1.0,
+     "max": 1.0,
+     "fleets_ge2": 1.0,
+     "cost10": 22.578205258464006,
+     "cost50": 112.89102629232002,
+     "coverage": null,
+     "intervals": 44.2905
+    },
+    "cert_age": {
+     "failed": 0.020499999999999997,
+     "median": 0.0,
+     "q90": 0.05500000000000043,
+     "max": 0.3,
+     "fleets_ge2": 0.1,
+     "cost10": 4.759799883466275,
+     "cost50": 8.054891402624017,
+     "coverage": null,
+     "intervals": 24.8855
+    },
+    "mc_age": {
+     "failed": 0.022000000000000002,
+     "median": 0.0,
+     "q90": 0.1,
+     "max": 0.3,
+     "fleets_ge2": 0.11,
+     "cost10": 4.723881626939532,
+     "cost50": 8.193844758581259,
+     "coverage": null,
+     "intervals": 25.3605
+    },
+    "mc_opt10": {
+     "failed": 0.0055000000000000005,
+     "median": 0.0,
+     "q90": 0.05,
+     "max": 0.05,
+     "fleets_ge2": 0.0,
+     "cost10": 4.9933390427252835,
+     "cost50": 6.040060900180797,
+     "coverage": null,
+     "intervals": 21.018
+    }
+   }
+  },
+  "F_beyond_cruise": {
+   "fleets": 100,
+   "legs": 20,
+   "pac_rank": [
+    31
+   ],
+   "runs": {
+    "paired": {
+     "failed": 0.1575,
+     "median": 0.0,
+     "q90": 0.8,
+     "max": 1.0,
+     "fleets_ge2": 0.32,
+     "cost10": 4.608668299796971,
+     "cost50": 16.61884835717894,
+     "coverage": 0.841465623242558,
+     "intervals": 52.4555
+    },
+    "union": {
+     "failed": 0.1285,
+     "median": 0.0,
+     "q90": 0.3450000000000038,
+     "max": 1.0,
+     "fleets_ge2": 0.24,
+     "cost10": 4.439709303522533,
+     "cost50": 15.021719885533114,
+     "coverage": 0.8674778168941593,
+     "intervals": 48.573
+    },
+    "pac": {
+     "failed": 0.09849999999999999,
+     "median": 0.0,
+     "q90": 0.25500000000000045,
+     "max": 1.0,
+     "fleets_ge2": 0.2,
+     "cost10": 4.427312516867908,
+     "cost50": 13.673859729409418,
+     "coverage": 0.872138322713885,
+     "intervals": 42.6105
+    },
+    "tbr60": {
+     "failed": 0.17050000000000004,
+     "median": 0.05,
+     "q90": 0.6550000000000005,
+     "max": 1.0,
+     "fleets_ge2": 0.4,
+     "cost10": 4.331405036358509,
+     "cost50": 15.986635791128695,
+     "coverage": null,
+     "intervals": 58.5145
+    },
+    "cert_age": {
+     "failed": 0.15799999999999997,
+     "median": 0.0,
+     "q90": 0.85,
+     "max": 1.0,
+     "fleets_ge2": 0.31,
+     "cost10": 4.61869982265108,
+     "cost50": 16.670798451534164,
+     "coverage": null,
+     "intervals": 52.439
+    },
+    "mc_age": {
+     "failed": 0.14500000000000002,
+     "median": 0.0,
+     "q90": 0.7600000000000009,
+     "max": 1.0,
+     "fleets_ge2": 0.29,
+     "cost10": 4.521203562041505,
+     "cost50": 15.897767839629672,
+     "coverage": null,
+     "intervals": 50.982
+    },
+    "mc_opt10": {
+     "failed": 0.09299999999999999,
+     "median": 0.0,
+     "q90": 0.16500000000000128,
+     "max": 1.0,
+     "fleets_ge2": 0.17,
+     "cost10": 4.274230138324977,
+     "cost50": 12.929720674290634,
+     "coverage": null,
+     "intervals": 42.9785
+    }
+   }
+  }
+ },
+ "C40": {
+  "C_boundary_cruise_n40": {
+   "reserve|union": {
+    "intervals": 57.763333333333335,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "coverage": 0.9851833468807153,
+    "late": 0.00011981602184615259,
+    "cost10": 2.0947544578452306,
+    "cost50": 3.7105430203704772
+   },
+   "reserve|paired": {
+    "intervals": 62.49,
+    "failed": 0.03,
+    "failed_ci": [
+     0.015861673205964575,
+     0.05602315099190695
+    ],
+    "coverage": 0.9718349731077005,
+    "late": 0.00011987364634661515,
+    "cost10": 2.0323251720275244,
+    "cost50": 3.9526324211873898
+   },
+   "reserve|pac": {
+    "intervals": 50.79,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "coverage": 0.9882885591988471,
+    "late": 0.002292847358544422,
+    "cost10": 2.382358732033865,
+    "cost50": 4.219990811839601
+   },
+   "replace|union": {
+    "intervals": 57.56666666666667,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "coverage": 0.9851833468807153,
+    "late": 0.0,
+    "cost10": 2.1019108280254777,
+    "cost50": 3.723219455703532
+   },
+   "replace|paired": {
+    "intervals": 62.27,
+    "failed": 0.03,
+    "failed_ci": [
+     0.015861673205964575,
+     0.05602315099190695
+    ],
+    "coverage": 0.9718349731077005,
+    "late": 0.0,
+    "cost10": 2.0395053797976552,
+    "cost50": 3.9665970772442587
+   },
+   "replace|pac": {
+    "intervals": 50.63,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "coverage": 0.9882885591988471,
+    "late": 0.0,
+    "cost10": 2.3898874185265653,
+    "cost50": 4.233326749621437
+   },
+   "none|tbr60": {
+    "intervals": 59.87,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 1.8206113245364957,
+    "cost50": 2.4887255720728243
+   },
+   "none|rtf": {
+    "intervals": 126.26666666666667,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 7.9197465681098205,
+    "cost50": 39.598732840549104
+   },
+   "none|fix20_tbr60": {
+    "intervals": 59.86,
+    "failed": 0.006666666666666667,
+    "failed_ci": [
+     0.0018301100329710784,
+     0.023978074231461442
+    ],
+    "coverage": null,
+    "late": 0.014599999999999946,
+    "cost10": 1.7707985299031073,
+    "cost50": 2.2162824367969707
+   },
+   "none|cert_age": {
+    "intervals": 62.82,
+    "failed": 0.03,
+    "failed_ci": [
+     0.015861673205964575,
+     0.05602315099190695
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 2.0216491563196435,
+    "cost50": 3.9318688315822987
+   },
+   "none|mc_age": {
+    "intervals": 60.623333333333335,
+    "failed": 0.02666666666666667,
+    "failed_ci": [
+     0.013572906766976815,
+     0.051729540297546284
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 2.0454170561390006,
+    "cost50": 3.8049155990542696
+   },
+   "none|mc_opt10": {
+    "intervals": 49.74666666666667,
+    "failed": 0.016666666666666666,
+    "failed_ci": [
+     0.0071393720427721935,
+     0.038415943621705605
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 2.311712677566336,
+    "cost50": 3.6518359689091398
+   },
+   "none|mc_opt50": {
+    "intervals": 42.056666666666665,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 2.44907664262503,
+    "cost50": 2.766109217722121
+   }
+  },
+  "C_boundary_coast_n40": {
+   "reserve|union": {
+    "intervals": 42.36666666666667,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "coverage": 0.9902777777777779,
+    "late": 0.33102990451816977,
+    "cost10": 2.5727773406766326,
+    "cost50": 3.5169158143194337
+   },
+   "reserve|paired": {
+    "intervals": 44.67,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "coverage": 0.9846388888888888,
+    "late": 0.2804980164426354,
+    "cost10": 2.4401164092231924,
+    "cost50": 3.3355719722408774
+   },
+   "reserve|pac": {
+    "intervals": 39.04666666666667,
+    "failed": 0.01,
+    "failed_ci": [
+     0.0034065567627181124,
+     0.028984004635062833
+    ],
+    "coverage": 0.9933055555555556,
+    "late": 0.3592908138924894,
+    "cost10": 2.7915315007683112,
+    "cost50": 3.8159467304080588
+   },
+   "replace|union": {
+    "intervals": 22.9,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "coverage": 0.9870230143937041,
+    "late": 0.0,
+    "cost10": 5.152838427947598,
+    "cost50": 8.646288209606986
+   },
+   "replace|paired": {
+    "intervals": 25.076666666666668,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "coverage": 0.9771700390517595,
+    "late": 0.0,
+    "cost10": 4.8252027116841685,
+    "cost50": 8.547122158713279
+   },
+   "replace|pac": {
+    "intervals": 20.48,
+    "failed": 0.02,
+    "failed_ci": [
+     0.009197506067771085,
+     0.042940186730055147
+    ],
+    "coverage": 0.9916555555555555,
+    "late": 0.0,
+    "cost10": 5.76171875,
+    "cost50": 9.66796875
+   },
+   "none|tbr60": {
+    "intervals": 44.29666666666667,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 22.575062081420725,
+    "cost50": 112.87531040710363
+   },
+   "none|rtf": {
+    "intervals": 44.29666666666667,
+    "failed": 1.0,
+    "failed_ci": [
+     0.9873565700022643,
+     0.9999999999999999
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 22.575062081420725,
+    "cost50": 112.87531040710363
+   },
+   "none|fix20_tbr60": {
+    "intervals": 56.986666666666665,
+    "failed": 0.44333333333333336,
+    "failed_ci": [
+     0.388185929862749,
+     0.4999136588703277
+    ],
+    "coverage": null,
+    "late": 0.014599999999999946,
+    "cost10": 8.75643425362658,
+    "cost50": 39.87482452035564
+   },
+   "none|cert_age": {
+    "intervals": 25.21,
+    "failed": 0.02666666666666667,
+    "failed_ci": [
+     0.013572906766976815,
+     0.051729540297546284
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 4.918683062276874,
+    "cost50": 9.149808277138701
+   },
+   "none|mc_age": {
+    "intervals": 25.59,
+    "failed": 0.023333333333333334,
+    "failed_ci": [
+     0.01134751559829571,
+     0.04737255433287896
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 4.7284095349746,
+    "cost50": 8.375667578481178
+   },
+   "none|mc_opt10": {
+    "intervals": 21.19,
+    "failed": 0.013333333333333334,
+    "failed_ci": [
+     0.005196877684679467,
+     0.03377606084644991
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 5.285512033978292,
+    "cost50": 7.802422526348907
+   },
+   "none|mc_opt50": {
+    "intervals": 18.05,
+    "failed": 0.0033333333333333335,
+    "failed_ci": [
+     0.0005886425761407379,
+     0.018637164554943353
+    ],
+    "coverage": null,
+    "late": 0.0,
+    "cost10": 5.706371191135734,
+    "cost50": 6.44506001846722
+   }
+  }
+ },
+ "S": {
+  "S_boundary_cruise|ratio": {
+   "median": 0.034196182518388685,
+   "q90": 0.07524380095685113,
+   "q99": 0.1467954137638941,
+   "max": 0.2047925570141139,
+   "governs": {
+    "AlSiC": 0.0,
+    "Cu": 0.045
+   },
+   "c_sol_median": 2.5638375258443418
+  },
+  "S_boundary_cruise|10|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|10|0.1|U6 paired": {
+   "junction": [
+    0.97,
+    0.011561502571402331
+   ],
+   "AlSiC": [
+    0.97,
+    0.011561502571402331
+   ],
+   "Cu": [
+    0.9675,
+    0.011796803501979744
+   ]
+  },
+  "S_boundary_cruise|10|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|10|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|10|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|10|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|20|0.1|U5 union": {
+   "junction": [
+    0.985,
+    0.007008609206902279
+   ],
+   "AlSiC": [
+    0.985,
+    0.007008609206902279
+   ],
+   "Cu": [
+    0.985,
+    0.007008609206902279
+   ]
+  },
+  "S_boundary_cruise|20|0.1|U6 paired": {
+   "junction": [
+    0.965,
+    0.011490656024761901
+   ],
+   "AlSiC": [
+    0.965,
+    0.011490656024761901
+   ],
+   "Cu": [
+    0.9625,
+    0.011722021109624075
+   ]
+  },
+  "S_boundary_cruise|20|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|20|0.05|U6 paired": {
+   "junction": [
+    0.985,
+    0.007008609206902279
+   ],
+   "AlSiC": [
+    0.985,
+    0.007008609206902279
+   ],
+   "Cu": [
+    0.985,
+    0.007008609206902279
+   ]
+  },
+  "S_boundary_cruise|20|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|20|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|40|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|40|0.1|U6 paired": {
+   "junction": [
+    0.98,
+    0.007797693255091696
+   ],
+   "AlSiC": [
+    0.98,
+    0.007797693255091696
+   ],
+   "Cu": [
+    0.9775,
+    0.008157910733618531
+   ]
+  },
+  "S_boundary_cruise|40|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|40|0.05|U6 paired": {
+   "junction": [
+    0.9975,
+    0.0025000000000000005
+   ],
+   "AlSiC": [
+    0.9975,
+    0.0025000000000000005
+   ],
+   "Cu": [
+    0.9975,
+    0.0025000000000000005
+   ]
+  },
+  "S_boundary_cruise|40|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|40|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|80|0.1|U5 union": {
+   "junction": [
+    0.995,
+    0.0035266394669214826
+   ],
+   "AlSiC": [
+    0.995,
+    0.0035266394669214826
+   ],
+   "Cu": [
+    0.995,
+    0.0035266394669214826
+   ]
+  },
+  "S_boundary_cruise|80|0.1|U6 paired": {
+   "junction": [
+    0.985,
+    0.006046303742347353
+   ],
+   "AlSiC": [
+    0.985,
+    0.006046303742347353
+   ],
+   "Cu": [
+    0.9825,
+    0.007415774982627562
+   ]
+  },
+  "S_boundary_cruise|80|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|80|0.05|U6 paired": {
+   "junction": [
+    0.995,
+    0.0035266394669214826
+   ],
+   "AlSiC": [
+    0.995,
+    0.0035266394669214826
+   ],
+   "Cu": [
+    0.995,
+    0.0035266394669214826
+   ]
+  },
+  "S_boundary_cruise|80|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|80|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_cruise|changes": [
+   {
+    "n1": "10",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.97,
+    "solder": 0.9675
+   },
+   {
+    "n1": "20",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.965,
+    "solder": 0.9625
+   },
+   {
+    "n1": "40",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.98,
+    "solder": 0.9775
+   },
+   {
+    "n1": "80",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.985,
+    "solder": 0.9825
+   }
+  ],
+  "S_boundary_cruise|solder_alone": {
+   "0.1": [
+    0.985,
+    0.006046303742347353
+   ],
+   "0.05": [
+    0.9975,
+    0.002500000000000001
+   ]
+  },
+  "S_boundary_cruise|two|10|U5 union": {
+   "cov": [
+    0.9975,
+    0.002500000000000001
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_boundary_cruise|two|10|U6 paired": {
+   "cov": [
+    0.9975,
+    0.002500000000000001
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_boundary_cruise|two|20|U5 union": {
+   "cov": [
+    0.9975,
+    0.002500000000000001
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_boundary_cruise|two|20|U6 paired": {
+   "cov": [
+    0.9825,
+    0.007415774982627562
+   ],
+   "size": {
+    "AlSiC": 1.0923582963263252,
+    "Cu": 1.1094743070807798
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.065
+   }
+  },
+  "S_boundary_cruise|two|40|U5 union": {
+   "cov": [
+    0.9975,
+    0.002500000000000001
+   ],
+   "size": {
+    "AlSiC": 1.1302258577938185,
+    "Cu": 1.1416416927059911
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.045
+   }
+  },
+  "S_boundary_cruise|two|40|U6 paired": {
+   "cov": [
+    0.995,
+    0.0035266394669214826
+   ],
+   "size": {
+    "AlSiC": 1.0994658854226125,
+    "Cu": 1.1069412586758558
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.095
+   }
+  },
+  "S_boundary_cruise|two|80|U5 union": {
+   "cov": [
+    0.9975,
+    0.002500000000000001
+   ],
+   "size": {
+    "AlSiC": 1.145751226688708,
+    "Cu": 1.1620747789373487
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0625
+   }
+  },
+  "S_boundary_cruise|two|80|U6 paired": {
+   "cov": [
+    0.9925,
+    0.004308312638254649
+   ],
+   "size": {
+    "AlSiC": 1.091335060226877,
+    "Cu": 1.1082277696759089
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.145
+   }
+  },
+  "S_evidence_cruise|ratio": {
+   "median": 0.18848624064432226,
+   "q90": 0.5636007050798982,
+   "q99": 1.1897931257997463,
+   "max": 2.0461140372009834,
+   "governs": {
+    "AlSiC": 0.0175,
+    "Cu": 0.775
+   },
+   "c_sol_median": 2.880844981353052
+  },
+  "S_evidence_cruise|10|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|10|0.1|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9975,
+    0.0025000000000000005
+   ]
+  },
+  "S_evidence_cruise|10|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|10|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|10|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|10|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|20|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|20|0.1|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9975,
+    0.0025000000000000005
+   ]
+  },
+  "S_evidence_cruise|20|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|20|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9975,
+    0.0025000000000000005
+   ]
+  },
+  "S_evidence_cruise|20|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|20|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|40|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9975,
+    0.0025000000000000005
+   ]
+  },
+  "S_evidence_cruise|40|0.1|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9975,
+    0.0025000000000000005
+   ]
+  },
+  "S_evidence_cruise|40|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|40|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9975,
+    0.0025000000000000005
+   ]
+  },
+  "S_evidence_cruise|40|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|40|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|80|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|80|0.1|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9975,
+    0.0025000000000000005
+   ]
+  },
+  "S_evidence_cruise|80|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|80|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|80|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|80|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_cruise|changes": [
+   {
+    "n1": "10",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9975
+   },
+   {
+    "n1": "20",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9975
+   },
+   {
+    "n1": "20",
+    "alpha": "0.05",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9975
+   },
+   {
+    "n1": "40",
+    "alpha": "0.1",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9975
+   },
+   {
+    "n1": "40",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9975
+   },
+   {
+    "n1": "40",
+    "alpha": "0.05",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9975
+   },
+   {
+    "n1": "80",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9975
+   }
+  ],
+  "S_evidence_cruise|solder_alone": {
+   "0.1": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "0.05": [
+    0.9925,
+    0.005578922105505371
+   ]
+  },
+  "S_evidence_cruise|two|10|U5 union": {
+   "cov": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_evidence_cruise|two|10|U6 paired": {
+   "cov": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_evidence_cruise|two|20|U5 union": {
+   "cov": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_evidence_cruise|two|20|U6 paired": {
+   "cov": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "size": {
+    "AlSiC": 1.0915976726094305,
+    "Cu": 1.0990993295894549
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0725
+   }
+  },
+  "S_evidence_cruise|two|40|U5 union": {
+   "cov": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "size": {
+    "AlSiC": 1.1166994889699282,
+    "Cu": 1.1479245478297477
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.09
+   }
+  },
+  "S_evidence_cruise|two|40|U6 paired": {
+   "cov": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "size": {
+    "AlSiC": 1.0817196197500145,
+    "Cu": 1.1089239562305342
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.165
+   }
+  },
+  "S_evidence_cruise|two|80|U5 union": {
+   "cov": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "size": {
+    "AlSiC": 1.1266794340080608,
+    "Cu": 1.134049041864913
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.1
+   }
+  },
+  "S_evidence_cruise|two|80|U6 paired": {
+   "cov": [
+    0.9925,
+    0.005578922105505371
+   ],
+   "size": {
+    "AlSiC": 1.0944349819999397,
+    "Cu": 1.114812722405939
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.195
+   }
+  },
+  "S_boundary_coast|ratio": {
+   "median": 0.05928880377518654,
+   "q90": 0.15385889741515638,
+   "q99": 0.3125189937218917,
+   "max": 0.4580193762925627,
+   "governs": {
+    "AlSiC": 0.0,
+    "Cu": 0.2575
+   },
+   "c_sol_median": 2.7835856891417157
+  },
+  "S_boundary_coast|10|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|10|0.1|U6 paired": {
+   "junction": [
+    0.985,
+    0.007008609206902279
+   ],
+   "AlSiC": [
+    0.985,
+    0.007008609206902279
+   ],
+   "Cu": [
+    0.9525,
+    0.011538389060460421
+   ]
+  },
+  "S_boundary_coast|10|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|10|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|10|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|10|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|20|0.1|U5 union": {
+   "junction": [
+    0.9825,
+    0.008219278110838966
+   ],
+   "AlSiC": [
+    0.9825,
+    0.008219278110838966
+   ],
+   "Cu": [
+    0.95,
+    0.01227818263605087
+   ]
+  },
+  "S_boundary_coast|20|0.1|U6 paired": {
+   "junction": [
+    0.9775,
+    0.009574817788260618
+   ],
+   "AlSiC": [
+    0.9775,
+    0.009574817788260618
+   ],
+   "Cu": [
+    0.93,
+    0.014631143214349109
+   ]
+  },
+  "S_boundary_coast|20|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|20|0.05|U6 paired": {
+   "junction": [
+    0.98,
+    0.009269824606820024
+   ],
+   "AlSiC": [
+    0.98,
+    0.009269824606820024
+   ],
+   "Cu": [
+    0.94,
+    0.013524591412102684
+   ]
+  },
+  "S_boundary_coast|20|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|20|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|40|0.1|U5 union": {
+   "junction": [
+    0.995,
+    0.0035266394669214826
+   ],
+   "AlSiC": [
+    0.995,
+    0.0035266394669214826
+   ],
+   "Cu": [
+    0.9425,
+    0.01130743296248114
+   ]
+  },
+  "S_boundary_coast|40|0.1|U6 paired": {
+   "junction": [
+    0.985,
+    0.006046303742347353
+   ],
+   "AlSiC": [
+    0.985,
+    0.006046303742347353
+   ],
+   "Cu": [
+    0.915,
+    0.014226276205436431
+   ]
+  },
+  "S_boundary_coast|40|0.05|U5 union": {
+   "junction": [
+    0.9975,
+    0.002500000000000001
+   ],
+   "AlSiC": [
+    0.9975,
+    0.002500000000000001
+   ],
+   "Cu": [
+    0.96,
+    0.00961573250240401
+   ]
+  },
+  "S_boundary_coast|40|0.05|U6 paired": {
+   "junction": [
+    0.9925,
+    0.004308312638254649
+   ],
+   "AlSiC": [
+    0.9925,
+    0.004308312638254649
+   ],
+   "Cu": [
+    0.935,
+    0.012435764600780691
+   ]
+  },
+  "S_boundary_coast|40|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|40|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|80|0.1|U5 union": {
+   "junction": [
+    0.985,
+    0.006046303742347353
+   ],
+   "AlSiC": [
+    0.985,
+    0.006046303742347353
+   ],
+   "Cu": [
+    0.9275,
+    0.012973446015131741
+   ]
+  },
+  "S_boundary_coast|80|0.1|U6 paired": {
+   "junction": [
+    0.9675,
+    0.00942938580093712
+   ],
+   "AlSiC": [
+    0.9675,
+    0.00942938580093712
+   ],
+   "Cu": [
+    0.8925,
+    0.01657838848694651
+   ]
+  },
+  "S_boundary_coast|80|0.05|U5 union": {
+   "junction": [
+    0.9925,
+    0.004308312638254648
+   ],
+   "AlSiC": [
+    0.9925,
+    0.004308312638254648
+   ],
+   "Cu": [
+    0.9375,
+    0.01224616645995081
+   ]
+  },
+  "S_boundary_coast|80|0.05|U6 paired": {
+   "junction": [
+    0.9775,
+    0.008157910733618531
+   ],
+   "AlSiC": [
+    0.9775,
+    0.008157910733618531
+   ],
+   "Cu": [
+    0.9125,
+    0.014800813165220309
+   ]
+  },
+  "S_boundary_coast|80|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|80|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_boundary_coast|changes": [
+   {
+    "n1": "10",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.985,
+    "solder": 0.9525
+   },
+   {
+    "n1": "20",
+    "alpha": "0.1",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 0.9825,
+    "solder": 0.95
+   },
+   {
+    "n1": "20",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.9775,
+    "solder": 0.93
+   },
+   {
+    "n1": "20",
+    "alpha": "0.05",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.98,
+    "solder": 0.94
+   },
+   {
+    "n1": "40",
+    "alpha": "0.1",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 0.995,
+    "solder": 0.9425
+   },
+   {
+    "n1": "40",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.985,
+    "solder": 0.915
+   },
+   {
+    "n1": "40",
+    "alpha": "0.05",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 0.9975,
+    "solder": 0.96
+   },
+   {
+    "n1": "40",
+    "alpha": "0.05",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.9925,
+    "solder": 0.935
+   },
+   {
+    "n1": "80",
+    "alpha": "0.1",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 0.985,
+    "solder": 0.9275
+   },
+   {
+    "n1": "80",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.9675,
+    "solder": 0.8925
+   },
+   {
+    "n1": "80",
+    "alpha": "0.05",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 0.9925,
+    "solder": 0.9375
+   },
+   {
+    "n1": "80",
+    "alpha": "0.05",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 0.9775,
+    "solder": 0.9125
+   }
+  ],
+  "S_boundary_coast|solder_alone": {
+   "0.1": [
+    0.965,
+    0.009713224679185678
+   ],
+   "0.05": [
+    0.985,
+    0.006046303742347353
+   ]
+  },
+  "S_boundary_coast|two|10|U5 union": {
+   "cov": [
+    0.985,
+    0.006046303742347353
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_boundary_coast|two|10|U6 paired": {
+   "cov": [
+    0.985,
+    0.006046303742347353
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_boundary_coast|two|20|U5 union": {
+   "cov": [
+    0.985,
+    0.006046303742347353
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_boundary_coast|two|20|U6 paired": {
+   "cov": [
+    0.965,
+    0.010930341340006049
+   ],
+   "size": {
+    "AlSiC": 1.0918745020496323,
+    "Cu": 1.2204101737100208
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.345
+   }
+  },
+  "S_boundary_coast|two|40|U5 union": {
+   "cov": [
+    0.9825,
+    0.0065139008683440264
+   ],
+   "size": {
+    "AlSiC": 1.128647762748194,
+    "Cu": 1.2607130206565123
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.395
+   }
+  },
+  "S_boundary_coast|two|40|U6 paired": {
+   "cov": [
+    0.9775,
+    0.007347699875970484
+   ],
+   "size": {
+    "AlSiC": 1.0891026791161011,
+    "Cu": 1.2717891778607144
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.52
+   }
+  },
+  "S_boundary_coast|two|80|U5 union": {
+   "cov": [
+    0.9775,
+    0.008157910733618531
+   ],
+   "size": {
+    "AlSiC": 1.1282386192171674,
+    "Cu": 1.3424561832458926
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.5125
+   }
+  },
+  "S_boundary_coast|two|80|U6 paired": {
+   "cov": [
+    0.965,
+    0.009713224679185678
+   ],
+   "size": {
+    "AlSiC": 1.0959319510368397,
+    "Cu": 1.3951309880953433
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.645
+   }
+  },
+  "S_evidence_coast|ratio": {
+   "median": 0.34529286910640966,
+   "q90": 1.0202681988174538,
+   "q99": 2.226437257549518,
+   "max": 4.091540161235695,
+   "governs": {
+    "AlSiC": 0.11,
+    "Cu": 0.92
+   },
+   "c_sol_median": 2.763600947388655
+  },
+  "S_evidence_coast|10|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|10|0.1|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9875,
+    0.005533702132974127
+   ]
+  },
+  "S_evidence_coast|10|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|10|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|10|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|10|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|20|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.995,
+    0.0035266394669214826
+   ]
+  },
+  "S_evidence_coast|20|0.1|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.99,
+    0.00496216843505835
+   ]
+  },
+  "S_evidence_coast|20|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|20|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.995,
+    0.0035266394669214826
+   ]
+  },
+  "S_evidence_coast|20|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|20|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|40|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.985,
+    0.006046303742347353
+   ]
+  },
+  "S_evidence_coast|40|0.1|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.98,
+    0.0069455889620787924
+   ]
+  },
+  "S_evidence_coast|40|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.995,
+    0.0035266394669214826
+   ]
+  },
+  "S_evidence_coast|40|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.985,
+    0.006046303742347353
+   ]
+  },
+  "S_evidence_coast|40|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|40|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|80|0.1|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.98,
+    0.0069455889620787924
+   ]
+  },
+  "S_evidence_coast|80|0.1|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9725,
+    0.008080546152993204
+   ]
+  },
+  "S_evidence_coast|80|0.05|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9925,
+    0.004308312638254649
+   ]
+  },
+  "S_evidence_coast|80|0.05|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    0.9775,
+    0.007347699875970484
+   ]
+  },
+  "S_evidence_coast|80|0.01|U5 union": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|80|0.01|U6 paired": {
+   "junction": [
+    1.0,
+    0.0
+   ],
+   "AlSiC": [
+    1.0,
+    0.0
+   ],
+   "Cu": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|changes": [
+   {
+    "n1": "10",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9875
+   },
+   {
+    "n1": "20",
+    "alpha": "0.1",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.995
+   },
+   {
+    "n1": "20",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.99
+   },
+   {
+    "n1": "20",
+    "alpha": "0.05",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.995
+   },
+   {
+    "n1": "40",
+    "alpha": "0.1",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.985
+   },
+   {
+    "n1": "40",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.98
+   },
+   {
+    "n1": "40",
+    "alpha": "0.05",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.995
+   },
+   {
+    "n1": "40",
+    "alpha": "0.05",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.985
+   },
+   {
+    "n1": "80",
+    "alpha": "0.1",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.98
+   },
+   {
+    "n1": "80",
+    "alpha": "0.1",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9725
+   },
+   {
+    "n1": "80",
+    "alpha": "0.05",
+    "cert": "U5 union",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9925
+   },
+   {
+    "n1": "80",
+    "alpha": "0.05",
+    "cert": "U6 paired",
+    "base": "Cu",
+    "junction": 1.0,
+    "solder": 0.9775
+   }
+  ],
+  "S_evidence_coast|solder_alone": {
+   "0.1": [
+    0.9975,
+    0.0025000000000000005
+   ],
+   "0.05": [
+    1.0,
+    0.0
+   ]
+  },
+  "S_evidence_coast|two|10|U5 union": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_evidence_coast|two|10|U6 paired": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_evidence_coast|two|20|U5 union": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size": {
+    "AlSiC": Infinity,
+    "Cu": Infinity
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.0
+   }
+  },
+  "S_evidence_coast|two|20|U6 paired": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size": {
+    "AlSiC": 1.101366406581134,
+    "Cu": 1.2405834712404138
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.3625
+   }
+  },
+  "S_evidence_coast|two|40|U5 union": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size": {
+    "AlSiC": 1.1449764279387993,
+    "Cu": 1.2376205562841434
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.36
+   }
+  },
+  "S_evidence_coast|two|40|U6 paired": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size": {
+    "AlSiC": 1.0856869968526852,
+    "Cu": 1.2501197330506981
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.5175
+   }
+  },
+  "S_evidence_coast|two|80|U5 union": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size": {
+    "AlSiC": 1.1148160478911229,
+    "Cu": 1.3025238938003851
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.5075
+   }
+  },
+  "S_evidence_coast|two|80|U6 paired": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size": {
+    "AlSiC": 1.0813516872190574,
+    "Cu": 1.3868509947349414
+   },
+   "binds": {
+    "AlSiC": 0.0,
+    "Cu": 0.63
+   }
+  }
+ },
+ "K": {
+  "K_boundary|20|one split": {
+   "cov": [
+    0.965,
+    0.011490656024761901
+   ],
+   "size_vs_oracle": 3.561730676018345
+  },
+  "K_boundary|20|median of 15 at alpha": {
+   "cov": [
+    0.995,
+    0.0035266394669214826
+   ],
+   "size_vs_oracle": 3.3345656560862507
+  },
+  "K_boundary|20|median of 15 at alpha/2": {
+   "cov": [
+    0.9975,
+    0.002500000000000001
+   ],
+   "size_vs_oracle": 3.8589326751117476
+  },
+  "K_boundary|20|spread": {
+   "median": 4.358997561864207,
+   "q90": 48.63825848076786,
+   "mean_cov_each_split": [
+    0.9713333333333334,
+    0.005710491681359939
+   ]
+  },
+  "K_boundary|40|one split": {
+   "cov": [
+    0.98,
+    0.007797693255091696
+   ],
+   "size_vs_oracle": 1.9680121535045072
+  },
+  "K_boundary|40|median of 15 at alpha": {
+   "cov": [
+    0.9975,
+    0.0025000000000000005
+   ],
+   "size_vs_oracle": 2.1856574234580757
+  },
+  "K_boundary|40|median of 15 at alpha/2": {
+   "cov": [
+    0.9975,
+    0.0025000000000000005
+   ],
+   "size_vs_oracle": 2.473816554147251
+  },
+  "K_boundary|40|spread": {
+   "median": 2.2751760439924023,
+   "q90": 3.8749538219522464,
+   "mean_cov_each_split": [
+    0.9831666666666667,
+    0.0033666467651202077
+   ]
+  },
+  "K_evidence|20|one split": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size_vs_oracle": 22.686288116331788
+  },
+  "K_evidence|20|median of 15 at alpha": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size_vs_oracle": 20.56062096892399
+  },
+  "K_evidence|20|median of 15 at alpha/2": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size_vs_oracle": 23.75477791040622
+  },
+  "K_evidence|20|spread": {
+   "median": 3.913669438429788,
+   "q90": 38.11373437037109,
+   "mean_cov_each_split": [
+    1.0,
+    0.0
+   ]
+  },
+  "K_evidence|40|one split": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size_vs_oracle": 15.021652342875509
+  },
+  "K_evidence|40|median of 15 at alpha": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size_vs_oracle": 15.21863159706452
+  },
+  "K_evidence|40|median of 15 at alpha/2": {
+   "cov": [
+    1.0,
+    0.0
+   ],
+   "size_vs_oracle": 17.157140340891573
+  },
+  "K_evidence|40|spread": {
+   "median": 2.2591057745887335,
+   "q90": 5.5433858709375015,
+   "mean_cov_each_split": [
+    1.0,
+    0.0
+   ]
+  }
+ },
+ "W": {
+  "20|delta": {
+   "cov": 0.9852500000000001,
+   "se": 0.0069618260975885735,
+   "size_vs_delta": 1.0
+  },
+  "20|mc": {
+   "cov": 0.99425,
+   "se": 0.005052208582173636,
+   "size_vs_delta": 1.2664949418401141
+  },
+  "20|ellipsoid": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_delta": 7.65545179051022
+  },
+  "40|delta": {
+   "cov": 0.94075,
+   "se": 0.016200213643978674,
+   "size_vs_delta": 1.0
+  },
+  "40|mc": {
+   "cov": 0.9495,
+   "se": 0.01501251571658473,
+   "size_vs_delta": 1.082138240554539
+  },
+  "40|ellipsoid": {
+   "cov": 1.0,
+   "se": 0.0,
+   "size_vs_delta": 2.2441969151428385
+  }
+ }
+}
