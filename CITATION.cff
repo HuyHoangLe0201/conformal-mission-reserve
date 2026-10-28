@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or the digitized data, please cite the manuscript and the original data publications."
-title: "p3cert and reproduction code: conformal mission reserve certificates for power modules"
+title: "p3cert and reproduction code: conformal damage certificates for power module maintenance"
 type: software
 authors:
   - family-names: Le

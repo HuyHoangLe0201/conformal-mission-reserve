@@ -1,7 +1,6 @@
-"""p3cert: conformal mission reserve certificates for the fatigue damage of power modules.
+"""p3cert: conformal damage certificates for the fatigue damage of power modules.
 
-Companion library of the manuscript "Conformal mission reserve certificates for health-aware control and replacement of
-power modules". It implements the certificates and the decision rule; the case-study simulation is in P3_mophong/.
+Companion library of the manuscript "Conformal damage certificates for power module maintenance". It implements the certificates and the decision rule; the case-study simulation is in P3_mophong/.
 """
 from .certificate import Certificate, paired_certificate, union_certificate
 from .conformal import conformal_lower, conformal_upper, coverage_interval, lower_rank, min_scores, upper_rank

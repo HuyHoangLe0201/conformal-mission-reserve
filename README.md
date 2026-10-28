@@ -1,8 +1,8 @@
-# Reproduction code: conformal mission reserve certificates for power modules
+# Reproduction code: conformal damage certificates for power module maintenance
 
 Code, digitized data and result files for the manuscript
 
-> *Conformal mission reserve certificates for health-aware control and replacement of power modules*, prepared for Reliability Engineering & System Safety.
+> *Conformal damage certificates for power module maintenance*, prepared for Reliability Engineering & System Safety.
 
 The paper certifies the damage that a power module will have reached at the end of the coming maintenance interval,
 with finite-sample coverage, when a health-aware control policy acts on the certificate. The case study combines

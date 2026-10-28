@@ -1,0 +1,98 @@
+{
+ "safety": [
+  {
+   "p_true": 0.013,
+   "p_target": 0.1,
+   "N": 46,
+   "max_failures": 1,
+   "power": 0.88
+  },
+  {
+   "p_true": 0.013,
+   "p_target": 0.2,
+   "N": 14,
+   "max_failures": 0,
+   "power": 0.833
+  },
+  {
+   "p_true": 0.033,
+   "p_target": 0.1,
+   "N": 89,
+   "max_failures": 4,
+   "power": 0.829
+  },
+  {
+   "p_true": 0.033,
+   "p_target": 0.2,
+   "N": 22,
+   "max_failures": 1,
+   "power": 0.837
+  },
+  {
+   "p_true": 0.05,
+   "p_target": 0.1,
+   "N": 179,
+   "max_failures": 11,
+   "power": 0.813
+  },
+  {
+   "p_true": 0.05,
+   "p_target": 0.2,
+   "N": 30,
+   "max_failures": 2,
+   "power": 0.812
+  }
+ ],
+ "violation": [
+  {
+   "p_stated": 0.033,
+   "p_true": 0.117,
+   "N": 57,
+   "min_failures": 5,
+   "power": 0.812
+  },
+  {
+   "p_stated": 0.013,
+   "p_true": 0.117,
+   "N": 25,
+   "min_failures": 2,
+   "power": 0.808
+  },
+  {
+   "p_stated": 0.05,
+   "p_true": 0.117,
+   "N": 106,
+   "min_failures": 10,
+   "power": 0.808
+  },
+  {
+   "p_stated": 0.033,
+   "p_true": 0.2,
+   "N": 21,
+   "min_failures": 3,
+   "power": 0.821
+  }
+ ],
+ "power": [
+  {
+   "N": 20,
+   "safety_0.033_vs_0.10": 0.0,
+   "violation_0.117_vs_0.033": 0.42
+  },
+  {
+   "N": 50,
+   "safety_0.033_vs_0.10": 0.505,
+   "violation_0.117_vs_0.033": 0.711
+  },
+  {
+   "N": 100,
+   "safety_0.033_vs_0.10": 0.765,
+   "violation_0.117_vs_0.033": 0.956
+  },
+  {
+   "N": 200,
+   "safety_0.033_vs_0.10": 0.984,
+   "violation_0.117_vs_0.033": 0.998
+  }
+ ]
+}
